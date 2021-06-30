@@ -13,13 +13,13 @@
 		icon_state = ""
 	for (var/x = -size to size step 1)
 		for (var/y = -size to size step 1)
+
 			var/atom/movable/M = new
 			M.mouse_opacity = 0
 			M.icon = 'icons/turf/overlays.dmi'
 			M.icon_state = icon_state
 			M.screen_loc = "CENTER[x < 0 ? "-" : "+"][abs(x)],CENTER[y < 0 ? "-" : "+"][abs(y)]"
 			M.appearance_flags = DEFAULT_APPEARANCE_FLAGS | KEEP_APART|RESET_COLOR|RESET_ALPHA|RESET_TRANSFORM|NO_CLIENT_COLOR|TILE_BOUND
-			display_atoms += M
 
 	. = ..()
 
