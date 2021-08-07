@@ -152,12 +152,16 @@
 	damage_mask =     'icons/mob/human_races/species/vox/damage_mask_armalis.dmi'
 	blood_mask =      'icons/mob/human_races/species/vox/blood_mask_armalis.dmi'
 
+
 	slowdown = 1.5
 	hidden_from_codex = FALSE
 	spawn_flags = SPECIES_CAN_JOIN | SPECIES_NO_FBP_CONSTRUCTION | SPECIES_FLAG_NO_MINOR_CUT | SPECIES_IS_WHITELISTED
 	brute_mod = 0.6
 	burn_mod = 0.6
 	toxins_mod = 1.2
+	speech_sounds = list('sound/voice/ashriek.ogg')
+	speech_chance = 10
+
 	strength = STR_HIGH
 	mob_size = MOB_LARGE
 
@@ -182,7 +186,10 @@
 		slot_l_hand_str = list("[NORTH]" = list("x" = 0, "y" = 4), "[EAST]" = list("x" = -3, "y" = 4), "[SOUTH]" = list("x" = 0, "y" = 4), "[WEST]" = list("x" =  3, "y" = 4)),
 		slot_r_hand_str = list("[NORTH]" = list("x" = 0, "y" = 4), "[EAST]" = list("x" =  3, "y" = 4), "[SOUTH]" = list("x" = 0, "y" = 4), "[WEST]" = list("x" = -3, "y" = 4)),
 		slot_back_str =   list("[NORTH]" = list("x" = 0, "y" = 8), "[EAST]" = list("x" = -3, "y" = 8), "[SOUTH]" = list("x" = 0, "y" = 8), "[WEST]" = list("x" =  3, "y" = 8)),
-		slot_belt_str =   list("[NORTH]" = list("x" = 0, "y" = 8), "[EAST]" = list("x" = -4, "y" = 8), "[SOUTH]" = list("x" = 0, "y" = 8), "[WEST]" = list("x" =  4, "y" = 8))
+		slot_belt_str =   list("[NORTH]" = list("x" = 0, "y" = 8), "[EAST]" = list("x" = -4, "y" = 8), "[SOUTH]" = list("x" = 0, "y" = 8), "[WEST]" = list("x" =  4, "y" = 8)),
+		slot_l_ear_str =  list("[NORTH]" = list("x" = 0, "y" = 8), "[EAST]" = list("x" =  6, "y" = 8), "[SOUTH]" = list("x" = 0, "y" = 8), "[WEST]" = list("x" =  8, "y" = 8)),
+		slot_r_ear_str =  list("[NORTH]" = list("x" = 0, "y" = 8), "[EAST]" = list("x" =  8, "y" = 8), "[SOUTH]" = list("x" = 0, "y" = 8), "[WEST]" = list("x" =  6, "y" = 8))
+
 	)
 
 /datum/species/vox/armalis/attempt_grab(var/mob/living/carbon/human/grabber, var/mob/living/target)
