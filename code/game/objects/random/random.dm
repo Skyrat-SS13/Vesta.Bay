@@ -274,6 +274,7 @@
 	icon_state = "revolver"
 
 /obj/random/projectile/spawn_choices()
+
 	return list(/obj/item/weapon/gun/projectile/heavysniper/boltaction = 4,
 				/obj/item/weapon/gun/projectile/shotgun/pump = 3,
 				/obj/item/weapon/gun/projectile/automatic/merc_smg = 2,
@@ -291,7 +292,9 @@
 				/obj/item/weapon/gun/projectile/shotgun/doublebarrel/sawn = 3,
 				/obj/item/weapon/gun/projectile/heavysniper = 1,
 				/obj/item/weapon/gun/projectile/shotgun/pump/combat = 2,
-				/obj/item/weapon/gun/projectile/pistol/throwback = 1)
+				/obj/item/weapon/gun/projectile/pistol/throwback = 1,
+				/obj/item/gun/projectile/pistol/broomstick = 1)
+
 
 /obj/random/handgun
 	name = "Random Handgun"
@@ -300,12 +303,15 @@
 	icon_state = "secguncomp"
 
 /obj/random/handgun/spawn_choices()
-	return list(/obj/item/weapon/gun/projectile/pistol/sec = 3,
-				/obj/item/weapon/gun/energy/gun = 2,
-				/obj/item/weapon/gun/projectile/pistol/military/alt = 1,
-				/obj/item/weapon/gun/projectile/pistol/holdout = 2,
-				/obj/item/weapon/gun/energy/retro = 1,
-				/obj/item/weapon/gun/projectile/pistol/throwback = 1)
+
+	return list(/obj/item/gun/projectile/pistol/sec = 3,
+				/obj/item/gun/energy/gun = 2,
+				/obj/item/gun/projectile/pistol/military/alt = 1,
+				/obj/item/gun/projectile/pistol/holdout = 2,
+				/obj/item/gun/energy/retro = 1,
+				/obj/item/gun/projectile/pistol/throwback = 1,
+				/obj/item/gun/projectile/pistol/broomstick = 1)
+
 
 /obj/random/ammo
 	name = "Random Ammunition"

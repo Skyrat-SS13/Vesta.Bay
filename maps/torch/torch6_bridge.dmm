@@ -4483,6 +4483,7 @@
 	d2 = 4;
 	icon_state = "0-4"
 	},
+/obj/structure/cable/orange,
 /turf/simulated/floor/plating,
 /area/aquila/maintenance)
 "iP" = (
@@ -14838,6 +14839,11 @@
 	dir = 6;
 	icon_state = "intact"
 	},
+/obj/structure/cable/orange{
+	dir = 1
+	},
+/obj/machinery/power/port_gen/pacman,
+/obj/item/stack/material/phoron/fifty,
 /turf/simulated/floor/plating,
 /area/aquila/maintenance)
 "Jz" = (
@@ -16732,15 +16738,12 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/turret_protected/ai_outer_chamber)
 "PX" = (
-/obj/machinery/power/port_gen/pacman{
-	anchored = 1;
-	sheets = 25
-	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/structure/cable/yellow{
 	d2 = 8;
 	icon_state = "0-8"
 	},
+/obj/machinery/power/shield_generator,
 /turf/simulated/floor/tiled/techfloor,
 /area/aquila/maintenance)
 "Qc" = (
