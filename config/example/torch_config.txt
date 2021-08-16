@@ -8,13 +8,13 @@
 #OVERMAP_Z 0
 
 ## The number of turfs on a side the overmap should be. Default 35
-#OVERMAP_SIZE 35
+#OVERMAP_SIZE 60
 
 ## The number of event clouds - meteors, fish, etc - that will be generated on the overmap. Default 34
 #OVERMAP_EVENT_AREAS 34
 
 ## The number of exoplanets to generate on the map. Warning: These have a significant runtime cost. Default 1
-#NUM_EXOPLANETS 1
+#NUM_EXOPLANETS 3
 
 ## The number of away sites to pick for the overmap. Default 3
 #AWAY_SITE_BUDGET 3
@@ -41,8 +41,8 @@
 #STARTING_MONEY 75000
 #DEPARTMENT_MONEY 5000
 #SALARY_MODIFIER 1
-#SUPPLY_CURRENCY_NAME Credits
-#SUPPLY_CURRENCY_NAME_SHORT Cr.
+#SUPPLY_CURRENCY_NAME Thalers
+#SUPPLY_CURRENCY_NAME_SHORT T.
 #LOCAL_CURRENCY_NAME Thalers
 #LOCAL_CURRENCY_NAME_SINGULAR Thaler
 #LOCAL_CURRENCY_NAME_SHORT T
