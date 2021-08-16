@@ -1,8 +1,7 @@
-# Vesta of Orion
+# Sky of Orion
 
-This is Vesta of Orion's repository based on the [Baystation12](http://github.com/Baystation12/Baystation12/) codebase.
-
-[Code](https://github.com/VestaOfOrion/Vesta.Bay) - [Organization](https://github.com/VestaOfOrion) - [Discord](https://discord.gg/sBzsswR)
+This is Sky of Orion's repository based on the [Baystation12](http://github.com/Baystation12/Baystation12/) codebase.
+[Discord](https://discord.com/invite/G6nFkeAEyn)
 
 ---
 
