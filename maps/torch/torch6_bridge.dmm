@@ -4695,7 +4695,7 @@
 	icon_state = "1-2"
 	},
 /obj/effect/overmap/visitable/ship/landable/aquila{
-	desc = "A PM-24 modular transport, broadcasting SC codes and the callsign \"Dagon-1 Byakhee\".";
+	desc = "A PM-24 modular transport, broadcasting SC codes and the callsign \"Andromeda-1 Byakhee\".";
 	name = "NTSC Byakhee";
 	shuttle = "NTSC Byakhee"
 	},
@@ -7299,7 +7299,7 @@
 /obj/machinery/power/terminal,
 /obj/machinery/pointdefense{
 	id_tag = null;
-	initial_id_tag = "dagon_ai_pd"
+	initial_id_tag = "andromeda_ai_pd"
 	},
 /obj/structure/cable/cyan{
 	d2 = 2;
@@ -7606,7 +7606,7 @@
 /area/crew_quarters/heads/office/cmo)
 "qy" = (
 /obj/machinery/pointdefense_control{
-	initial_id_tag = "dagon_ai_pd";
+	initial_id_tag = "andromeda_ai_pd";
 	name = "Ablative Defense Controller"
 	},
 /turf/simulated/floor/bluegrid,
@@ -16549,7 +16549,7 @@
 	},
 /obj/machinery/pointdefense{
 	id_tag = null;
-	initial_id_tag = "dagon_ai_pd"
+	initial_id_tag = "andromeda_ai_pd"
 	},
 /obj/structure/cable/cyan{
 	d2 = 4;
@@ -17809,7 +17809,7 @@
 	},
 /obj/machinery/pointdefense{
 	id_tag = null;
-	initial_id_tag = "dagon_ai_pd"
+	initial_id_tag = "andromeda_ai_pd"
 	},
 /obj/structure/cable/cyan,
 /turf/simulated/floor/airless,

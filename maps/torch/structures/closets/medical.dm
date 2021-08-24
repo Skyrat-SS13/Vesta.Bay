@@ -1,5 +1,5 @@
 /*
- * Dagon Medical
+ * Andromeda Medical
  */
 /decl/closet_appearance/secure_closet/torch/medical
 	extra_decals = list(

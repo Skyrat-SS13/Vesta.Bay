@@ -1,5 +1,5 @@
 /decl/hierarchy/outfit/job/torch/passenger/passenger
-	name = OUTFIT_JOB_NAME("Passenger - Dagon")
+	name = OUTFIT_JOB_NAME("Passenger - Andromeda")
 	uniform = /obj/item/clothing/under/color/grey
 	l_ear = /obj/item/device/radio/headset
 	shoes = /obj/item/clothing/shoes/black
@@ -12,12 +12,12 @@
 	shoes = /obj/item/clothing/shoes/laceup
 
 /decl/hierarchy/outfit/job/torch/passenger/passenger/journalist
-	name = OUTFIT_JOB_NAME("Journalist - Dagon")
+	name = OUTFIT_JOB_NAME("Journalist - Andromeda")
 	backpack_contents = list(/obj/item/device/camera/tvcamera = 1,
 	/obj/item/clothing/accessory/badge/press = 1)
 
 /decl/hierarchy/outfit/job/torch/passenger/passenger/investor
-	name = OUTFIT_JOB_NAME("Investor - Dagon")
+	name = OUTFIT_JOB_NAME("Investor - Andromeda")
 
 /decl/hierarchy/outfit/job/torch/passenger/passenger/investor/post_equip(var/mob/living/carbon/human/H)
 	..()
@@ -25,7 +25,7 @@
 	H.put_in_hands(case)
 
 /decl/hierarchy/outfit/job/torch/merchant
-	name = OUTFIT_JOB_NAME("Merchant - Dagon")
+	name = OUTFIT_JOB_NAME("Merchant - Andromeda")
 	uniform = /obj/item/clothing/under/color/black
 	l_ear = null
 	shoes = /obj/item/clothing/shoes/black
@@ -33,7 +33,7 @@
 	id_types = list(/obj/item/weapon/card/id/torch/merchant)
 
 /decl/hierarchy/outfit/job/torch/ert
-	name = OUTFIT_JOB_NAME("ERT - Dagon")
+	name = OUTFIT_JOB_NAME("ERT - Andromeda")
 	uniform = /obj/item/clothing/under/solgov/utility/fleet/combat
 	head = /obj/item/clothing/head/beret/solgov/fleet
 	gloves = /obj/item/clothing/gloves/thick
@@ -43,6 +43,6 @@
 	shoes = /obj/item/clothing/shoes/dutyboots
 
 /decl/hierarchy/outfit/job/torch/ert/leader
-	name = OUTFIT_JOB_NAME("ERT Leader - Dagon")
+	name = OUTFIT_JOB_NAME("ERT Leader - Andromeda")
 	uniform = /obj/item/clothing/under/solgov/utility/fleet/combat/command
 	head = /obj/item/clothing/head/beret/solgov/fleet/command

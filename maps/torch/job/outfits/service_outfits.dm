@@ -3,7 +3,7 @@
 	hierarchy_type = /decl/hierarchy/outfit/job/torch/crew/service
 
 /decl/hierarchy/outfit/job/torch/crew/service/janitor
-	name = OUTFIT_JOB_NAME("Sanitation Technician - Dagon")
+	name = OUTFIT_JOB_NAME("Sanitation Technician - Andromeda")
 	uniform = /obj/item/clothing/under/rank/janitor
 	shoes = /obj/item/clothing/shoes/black
 	id_types = list(/obj/item/weapon/card/id/torch/crew/service/janitor)
@@ -22,7 +22,7 @@
 	shoes = /obj/item/clothing/shoes/dutyboots
 
 /decl/hierarchy/outfit/job/torch/crew/service/cook
-	name = OUTFIT_JOB_NAME("Cook - Dagon")
+	name = OUTFIT_JOB_NAME("Cook - Andromeda")
 	uniform = /obj/item/clothing/under/rank/chef
 	shoes = /obj/item/clothing/shoes/black
 	id_types = list(/obj/item/weapon/card/id/torch/crew/service/chef)
@@ -41,7 +41,7 @@
 	shoes = /obj/item/clothing/shoes/dutyboots
 
 /decl/hierarchy/outfit/job/torch/crew/service/bartender
-	name = OUTFIT_JOB_NAME("Bartender - Dagon")
+	name = OUTFIT_JOB_NAME("Bartender - Andromeda")
 	uniform = /obj/item/clothing/under/rank/bartender
 	shoes = /obj/item/clothing/shoes/laceup
 	id_types = list(/obj/item/weapon/card/id/torch/contractor/service/bartender)
@@ -60,11 +60,11 @@
 	shoes = /obj/item/clothing/shoes/dutyboots
 
 /decl/hierarchy/outfit/job/torch/passenger/research/assist/janitor
-	name = OUTFIT_JOB_NAME("Custodian - Dagon")
+	name = OUTFIT_JOB_NAME("Custodian - Andromeda")
 	uniform = /obj/item/clothing/under/rank/janitor
 
 /decl/hierarchy/outfit/job/torch/crew/service/chaplain
-	name = OUTFIT_JOB_NAME("Chaplain - Dagon")
+	name = OUTFIT_JOB_NAME("Chaplain - Andromeda")
 	uniform = /obj/item/clothing/under/rank/chaplain
 	id_types = list(/obj/item/weapon/card/id/torch/crew/service/chaplain)
 

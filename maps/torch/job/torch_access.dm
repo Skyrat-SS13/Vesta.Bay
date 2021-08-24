@@ -1,5 +1,5 @@
 /************
-* NTSS Dagon *
+* NTSS Andromeda *
 ************/
 /var/const/access_hangar = "ACCESS_TORCH_HANGAR" //73
 /datum/access/hangar
@@ -213,7 +213,7 @@
 /var/const/access_torch_helm = "ACCESS_TORCH_HELM"
 /datum/access/torch_helm
 	id = access_torch_helm
-	desc = "Dagon Helm"
+	desc = "Andromeda Helm"
 	region = ACCESS_REGION_COMMAND
 
 // Torch Radio Access

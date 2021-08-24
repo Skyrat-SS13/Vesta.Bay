@@ -1342,7 +1342,7 @@
 /area/quartermaster/hangar)
 "cA" = (
 /obj/effect/overmap/visitable/ship/landable/guppy{
-	desc = "An SSE-U3 utility pod, broadcasting SC codes and the callsign \"Dagon-3 Garuda\".";
+	desc = "An SSE-U3 utility pod, broadcasting SC codes and the callsign \"Andromeda-3 Garuda\".";
 	name = "NTRP Garuda";
 	shuttle = "NTRP Garuda"
 	},
@@ -2355,7 +2355,7 @@
 	name = "NTEV Gaunt Hangar"
 	},
 /obj/effect/overmap/visitable/ship/landable/exploration_shuttle{
-	desc = "An SSE-U11 long range shuttle, broadcasting SCGEC codes and the callsign \"Dagon-2 Gaunt\".";
+	desc = "An SSE-U11 long range shuttle, broadcasting SCGEC codes and the callsign \"Andromeda-2 Gaunt\".";
 	name = "NTEV Gaunt";
 	shuttle = "NTEV Gaunt"
 	},

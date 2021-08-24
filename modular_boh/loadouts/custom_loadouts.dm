@@ -280,7 +280,7 @@ datum/gear/utility/crayonmre
 
 /datum/gear/tactical/nt
 	display_name = "NanoTrasen tag"
-	path = /obj/item/clothing/accessory/armor/tag/nt/dagon
+	path = /obj/item/clothing/accessory/armor/tag/nt/andromeda
 	allowed_branches = NT_BRANCHES
 	cost = 0 // Ditto.
 

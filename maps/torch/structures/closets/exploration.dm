@@ -1,5 +1,5 @@
 /*
- * Dagon Exploration
+ * Andromeda Exploration
  */
 
 /decl/closet_appearance/secure_closet/torch/exploration

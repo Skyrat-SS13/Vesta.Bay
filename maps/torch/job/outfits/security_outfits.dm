@@ -20,7 +20,7 @@
 	shoes = /obj/item/clothing/shoes/dutyboots
 
 /decl/hierarchy/outfit/job/torch/crew/security/forensic_tech
-	name = OUTFIT_JOB_NAME("Forensic Technician - Dagon")
+	name = OUTFIT_JOB_NAME("Forensic Technician - Andromeda")
 	uniform = /obj/item/clothing/under/solgov/utility/expeditionary/security
 	shoes = /obj/item/clothing/shoes/dutyboots
 	id_types = list(/obj/item/weapon/card/id/torch/crew/security/forensic)
