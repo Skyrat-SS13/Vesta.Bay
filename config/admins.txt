@@ -6,3 +6,6 @@
 ######################################################################
 
 # not_a_user - Admin
+  Guidesu - DevAdmin 
+  LilElie - GameAdmin       
+  ChildrenOfTheSun - GameAdmin
