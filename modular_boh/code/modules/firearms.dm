@@ -221,7 +221,7 @@
 //combat shotgun
 /obj/item/weapon/gun/projectile/shotgun/pump/combat/infantry
 	desc = "Built for close quarters combat, the Hephaestus Industries KS-40 is widely regarded as a weapon of choice for repelling boarders. \
-	It appears to have a firing restrictor installed, to prevent firing without authorization aboard the Dagon."
+	It appears to have a firing restrictor installed, to prevent firing without authorization aboard the Andromeda."
 	req_access = list(access_infantry)
 	authorized_modes = list(UNAUTHORIZED)
 
@@ -318,7 +318,7 @@
 /obj/item/weapon/gun/projectile/automatic/l6_saw/sec
 	name = "L7 SAW"
 	desc = "A rather traditionally made L7 SAW with a pleasantly lacquered wooden pistol grip. Has 'Aussec Armoury- 2561' engraved on the reciever. \
-	It appears to have a firing restrictor installed, to prevent firing without authorization aboard the Dagon."
+	It appears to have a firing restrictor installed, to prevent firing without authorization aboard the Andromeda."
 	req_access = list(access_infantry)
 	authorized_modes = list(UNAUTHORIZED)
 	firemodes = list(
@@ -394,19 +394,19 @@
 
 /obj/item/weapon/gun/projectile/revolver/medium/captain/large
 	name = "Ultimate Argument"
-	desc = "A shiny al-Maliki & Mosley Autococker automatic revolver, with black accents. Up-chambered for a .454 calibre round. This one has 'To the Captain of the NTSS Dagon' engraved on the grip."
+	desc = "A shiny al-Maliki & Mosley Autococker automatic revolver, with black accents. Up-chambered for a .454 calibre round. This one has 'To the Captain of the NTSS Andromeda' engraved on the grip."
 	ammo_type = /obj/item/ammo_casing/pistol/magnum/large
 	caliber = CALIBER_PISTOL_MAGNUM_LARGE
 
 /obj/item/weapon/gun/projectile/revolver/medium/captain/large/xo
 	name = "Final Argument"
-	desc = "A shiny al-Maliki & Mosley Autococker automatic revolver, with black accents. Marketed as the 'Revolver for the Modern Era'. This one has 'To the Executive of the NTSS Dagon' engraved on the grip."
+	desc = "A shiny al-Maliki & Mosley Autococker automatic revolver, with black accents. Marketed as the 'Revolver for the Modern Era'. This one has 'To the Executive of the NTSS Andromeda' engraved on the grip."
 	ammo_type = /obj/item/ammo_casing/pistol/magnum
 	caliber = CALIBER_PISTOL_MAGNUM
 
 /obj/item/weapon/gun/projectile/pistol/magnum_pistol/solar
 	name = "Eagle"
-	desc = "The HI Eagle, a reverse engineered HT Magnus. This one has 'To the Chief of Security aboard the NTSS Dagon' engraved"
+	desc = "The HI Eagle, a reverse engineered HT Magnus. This one has 'To the Chief of Security aboard the NTSS Andromeda' engraved"
 	magazine_type = /obj/item/ammo_magazine/magnum/rubber
 	starts_loaded = 1
 

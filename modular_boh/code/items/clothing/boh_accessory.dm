@@ -26,13 +26,13 @@
 	on_rolled = list("down" = "none")
 
 // Modular version for NT Patch
-/obj/item/clothing/accessory/armor/tag/nt/dagon
+/obj/item/clothing/accessory/armor/tag/nt/andromeda
 	name = "\improper NANOTRASEN patch"
 	desc = "An armor tag with the words NANOTRASEN printed in bottle green lettering on it."
 
 // Dog Tags badge string rename, plus added for SMC and NTEF.
 /obj/item/clothing/accessory/badge/solgov/tags
-	badge_string = "NTSS Dagon"
+	badge_string = "NTSS Andromeda"
 
 /obj/item/clothing/accessory/badge/solgov/tags/fleet
 	badge_string = "NTEF"

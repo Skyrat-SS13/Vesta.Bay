@@ -1,5 +1,5 @@
 /*
- * Dagon Security
+ * Andromeda Security
  */
 
 /decl/closet_appearance/secure_closet/torch/security

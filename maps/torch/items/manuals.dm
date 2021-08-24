@@ -45,7 +45,7 @@
 
 /obj/item/weapon/book/manual/sol_sop
 	name = "Standard Operating Procedure"
-	desc = "SOP aboard the NTSS Dagon."
+	desc = "SOP aboard the NTSS Andromeda."
 	icon_state = "booksolregs"
 	author = "The Sol Central Government"
 	title = "Standard Operating Procedure"
@@ -68,7 +68,7 @@
 /obj/item/weapon/folder/nt/rd
 
 /obj/item/weapon/folder/envelope/captain
-	desc = "A thick envelope. The NTEF crest is stamped in the corner, along with 'TOP SECRET - DAGON UMBRA'."
+	desc = "A thick envelope. The NTEF crest is stamped in the corner, along with 'TOP SECRET - ANDROMEDA UMBRA'."
 
 /obj/item/weapon/folder/envelope/captain/Initialize()
 	..()
@@ -78,12 +78,12 @@
 	..()
 	var/obj/effect/overmap/visitable/torch = map_sectors["[z]"]
 	var/memo = {"
-	<tt><center><b><font color='red'>SECRET - CODE WORDS: DAGON</font></b>
+	<tt><center><b><font color='red'>SECRET - CODE WORDS: ANDROMEDA</font></b>
 	<h3>NANOTRANSEN CENTRAL COMMAND</h3>
 	<img src = nteflogo.png>
 	</center>
 	<b>FROM:</b> ADM William Lau<br>
-	<b>TO:</b> Commanding Officer of NTSS Dagon<br>
+	<b>TO:</b> Commanding Officer of NTSS Andromeda<br>
 	<b>SUBJECT:</b> Standing Orders<br>
 	<hr>
 	Captain.<br>
@@ -112,7 +112,7 @@
 	new/obj/item/weapon/paper/umbra(src)
 
 /obj/item/weapon/folder/envelope/rep
-	desc = "A thick envelope. The NTEF crest is stamped in the corner, along with 'TOP SECRET - DAGON UMBRA'."
+	desc = "A thick envelope. The NTEF crest is stamped in the corner, along with 'TOP SECRET - ANDROMEDA UMBRA'."
 
 /obj/item/weapon/folder/envelope/rep/Initialize()
 	. = ..()
@@ -121,19 +121,19 @@
 /obj/item/weapon/paper/umbra
 	name = "UMBRA Protocol"
 	info = {"
-	<tt><center><b><font color='red'>TOP SECRET - CODE WORDS: DAGON UMBRA</font></b>
+	<tt><center><b><font color='red'>TOP SECRET - CODE WORDS: ANDROMEDA UMBRA</font></b>
 	<h3>OFFICE OF THE SECRETARY GENERAL OF SOL CENTRAL GOVERNMENT</h3>
 	<img src = nteflogo.png>
 	</center>
 	<b>FROM:</b> Johnathan Smitherson, Special Aide of the Secretary General<br>
-	<b>TO:</b> Commanding Officer of the NTSS Dagon<br>
-	<b>CC:</b> Special Representative aboard the NTSS Dagon<br>
+	<b>TO:</b> Commanding Officer of the NTSS Andromeda<br>
+	<b>CC:</b> Special Representative aboard the NTSS Andromeda<br>
 	<b>SUBJECT:</b> UMBRA protocol<br>
 	<hr>
 	This is a small addendum to the usual operating procedures. Unlike the rest of SOP, this is not left to the Commanding Officer's discretion and is mandatory. As unconventional as this is, we felt it is essential for smooth operation of this mission.<br>
 	Procedure can be initiated only by transmission from NT Central Command via secure channel. The sender may not introduce themselves, but you shouldn't have trouble confirming the transmission source, I believe.<br>
 	The signal to initiate the procedure are codewords 'GOOD NIGHT WORLD' used in this order as one phrase. You do not need to send acknowledgement.
-	<li>Information about this expedition's findings is to be treated as secret and vital to SCG's national security, and is protected under codeword UMBRA. Only SCG government employees and Skrell citizens aboard the NTSS Dagon are allowed access to this information on a need-to-know basis.</li>
+	<li>Information about this expedition's findings is to be treated as secret and vital to SCG's national security, and is protected under codeword UMBRA. Only SCG government employees and Skrell citizens aboard the NTSS Andromeda are allowed access to this information on a need-to-know basis.</li>
 	<li>The secrecy of this information is to be applied retroactively. Any non-cleared personnel who were exposed to such information are to be secured and transferred to DIA on arrival at home port.</li>
 	<li>Any devices capable of transmitting or receiving data at interstellar range are to be confiscated from private possession.</li>
 	<li>Disregard any systems remaining in your flight plan and set course for Sol, Neptune orbit. You will be contacted upon your arrival. Do not make stops in ports on the way unless absolutely necessary.</li>

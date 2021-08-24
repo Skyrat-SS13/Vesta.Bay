@@ -21,7 +21,7 @@
 	shoes = /obj/item/clothing/shoes/dutyboots
 
 /decl/hierarchy/outfit/job/torch/crew/engineering/engineer
-	name = OUTFIT_JOB_NAME("Engineer - Dagon")
+	name = OUTFIT_JOB_NAME("Engineer - Andromeda")
 	uniform = /obj/item/clothing/under/solgov/utility/expeditionary/engineering
 	shoes = /obj/item/clothing/shoes/dutyboots
 	id_types = list(/obj/item/weapon/card/id/torch/crew/engineering)
@@ -47,7 +47,7 @@
 	pda_type = /obj/item/modular_computer/pda/roboticist
 
 /decl/hierarchy/outfit/job/torch/crew/engineering/roboticistec
-	name = OUTFIT_JOB_NAME("Roboticist - Dagon")
+	name = OUTFIT_JOB_NAME("Roboticist - Andromeda")
 	uniform = /obj/item/clothing/under/solgov/utility/expeditionary/engineering
 	shoes = /obj/item/clothing/shoes/dutyboots
 	id_types = list(/obj/item/weapon/card/id/torch/contractor/engineering/roboticist)

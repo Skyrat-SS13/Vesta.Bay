@@ -150,7 +150,7 @@ LEGACY_RECORD_STRUCTURE(all_warrants, warrant)
 					break
 		if(activewarrant)
 			program.computer.print_paper(warranttotext(activewarrant), capitalize(activewarrant.fields["arrestsearch"]) + " Warrant - " + activewarrant.fields["namewarrant"])
-		else 
+		else
 			to_chat(src, SPAN_WARNING("Internal error: Warrant not found."))
 
 
@@ -231,7 +231,7 @@ LEGACY_RECORD_STRUCTURE(all_warrants, warrant)
 		activewarrant = null
 
 
-//NTSS Dagon Arrest Warrant
+//NTSS Andromeda Arrest Warrant
 //System: Geneva 291
 //
 //Suspect Name: Joe Schmoe

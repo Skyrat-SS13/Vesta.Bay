@@ -1,5 +1,5 @@
 /*
- * Dagon Excavation
+ * Andromeda Excavation
  */
 
 /obj/structure/closet/toolcloset/excavation

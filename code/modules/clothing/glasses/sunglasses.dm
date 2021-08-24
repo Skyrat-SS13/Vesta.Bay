@@ -34,7 +34,7 @@
 	flash_protection = FLASH_PROTECTION_MODERATE
 	req_access = list(access_security)
 
-/obj/item/clothing/glasses/sunglasses/sechud/goggles //now just a more "military" set of HUDglasses for the Dagon
+/obj/item/clothing/glasses/sunglasses/sechud/goggles //now just a more "military" set of HUDglasses for the Andromeda
 	name = "HUD goggles"
 	desc = "A pair of goggles with an inbuilt heads up display. The lenses provide some flash protection."
 	icon_state = "goggles"

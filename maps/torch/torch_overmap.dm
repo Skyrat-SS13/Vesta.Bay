@@ -1,6 +1,6 @@
 /obj/effect/overmap/visitable/ship/torch
-	name = "NTSS Dagon"
-	desc = "A frankensteined HNS Mako-class corvette, broadcasting NTEF codes and the designation \"NTSS Dagon, HSC-4-13-X\"."
+	name = "NTSS Andromeda"
+	desc = "A frankensteined HNS Mako-class corvette, broadcasting NTEF codes and the designation \"NTSS Andromeda, HSC-4-13-X\"."
 	fore_dir = WEST
 	vessel_mass = 100000
 	burn_delay = 2 SECONDS
@@ -76,7 +76,7 @@
 
 /obj/effect/overmap/visitable/ship/landable/exploration_shuttle
 	name = "Charon"
-	desc = "An SSE-U11 long range shuttle, broadcasting NTEF codes and the callsign \"Dagon-2 Charon\"."
+	desc = "An SSE-U11 long range shuttle, broadcasting NTEF codes and the callsign \"Andromeda-2 Charon\"."
 	shuttle = "Charon"
 	max_speed = 1/(2 SECONDS)
 	burn_delay = 1 SECONDS
@@ -87,7 +87,7 @@
 
 /obj/effect/overmap/visitable/ship/landable/aquila
 	name = "Aquila"
-	desc = "A PM-24 modular gunship, broadcasting NTEF codes and the callsign \"Dagon-1 Aquila\"."
+	desc = "A PM-24 modular gunship, broadcasting NTEF codes and the callsign \"Andromeda-1 Aquila\"."
 	shuttle = "Aquila"
 	vessel_mass = 20000
 	max_speed = 1/(1 SECONDS)
@@ -97,7 +97,7 @@
 
 /obj/effect/overmap/visitable/ship/landable/guppy
 	name = "Guppy"
-	desc = "An SSE-U3 utility pod, broadcasting NTEF codes and the callsign \"Dagon-3 Guppy\"."
+	desc = "An SSE-U3 utility pod, broadcasting NTEF codes and the callsign \"Andromeda-3 Guppy\"."
 	shuttle = "Guppy"
 	max_speed = 1/(3 SECONDS)
 	burn_delay = 2 SECONDS

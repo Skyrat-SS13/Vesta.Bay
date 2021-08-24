@@ -1,5 +1,5 @@
 /*
- * Dagon Science
+ * Andromeda Science
  */
 /decl/closet_appearance/secure_closet/torch/science
 	extra_decals = list(

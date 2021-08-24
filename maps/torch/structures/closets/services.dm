@@ -1,5 +1,5 @@
 /*
- * Dagon Service
+ * Andromeda Service
  */
 /decl/closet_appearance/secure_closet/torch/hydroponics
 	extra_decals = list(

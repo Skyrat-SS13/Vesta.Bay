@@ -64,7 +64,7 @@
 /obj/machinery/pager/cargo //supply
 	department = SUP
 
-/obj/machinery/pager/security //dagon security
+/obj/machinery/pager/security //Andromeda security
 	department = SEC
 
 /obj/machinery/pager/science
