@@ -20,8 +20,8 @@
 #AWAY_SITE_BUDGET 3
 
 ## The names of various entities to use for reports, listing, etc.
-#STATION_NAME NTSS Dagon
-#STATION_SHORT Dagon
+#STATION_NAME NTSS Andromeda
+#STATION_SHORT Andromeda
 #DOCK_NAME TBD
 #BOSS_NAME Central Command
 #BOSS_SHORT Command
