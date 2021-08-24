@@ -8,13 +8,13 @@
 #OVERMAP_Z 0
 
 ## The number of turfs on a side the overmap should be. Default 35
-#OVERMAP_SIZE 60
+#OVERMAP_SIZE 45
 
 ## The number of event clouds - meteors, fish, etc - that will be generated on the overmap. Default 34
-#OVERMAP_EVENT_AREAS 34
+#OVERMAP_EVENT_AREAS 39
 
 ## The number of exoplanets to generate on the map. Warning: These have a significant runtime cost. Default 1
-#NUM_EXOPLANETS 3
+#NUM_EXOPLANETS 2
 
 ## The number of away sites to pick for the overmap. Default 3
 #AWAY_SITE_BUDGET 3
