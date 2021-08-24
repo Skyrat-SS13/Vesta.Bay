@@ -10,3 +10,4 @@
   LilElie - GameAdmin       
   ChildrenOfTheSun - GameAdmin
   Vitorhks - GameAdmin
+  Jinshee - GameAdmin
