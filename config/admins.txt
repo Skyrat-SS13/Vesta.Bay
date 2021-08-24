@@ -9,3 +9,4 @@
   Guidesu - DevAdmin 
   LilElie - GameAdmin       
   ChildrenOfTheSun - GameAdmin
+  Vitorhks - GameAdmin
