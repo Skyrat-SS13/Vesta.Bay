@@ -8,20 +8,20 @@
 #OVERMAP_Z 0
 
 ## The number of turfs on a side the overmap should be. Default 35
-#OVERMAP_SIZE 45
+#OVERMAP_SIZE 35
 
 ## The number of event clouds - meteors, fish, etc - that will be generated on the overmap. Default 34
-#OVERMAP_EVENT_AREAS 39
+#OVERMAP_EVENT_AREAS 34
 
 ## The number of exoplanets to generate on the map. Warning: These have a significant runtime cost. Default 1
-#NUM_EXOPLANETS 2
+#NUM_EXOPLANETS 1
 
 ## The number of away sites to pick for the overmap. Default 3
 #AWAY_SITE_BUDGET 3
 
 ## The names of various entities to use for reports, listing, etc.
-#STATION_NAME NTSS Andromeda
-#STATION_SHORT Andromeda
+#STATION_NAME NTSS Dagon
+#STATION_SHORT Dagon
 #DOCK_NAME TBD
 #BOSS_NAME Central Command
 #BOSS_SHORT Command
@@ -41,8 +41,8 @@
 #STARTING_MONEY 75000
 #DEPARTMENT_MONEY 5000
 #SALARY_MODIFIER 1
-#SUPPLY_CURRENCY_NAME Thalers
-#SUPPLY_CURRENCY_NAME_SHORT T.
+#SUPPLY_CURRENCY_NAME Credits
+#SUPPLY_CURRENCY_NAME_SHORT Cr.
 #LOCAL_CURRENCY_NAME Thalers
 #LOCAL_CURRENCY_NAME_SINGULAR Thaler
 #LOCAL_CURRENCY_NAME_SHORT T
