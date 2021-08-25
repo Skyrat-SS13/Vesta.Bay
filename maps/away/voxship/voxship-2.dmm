@@ -508,8 +508,6 @@
 /obj/structure/closet/crate/hydroponics/prespawned,
 /obj/item/weapon/material/hatchet,
 /obj/item/weapon/material/minihoe,
-/obj/item/seeds/breather,
-/obj/item/seeds/breather,
 /turf/simulated/floor/tiled/techmaint/vox,
 /area/voxship/scavship)
 "bp" = (
@@ -2817,7 +2815,6 @@
 /turf/simulated/floor/airless,
 /area/voxship/engineering)
 "gr" = (
-
 /obj/machinery/computer/cryopod{
 	pixel_x = -32
 	},
@@ -2826,7 +2823,6 @@
 	},
 /turf/simulated/floor/tiled/techmaint/vox,
 /area/voxship/fore)
-
 "gs" = (
 /obj/random/loot,
 /turf/simulated/floor/airless,
