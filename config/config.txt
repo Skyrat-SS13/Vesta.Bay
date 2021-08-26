@@ -171,11 +171,11 @@ GUEST_BAN
 # USEWHITELIST
 
 ## set a server location for world reboot. Don't include the byond://, just give the address and port.
-SERVER skyrat13.tk:22098
+ SERVER skyrat13.tk:22098
 
 ## set a server URL for the IRC bot to use; like SERVER, don't include the byond://
 ## Unlike SERVER, this one shouldn't break auto-reconnect
-SERVERURL skyrat13.tk:22098
+ SERVERURL skyrat13.tk:22098
 
 ## forum address
  FORUMURL https://forum.skyrat13.tk/
