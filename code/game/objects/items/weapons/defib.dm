@@ -271,8 +271,19 @@
 		return "buzzes, \"Patient's chest is obstructed. Operation aborted.\""
 
 /obj/item/weapon/shockpaddles/proc/can_revive(mob/living/carbon/human/H) //This is checked right before attempting to revive
-	if(H.stat == DEAD)
-		return "buzzes, \"Resuscitation failed - Severe neurological decay makes recovery of patient impossible. Further attempts futile.\""
+	switch(H.stat)
+		if(DEAD)
+			make_alive(H)
+			H.internal_organs_by_name[BP_BRAIN].damage -= 1 //ugly but it works
+			H.resuscitate()
+			return "buzzes, \"Patient experiencing brain-death. Engaging experimental anti-necrosis protocols. \""
+		if(CONSCIOUS)
+			H.resuscitate()
+			return "buzzes, \"Patient is concious. Applying shock.\""
+		if(UNCONSCIOUS)
+			H.resuscitate()
+			return "buzzes, \"Patient is unconcious. Applying shock.\""
+
 
 /obj/item/weapon/shockpaddles/proc/check_contact(mob/living/carbon/human/H)
 	if(!combat)
@@ -374,7 +385,7 @@
 	//set oxyloss so that the patient is just barely in crit, if possible
 	make_announcement("pings, \"Resuscitation successful.\"", "notice")
 	playsound(get_turf(src), 'sound/machines/defib_success.ogg', 50, 0)
-	H.resuscitate()
+//	H.resuscitate()
 	var/obj/item/organ/internal/cell/potato = H.internal_organs_by_name[BP_CELL]
 	if(istype(potato) && potato.cell)
 		var/obj/item/weapon/cell/C = potato.cell
@@ -439,21 +450,19 @@
 	admin_attack_log(user, H, "Electrocuted using \a [src]", "Was electrocuted with \a [src]", "used \a [src] to electrocute")
 
 /obj/item/weapon/shockpaddles/proc/make_alive(mob/living/carbon/human/M) //This revives the mob
-	var/deadtime = world.time - M.timeofdeath
-
+//	var/deadtime = world.time - M.timeofdeath
+	M.internal_organs_by_name[BP_BRAIN].status = ORGAN_BLEEDING
 	M.switch_from_dead_to_living_mob_list()
 	M.timeofdeath = 0
 	M.set_stat(UNCONSCIOUS) //Life() can bring them back to consciousness if it needs to.
 	M.regenerate_icons()
 	M.failed_last_breath = 0 //So mobs that died of oxyloss don't revive and have perpetual out of breath.
 	M.reload_fullscreen()
-
 	M.emote("gasp")
 	M.Weaken(rand(10,25))
 	M.updatehealth()
-	apply_brain_damage(M, deadtime)
 
-/obj/item/weapon/shockpaddles/proc/apply_brain_damage(mob/living/carbon/human/H, var/deadtime)
+/* /obj/item/weapon/shockpaddles/proc/apply_brain_damage(mob/living/carbon/human/H, var/deadtime)
 	if(deadtime < DEFIB_TIME_LOSS) return
 
 	if(!H.should_have_organ(BP_BRAIN)) return //no brain
@@ -462,7 +471,7 @@
 	if(!brain) return //no brain
 
 	var/brain_damage = Clamp((deadtime - DEFIB_TIME_LOSS)/(DEFIB_TIME_LIMIT - DEFIB_TIME_LOSS)*brain.max_damage, H.getBrainLoss(), brain.max_damage)
-	H.setBrainLoss(brain_damage)
+	H.setBrainLoss(brain_damage) */
 
 /obj/item/weapon/shockpaddles/proc/make_announcement(var/message, var/msg_class)
 	audible_message("<b>\The [src]</b> [message]", "\The [src] vibrates slightly.")
