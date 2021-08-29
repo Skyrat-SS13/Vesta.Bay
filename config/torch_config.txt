@@ -15,10 +15,10 @@ OVERMAP_SIZE 50
 OVERMAP_EVENT_AREAS 49
 
 ## The number of exoplanets to generate on the map. Warning: These have a significant runtime cost. Default 1
-NUM_EXOPLANETS 4
+NUM_EXOPLANETS 5
 
 ## The number of away sites to pick for the overmap. Default 3
-AWAY_SITE_BUDGET 6
+AWAY_SITE_BUDGET 7
 
 ## The names of various entities to use for reports, listing, etc.
 STATION_NAME NTSS Andromeda
