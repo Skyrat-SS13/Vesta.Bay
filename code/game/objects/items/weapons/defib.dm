@@ -273,8 +273,9 @@
 /obj/item/weapon/shockpaddles/proc/can_revive(mob/living/carbon/human/H) //This is checked right before attempting to revive
 	switch(H.stat)
 		if(DEAD)
+			var/obj/item/organ/internal/brain/brain = H.internal_organs_by_name[BP_BRAIN]
 			make_alive(H)
-			H.internal_organs_by_name[BP_BRAIN].damage -= 1 //ugly but it works
+			brain.damage -= 1 //ugly but it works
 			H.resuscitate()
 			return "buzzes, \"Patient experiencing brain-death. Engaging experimental anti-necrosis protocols. \""
 		if(CONSCIOUS)
