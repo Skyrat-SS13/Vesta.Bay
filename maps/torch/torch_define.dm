@@ -48,7 +48,7 @@
 
 	default_law_type = /datum/ai_laws/solgov
 	use_overmap = 1
-	num_exoplanets = 3
+	num_exoplanets = 6
 
-	away_site_budget = 3
+	away_site_budget = 6
 	id_hud_icons = 'maps/torch/icons/assignment_hud.dmi'
