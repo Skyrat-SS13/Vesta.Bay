@@ -452,7 +452,8 @@
 
 /obj/item/weapon/shockpaddles/proc/make_alive(mob/living/carbon/human/M) //This revives the mob
 //	var/deadtime = world.time - M.timeofdeath
-	M.internal_organs_by_name[BP_BRAIN].status = ORGAN_BLEEDING
+	var/obj/item/organ/internal/brain/brain = M.internal_organs_by_name[BP_BRAIN]
+	brain.status = ORGAN_BLEEDING
 	M.switch_from_dead_to_living_mob_list()
 	M.timeofdeath = 0
 	M.set_stat(UNCONSCIOUS) //Life() can bring them back to consciousness if it needs to.
