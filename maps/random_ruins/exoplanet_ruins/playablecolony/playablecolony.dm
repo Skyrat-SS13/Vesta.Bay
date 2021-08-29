@@ -5,8 +5,8 @@
 	id = "playablecolony"
 	description = "a fully functional colony on the frontier of settled space"
 	suffixes = list("playablecolony/colony.dmm")
-	cost = 2
-	spawn_weight = 2
+	cost = 0.1
+	spawn_weight = 0.1
 	force_ruins = TRUE
 	allow_ruins = TRUE
 	template_flags = TEMPLATE_FLAG_CLEAR_CONTENTS | TEMPLATE_FLAG_NO_RUINS | TEMPLATE_FLAG_NO_RADS
