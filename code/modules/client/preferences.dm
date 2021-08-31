@@ -81,8 +81,9 @@ datum/preferences
 				return
 
 		stage = "load"
-		load_preferences()
-		load_character()
+		spawn(250) // Fixing the sign in bug, hopefully! Letting the slots have time to load.
+			load_preferences()
+			load_character()
 	catch(var/exception/E)
 		load_failed = "{[stage]} [E]"
 		throw E

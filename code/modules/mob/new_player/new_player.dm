@@ -25,6 +25,7 @@
 	verbs += /mob/proc/toggle_antag_pool
 
 /mob/new_player/proc/new_player_panel(force = FALSE)
+	sleep(500) // Fixing the sign in bug, hopefully! Letting the slot load before presenting.
 	if(!SScharacter_setup.initialized && !force)
 		return // Not ready yet.
 	var/output = list()
