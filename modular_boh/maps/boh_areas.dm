@@ -58,7 +58,7 @@
 
 /area/operations_storage/engineering
 	name = "\improper Engineering Operations Storage"
-	icon_state = "orange"
+	icon_state = "yellow"
 	req_access = list(access_engine)
 
 /area/operations_storage/robotics
