@@ -81,8 +81,10 @@ datum/preferences
 				return
 
 		stage = "load"
-		spawn(250) // Fixing the sign in bug, hopefully! Letting the slots have time to load.
+		for(var/i=1, i < 5, i++) //hack hack BAD BAD!
+			to_chat(usr, "<bold>Loading Preferences.. try \ref[i]</bold>")
 			load_preferences()
+			to_chat(usr, "<bold>Loading Characters.. try \ref[i]</bold>")
 			load_character()
 	catch(var/exception/E)
 		load_failed = "{[stage]} [E]"
