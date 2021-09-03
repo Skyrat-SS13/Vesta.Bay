@@ -70,3 +70,15 @@
 #define NT_BRANCHES list(/datum/mil_branch/expeditionary_corps, /datum/mil_branch/fleet)
 
 #define MILITARY_BRANCHES list(/datum/mil_branch/fleet, /datum/mil_branch/marine_corps)
+
+#define CAPTAIN_ROLE list(/datum/job/captain)
+
+#define HOP_ROLE list(/datum/job/hop)
+
+#define RD_ROLE list(/datum/job/rd)
+
+#define CMO_ROLE list(/datum/job/cmo)
+
+#define CE_ROLE list(/datum/job/chief_engineer)
+
+#define HOS_ROLE list(/datum/job/hos)

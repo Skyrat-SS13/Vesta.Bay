@@ -1560,15 +1560,22 @@
 	},
 /obj/structure/table/marble,
 /obj/machinery/cooker/candy,
+/obj/machinery/camera/network/third_deck{
+	c_tag = "Mess Hall - Galley";
+	dir = 0
+	},
 /turf/simulated/floor/tiled/white,
-/area/crew_quarters/galleybackroom)
+/area/crew_quarters/galley)
 "de" = (
 /obj/effect/floor_decal/corner/grey/diagonal{
 	dir = 4
 	},
 /obj/machinery/cooker/fryer,
+/obj/structure/noticeboard{
+	pixel_y = 32
+	},
 /turf/simulated/floor/tiled/white,
-/area/crew_quarters/galleybackroom)
+/area/crew_quarters/galley)
 "df" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -1610,14 +1617,14 @@
 	dir = 4
 	},
 /obj/structure/table/marble,
-/obj/machinery/camera/network/third_deck{
-	c_tag = "Mess Hall - Galley";
-	dir = 4
-	},
 /obj/item/sticky_pad/random,
 /obj/item/weapon/book/manual/chef_recipes,
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1"
+	},
 /turf/simulated/floor/tiled/white,
-/area/crew_quarters/galleybackroom)
+/area/crew_quarters/galley)
 "dl" = (
 /turf/simulated/wall/prepainted,
 /area/maintenance/substation/thirddeck)
@@ -1894,12 +1901,6 @@
 /obj/effect/catwalk_plated,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/starboard)
-"dR" = (
-/obj/effect/floor_decal/corner/grey/diagonal{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/white,
-/area/crew_quarters/galleybackroom)
 "dS" = (
 /obj/effect/floor_decal/corner/grey/diagonal{
 	dir = 4
@@ -3711,7 +3712,7 @@
 /obj/structure/table/marble,
 /obj/machinery/cooker/cereal,
 /turf/simulated/floor/tiled/white,
-/area/crew_quarters/galleybackroom)
+/area/crew_quarters/galley)
 "hq" = (
 /obj/machinery/power/apc{
 	dir = 1;
@@ -17079,7 +17080,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
-/area/crew_quarters/galleybackroom)
+/area/crew_quarters/galley)
 "Mx" = (
 /turf/simulated/floor/tiled,
 /area/hydroponics)
@@ -17575,6 +17576,15 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/dark,
 /area/security/permabrig)
+"NT" = (
+/obj/effect/floor_decal/corner/grey/diagonal{
+	dir = 4
+	},
+/obj/structure/closet/medical_wall/filled{
+	pixel_x = -32
+	},
+/turf/simulated/floor/tiled/white,
+/area/crew_quarters/galley)
 "NV" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -19321,9 +19331,6 @@
 	d1 = 2;
 	d2 = 8;
 	icon_state = "2-8"
-	},
-/obj/structure/noticeboard{
-	pixel_y = 32
 	},
 /turf/simulated/wall/prepainted,
 /area/crew_quarters/galleybackroom)
@@ -22094,6 +22101,12 @@
 	},
 /turf/simulated/floor/grass,
 /area/crew_quarters/observation)
+"ZM" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/hallway/primary/thirddeck/aft)
 "ZN" = (
 /turf/simulated/wall/r_wall/hull,
 /area/tcommsat/chamber)
@@ -37201,7 +37214,7 @@ aO
 aO
 cK
 bs
-dy
+ev
 dd
 dk
 ho
@@ -37405,7 +37418,7 @@ cL
 ca
 ca
 de
-dR
+fp
 Mv
 dy
 IR
@@ -37609,7 +37622,7 @@ dA
 MC
 fp
 fp
-fp
+NT
 ik
 iX
 kL
@@ -42266,7 +42279,7 @@ RW
 Oc
 Jg
 Wb
-sW
+ZM
 sv
 re
 uU

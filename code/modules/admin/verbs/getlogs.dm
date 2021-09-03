@@ -85,7 +85,7 @@
 	set name = "Show Server Log"
 	set desc = "Shows today's server log."
 
-	var/path = "data/logs/[time2text(world.realtime,"YYYY/MM-Month/DD-Day")].log"
+	var/path = "data/logs/[time2text(world.realtime,"YYYY/MM/DD")].log"
 	if( fexists(path) )
 		to_target(src, run(file(path)))
 	else

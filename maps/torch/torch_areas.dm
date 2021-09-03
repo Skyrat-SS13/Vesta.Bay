@@ -450,7 +450,6 @@
 /area/shuttle/petrov/rd
 	icon_state = "heads_rd"
 	name = "\improper NTRL Polyp - CSO's Office"
-	icon_state = "head_quarters"
 	req_access = list(access_petrov_rd)
 
 /area/shuttle/petrov/cockpit
@@ -594,7 +593,7 @@
 // Command
 /area/command/conference
 	name = "Briefing Room"
-	icon_state = "head_quarters"
+	icon_state = "conference"
 	sound_env = MEDIUM_SOFTFLOOR
 
 /area/command/captainmess
@@ -604,13 +603,13 @@
 
 /area/command/pathfinder
 	name = "\improper Pathfinder's Office"
-	icon_state = "head_quarters"
+	icon_state = "pathfinder"
 	sound_env = MEDIUM_SOFTFLOOR
 	req_access = list(access_pathfinder)
 
 /area/command/pilot
 	name = "\improper Pilot's Lounge"
-	icon_state = "head_quarters"
+	icon_state = "pilot"
 	sound_env = MEDIUM_SOFTFLOOR
 	req_access = list(access_pilot)
 
@@ -762,7 +761,7 @@
 
 /area/vacant/prototype/engine
 	name = "\improper Prototype Fusion Reactor Chamber"
-	icon_state = "firingrange"
+	icon_state = "engine"
 
 /area/vacant/cargo
 	name = "\improper Requisitions Office"
@@ -947,7 +946,7 @@
 
 /area/crew_quarters/galleybackroom
 	name = "\improper Galley Cold Storage"
-	icon_state = "kitchen"
+	icon_state = "kitchen_cold"
 	req_access = list(access_kitchen)
 
 /area/crew_quarters/commissary
