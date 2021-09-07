@@ -1,6 +1,6 @@
 
 /datum/gear/uniform
-	allowed_branches = CIVILIAN_BRANCHES
+//	allowed_branches = CIVILIAN_BRANCHES
 
 /datum/gear/uniform/utility
 	display_name = "Contractor Utility Uniform"
@@ -81,3 +81,19 @@
 
 /datum/gear/uniform/corp_exec_jacket
 	allowed_roles = list(/datum/job/liaison, /datum/job/bodyguard)
+
+
+/datum/gear/uniform/captain
+	allowed_roles = CAPTAIN_ROLE
+
+/datum/gear/uniform/hop
+	allowed_roles = HOP_ROLE
+
+/datum/gear/uniform/ce
+	allowed_roles = CE_ROLE
+
+/datum/gear/uniform/rd
+	allowed_roles = RD_ROLE
+
+/datum/gear/uniform/cmo
+	allowed_roles = CMO_ROLE

@@ -12,10 +12,10 @@ OVERMAP_Z 0
 OVERMAP_SIZE 50
 
 ## The number of event clouds - meteors, fish, etc - that will be generated on the overmap. Default 34
-OVERMAP_EVENT_AREAS 49
+OVERMAP_EVENT_AREAS 35
 
 ## The number of exoplanets to generate on the map. Warning: These have a significant runtime cost. Default 1
-NUM_EXOPLANETS 5
+NUM_EXOPLANETS 3
 
 ## The number of away sites to pick for the overmap. Default 3
 AWAY_SITE_BUDGET 7
