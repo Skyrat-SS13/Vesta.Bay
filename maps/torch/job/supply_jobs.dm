@@ -100,7 +100,7 @@
 	                    SKILL_EVA     = SKILL_BASIC)
 
 	max_skill = list(   SKILL_PILOT       = SKILL_MAX)
-	skill_points = 25
+	skill_points = 21
 
 	outfit_type = /decl/hierarchy/outfit/job/torch/passenger/research/prospector
 	allowed_branches = list(/datum/mil_branch/civilian)
