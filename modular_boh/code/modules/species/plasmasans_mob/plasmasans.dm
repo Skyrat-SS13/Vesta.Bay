@@ -125,8 +125,8 @@
 
 /datum/species/plasmasans/equip_survival_gear(var/mob/living/carbon/human/H, extendedtank)
 	. = ..()
-	H.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/space/plasmasans(H), slot_head)
-	H.equip_to_slot_or_del(new /obj/item/clothing/suit/space/plasmasans(H), slot_wear_suit)
+	H.equip_to_slot_if_possible(new /obj/item/clothing/head/helmet/space/plasmasans(H), slot_head, force = 1)
+	H.equip_to_slot_if_possible(new /obj/item/clothing/suit/space/plasmasans(H), slot_wear_suit, force = 1)
 
 	H.set_hydration(400)
 	H.set_nutrition(400)	//Fills Hunger and Thirsty. Plasmasans doesnt feels hungry. The rate it 0.
