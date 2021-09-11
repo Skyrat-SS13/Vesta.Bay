@@ -211,7 +211,7 @@ SOCKET_TALK 0
 ## Uncomment to restrict non-admins from using humanoid alien races
 USEALIENWHITELIST
 ## Uncomment to use the alien whitelist system with SQL instead. (requires the above uncommented aswell)
-USEALIENWHITELIST_SQL
+#USEALIENWHITELIST_SQL
 
 ## Password used for authorizing ircbot and other external tools.
 #COMMS_PASSWORD
