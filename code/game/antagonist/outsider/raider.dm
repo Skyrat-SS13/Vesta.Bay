@@ -65,7 +65,6 @@ GLOBAL_DATUM_INIT(raiders, /datum/antagonist/raider, new)
 		)
 
 	var/list/raider_guns = list(
-
 		/obj/item/weapon/gun/energy/laser,
 		/obj/item/weapon/gun/energy/retro,
 		/obj/item/weapon/gun/energy/xray,
@@ -93,7 +92,7 @@ GLOBAL_DATUM_INIT(raiders, /datum/antagonist/raider, new)
 		/obj/item/weapon/gun/projectile/revolver,
 		/obj/item/weapon/gun/projectile/pirate,
 		/obj/item/weapon/gun/projectile/revolver/medium,
-		/obj/item/weapon/gun/projectile/pistol/throwback,
+		/obj/item/weapon/gun/projectile/pistol/throwback
 		)
 
 	var/list/raider_holster = list(
@@ -303,3 +302,18 @@ GLOBAL_DATUM_INIT(raiders, /datum/antagonist/raider, new)
 	desc = "This is a random raider rifle."
 	icon = 'icons/obj/guns/assault_rifle.dmi'
 	icon_state = "arifle"
+
+/obj/random/raider/biggun/spawn_choices()
+	return list(/obj/item/weapon/gun/energy/lasercannon,
+				/obj/item/weapon/gun/energy/laser,
+				/obj/item/weapon/gun/energy/sniperrifle,
+				/obj/item/weapon/gun/projectile/shotgun/doublebarrel,
+				/obj/item/weapon/gun/energy/xray,
+				/obj/item/weapon/gun/projectile/heavysniper/boltaction,
+				/obj/item/weapon/gun/projectile/automatic/assault_rifle,
+				/obj/item/weapon/gun/projectile/automatic/sec_smg,
+				/obj/item/weapon/gun/energy/crossbow/largecrossbow,
+				/obj/item/weapon/gun/projectile/shotgun/pump/combat,
+				/obj/item/weapon/gun/energy/ionrifle,
+				/obj/item/weapon/gun/projectile/shotgun/pump
+	)
