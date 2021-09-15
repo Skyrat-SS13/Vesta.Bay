@@ -29,28 +29,6 @@
 	max_ammo = 6
 	multiple_sprites = 1
 
-
-/obj/item/ammo_magazine/speedloader/pclip
-	name = "magnum pistol stripper clip"
-	desc = "A stripper clip for pistol magnum caliber weapons."
-	icon_state = "pclip"
-	caliber = CALIBER_PISTOL_MAGNUM
-	ammo_type = /obj/item/ammo_casing/pistol/magnum
-	matter = list(MATERIAL_STEEL = 1300)
-	max_ammo = 5
-	multiple_sprites = 1
-
-/obj/item/ammo_magazine/speedloader/hpclip
-	name = "holdout pistol stripper clip"
-	desc = "A stripper clip for pistol holdout caliber weapons."
-	icon_state = "hpclip"
-	caliber = CALIBER_PISTOL_SMALL
-	ammo_type = /obj/item/ammo_casing/pistol/small
-	matter = list(MATERIAL_STEEL = 1800)
-	max_ammo = 10
-	multiple_sprites = TRUE
-
-
 /obj/item/ammo_magazine/speedloader/clip
 	name = "stripper clip"
 	desc = "A stripper clip for bolt action rifles."
@@ -358,14 +336,3 @@
 	matter = list(MATERIAL_STEEL = 600)
 	max_ammo = 7
 	multiple_sprites = 1
-
-/obj/item/ammo_magazine/iclipr
-	name = "internal rifle magazine"
-	desc = "An internal clip for rifle caliber weapons."
-	icon_state = "iclipr"
-	caliber = CALIBER_RIFLE
-	mag_type = MAGAZINE
-	ammo_type = /obj/item/ammo_casing/rifle
-	matter = list(MATERIAL_STEEL = 1500)
-	max_ammo = 8
-	multiple_sprites = TRUE

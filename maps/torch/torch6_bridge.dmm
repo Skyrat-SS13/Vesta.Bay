@@ -2163,7 +2163,6 @@
 "dL" = (
 /obj/structure/closet/secure_closet/engineering_chief_torch,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/item/weapon/gun/energy/revolver/secure,
 /turf/simulated/floor/tiled/monotile,
 /area/crew_quarters/heads/office/ce)
 "dM" = (
@@ -3793,10 +3792,6 @@
 	color = "#22425c"
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/item/weapon/gun/energy/revolver/secure,
-/obj/item/weapon/gun/energy/revolver/secure,
-/obj/item/weapon/gun/energy/stunrevolver/rifle,
-/obj/item/weapon/gun/energy/stunrevolver/rifle,
 /turf/simulated/floor/tiled,
 /area/security/antiboarding)
 "gT" = (
@@ -4488,7 +4483,6 @@
 	d2 = 4;
 	icon_state = "0-4"
 	},
-/obj/structure/cable/orange,
 /turf/simulated/floor/plating,
 /area/aquila/maintenance)
 "iP" = (
@@ -6019,7 +6013,6 @@
 	pixel_y = 27;
 	req_access = list("ACCESS_HEAD_OF_SECURITY")
 	},
-/obj/item/weapon/gun/energy/revolver/secure,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/crew_quarters/heads/office/cos)
 "mJ" = (
@@ -8782,19 +8775,17 @@
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/heads/office/sea)
 "to" = (
+/obj/structure/sign/warning/nosmoking_1{
+	dir = 4;
+	icon_state = "nosmoking";
+	pixel_x = -37
+	},
 /obj/effect/floor_decal/techfloor{
 	dir = 8;
 	icon_state = "techfloor_edges"
 	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
-	},
-/obj/item/weapon/storage/secure/briefcase/nukedisk{
-	desc = "Only open in high emergency"
-	},
-/obj/structure/closet/secure_closet/wall{
-	name = "Delta Safe";
-	pixel_x = -30
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/safe_room/bridge)
@@ -13174,7 +13165,6 @@
 /obj/item/weapon/storage/belt/medical,
 /obj/item/weapon/book/manual/sol_sop,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/item/weapon/gun/energy/revolver/secure,
 /turf/simulated/floor/tiled/white,
 /area/crew_quarters/heads/office/cmo)
 "EQ" = (
@@ -13462,7 +13452,6 @@
 "FL" = (
 /obj/structure/closet/secure_closet/bridgeofficer,
 /obj/item/clothing/accessory/storage/holster/thigh,
-/obj/item/weapon/gun/energy/stunrevolver,
 /turf/simulated/floor/carpet/blue,
 /area/command/bridge_quarters)
 "FO" = (
@@ -14849,10 +14838,6 @@
 	dir = 6;
 	icon_state = "intact"
 	},
-/obj/structure/cable/orange{
-	dir = 1
-	},
-/obj/machinery/power/port_gen/pacman,
 /turf/simulated/floor/plating,
 /area/aquila/maintenance)
 "Jz" = (
@@ -15475,12 +15460,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
-/obj/item/weapon/card/id/captains_spare,
-/obj/structure/closet/secure_closet/wall{
-	desc = "misuse of this ID card can and will make you arrested by solarian laws";
-	name = "ROIC All Acess ID";
-	pixel_x = -30
-	},
 /turf/simulated/floor/tiled/dark,
 /area/bridge/storage)
 "LQ" = (
@@ -16049,6 +16028,7 @@
 	pixel_y = -28;
 	req_access = list(list("ACCESS_ENGINE_EQUIP","ACCESS_ATMOS"))
 	},
+/obj/item/weapon/storage/secure/briefcase/nukedisk,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/cobed)
 "NE" = (
@@ -16752,12 +16732,15 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/turret_protected/ai_outer_chamber)
 "PX" = (
+/obj/machinery/power/port_gen/pacman{
+	anchored = 1;
+	sheets = 25
+	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/structure/cable/yellow{
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/obj/machinery/power/shield_generator,
 /turf/simulated/floor/tiled/techfloor,
 /area/aquila/maintenance)
 "Qc" = (
@@ -17976,7 +17959,6 @@
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/effect/floor_decal/corner/research/mono,
 /obj/structure/closet/secure_closet/RD_torch,
-/obj/item/weapon/gun/energy/revolver/secure,
 /turf/simulated/floor/tiled/monotile,
 /area/crew_quarters/heads/office/rd)
 "Tl" = (

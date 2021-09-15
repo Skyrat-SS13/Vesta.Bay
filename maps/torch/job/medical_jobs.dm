@@ -34,7 +34,7 @@
 	max_skill = list(   SKILL_MEDICAL     = SKILL_MAX,
 	                    SKILL_ANATOMY     = SKILL_MAX,
 	                    SKILL_CHEMISTRY   = SKILL_MAX)
-	skill_points = 20
+	skill_points = 16
 
 	access = list(
 		access_medical, access_morgue, access_virology, access_maint_tunnels, access_emergency_storage,
@@ -77,7 +77,7 @@
 	max_skill = list(   SKILL_MEDICAL     = SKILL_MAX,
 	                    SKILL_ANATOMY     = SKILL_MAX,
 	                    SKILL_CHEMISTRY   = SKILL_MAX)
-	skill_points = 20
+	skill_points = 14
 
 	access = list(
 		access_medical, access_morgue, access_virology, access_maint_tunnels, access_emergency_storage,
@@ -99,8 +99,7 @@
 	minimal_player_age = 0
 	alt_titles = list(
 		"Paramedic",
-		"Corpsman",
-		"Trainee Nurse")
+		"Corpsman")
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/medical/doctor
 	allowed_branches = list(
 		/datum/mil_branch/expeditionary_corps,
@@ -134,7 +133,7 @@
 
 	software_on_spawn = list(/datum/computer_file/program/suit_sensors,
 							 /datum/computer_file/program/camera_monitor)
-	skill_points = 30
+	skill_points = 20
 
 /datum/job/medical_trainee
 	title = "Trainee Medical Technician"
@@ -158,7 +157,7 @@
 		/datum/mil_rank/fleet/e2
 	)
 
-	skill_points = 25
+	skill_points = 4
 	no_skill_buffs = TRUE
 
 	min_skill = list(   SKILL_EVA     = SKILL_ADEPT,
@@ -201,10 +200,10 @@
 	min_skill = list(   SKILL_MEDICAL   = SKILL_BASIC,
 	                    SKILL_CHEMISTRY = SKILL_ADEPT)
 
-	max_skill = list(   SKILL_MEDICAL     = SKILL_MAX,
-						SKILL_ANATOMY	  = SKILL_MAX,
+	max_skill = list(   SKILL_MEDICAL     = SKILL_BASIC,
+						SKILL_ANATOMY	  = SKILL_BASIC,
 	                    SKILL_CHEMISTRY   = SKILL_MAX)
-	skill_points = 30
+	skill_points = 16
 
 	access = list(
 		access_medical, access_maint_tunnels, access_emergency_storage,
