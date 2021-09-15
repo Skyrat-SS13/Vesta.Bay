@@ -274,6 +274,7 @@
 	icon_state = "revolver"
 
 /obj/random/projectile/spawn_choices()
+
 	return list(/obj/item/weapon/gun/projectile/heavysniper/boltaction = 4,
 				/obj/item/weapon/gun/projectile/shotgun/pump = 3,
 				/obj/item/weapon/gun/projectile/automatic/merc_smg = 2,
@@ -293,6 +294,7 @@
 				/obj/item/weapon/gun/projectile/shotgun/pump/combat = 2,
 				/obj/item/weapon/gun/projectile/pistol/throwback = 1)
 
+
 /obj/random/handgun
 	name = "Random Handgun"
 	desc = "This is a random sidearm."
@@ -300,12 +302,6 @@
 	icon_state = "secguncomp"
 
 /obj/random/handgun/spawn_choices()
-	return list(/obj/item/weapon/gun/projectile/pistol/sec = 3,
-				/obj/item/weapon/gun/energy/gun = 2,
-				/obj/item/weapon/gun/projectile/pistol/military/alt = 1,
-				/obj/item/weapon/gun/projectile/pistol/holdout = 2,
-				/obj/item/weapon/gun/energy/retro = 1,
-				/obj/item/weapon/gun/projectile/pistol/throwback = 1)
 
 /obj/random/ammo
 	name = "Random Ammunition"

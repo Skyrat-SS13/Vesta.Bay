@@ -19,14 +19,14 @@
 
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick,/datum/unarmed_attack/tail, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite/sharp)
 	primitive_form = "Stok"
-	darksight_range = 3
+	darksight_range = 5
 	darksight_tint = DARKTINT_MODERATE
 	gluttonous = GLUT_TINY | GLUT_ITEM_TINY | GLUT_PROJECTILE_VOMIT //Used to eating ash.
 	strength = STR_HIGH
-	breath_pressure = 12 //Their lungs are strong.
+	breath_pressure = 10 //Their lungs are strong.
 	slowdown = 0.5
-	brute_mod = 0.8
-	flash_mod = 1.4 //More sensitive to light
+	brute_mod = 0.7
+	flash_mod = 1.7 //More sensitive to light
 	metabolism_mod = 0.5 //Lower metabolism.
 	blood_volume = SPECIES_BLOOD_DEFAULT // Lower blood than unathi.
 	stomach_capacity = 4 //1 less than humans.
@@ -102,17 +102,58 @@
 
 	available_cultural_info = list(
 		TAG_CULTURE = list(
-			//CULTURE_UNATHI
+			CULTURE_HUMAN,
+			CULTURE_HUMAN_VATGROWN,
+			CULTURE_HUMAN_MARTIAN,
+			CULTURE_HUMAN_MARSTUN,
+			CULTURE_HUMAN_LUNAPOOR,
+			CULTURE_HUMAN_LUNARICH,
+			CULTURE_HUMAN_VENUSIAN,
+			CULTURE_HUMAN_VENUSLOW,
+			CULTURE_HUMAN_BELTER,
+			CULTURE_HUMAN_PLUTO,
+			CULTURE_HUMAN_EARTH,
+			CULTURE_HUMAN_CETI,
+			CULTURE_HUMAN_SPACER,
+			CULTURE_HUMAN_SPAFRO,
+			CULTURE_HUMAN_CONFED,
+			CULTURE_SYMBIOTIC,
+			CULTURE_HUMAN_OTHER,
+			CULTURE_UNATHI
 		),
 		TAG_HOMEWORLD = list(
-			//HOME_SYSTEM_MOGHES
+			HOME_SYSTEM_MOGHES,
+			HOME_SYSTEM_MARS,
+			HOME_SYSTEM_EARTH,
+			HOME_SYSTEM_LUNA,
+			HOME_SYSTEM_VENUS,
+			HOME_SYSTEM_CERES,
+			HOME_SYSTEM_PLUTO,
+			HOME_SYSTEM_TAU_CETI,
+			HOME_SYSTEM_HELIOS,
+		HOME_SYSTEM_TERRA,
+			HOME_SYSTEM_TERSTEN,
+			HOME_SYSTEM_LORRIMAN,
+			HOME_SYSTEM_CINU,
+			HOME_SYSTEM_YUKLID,
+			HOME_SYSTEM_LORDANIA,
+			HOME_SYSTEM_KINGSTON,
+			HOME_SYSTEM_GAIA,
+			HOME_SYSTEM_MAGNITKA,
+			HOME_SYSTEM_QERRBALAK,
+			HOME_SYSTEM_MOGHES,
+			HOME_SYSTEM_TALAMIRA,
+			HOME_SYSTEM_ROASORA,
+			HOME_SYSTEM_MITORQI,
+			HOME_SYSTEM_SKRELLSPACE,
+			HOME_SYSTEM_ROOT
 		),
 		TAG_FACTION = list(
-		/*	FACTION_UNATHI_POLAR,
+			FACTION_UNATHI_POLAR,
 			FACTION_UNATHI_DESERT,
 			FACTION_UNATHI_SAVANNAH,
 			FACTION_UNATHI_DIAMOND_PEAK,
-			FACTION_UNATHI_SALT_SWAMP*/
+			FACTION_UNATHI_SALT_SWAMP
 		),
 		TAG_RELIGION =  list(
 			RELIGION_UNATHI_STRATAGEM,

@@ -42,13 +42,7 @@ var/list/worths = list(
 					/obj/item/weapon/gun/launcher/syringe = 150,
 					/obj/item/weapon/gun/launcher/alien = 3500,
 					/obj/item/weapon/gun/launcher = 300,
-//AUTOMATICS,
-					/obj/item/weapon/gun/projectile/automatic/merc_smg = 3000,
-					/obj/item/weapon/gun/projectile/automatic/assault_rifle = 3500,
-					/obj/item/weapon/gun/projectile/automatic/bullpup_rifle = 3100,
-					/obj/item/weapon/gun/projectile/automatic/l6_saw = 15000,
-					/obj/item/weapon/gun/projectile/automatic/machine_pistol/usi = 2000,
-					/obj/item/weapon/gun/projectile/automatic = 2300,
+
 //PROJECTILE,
 					/obj/item/weapon/gun/projectile/pistol/sec/MK = 1200,
 					/obj/item/weapon/gun/projectile/pistol/gyropistol = 5500,
@@ -63,6 +57,7 @@ var/list/worths = list(
 					/obj/item/weapon/gun/projectile/heavysniper/ant = 1800,
 					/obj/item/weapon/gun/projectile/heavysniper = 12000,
 					/obj/item/weapon/gun/projectile = 1500,
+
 //GUN,
 					/obj/item/weapon/gun = 500,
 //MATERIAL STACKS,

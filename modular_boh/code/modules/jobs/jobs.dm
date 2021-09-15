@@ -31,7 +31,7 @@ var/const/INF               =(1<<11)
 	selection_color = "#557e38"
 	minimal_player_age = 12
 	economic_power = 7
-	skill_points = 26
+	skill_points = 35
 	is_whitelisted = TRUE
 	minimum_character_age = list(SPECIES_HUMAN = 25)
 	min_skill = list(   SKILL_BUREAUCRACY = SKILL_BASIC,
@@ -45,11 +45,17 @@ var/const/INF               =(1<<11)
 						SKILL_EVA		  = SKILL_EXPERT,
 						SKILL_HAULING     = SKILL_PROF)
 
+	alt_titles = list(
+		"Fireteam Leader",
+		"Infantry Leader",
+		"Squad Commander")
+
 	software_on_spawn = list(/datum/computer_file/program/deck_management,
 							 /datum/computer_file/program/reports)
 	allowed_branches = list(/datum/mil_branch/marine_corps)
 	allowed_ranks = list(
-		/datum/mil_rank/marine_corps/e6
+		/datum/mil_rank/marine_corps/e6,
+		/datum/mil_rank/marine_corps/e7
 	)
 	access = list(access_maint_tunnels, access_solgov_crew, access_petrov, access_petrov_security,
 			            access_expedition_shuttle, access_expedition_shuttle_helm, access_guppy, access_hangar, access_guppy_helm, access_infantry,
@@ -68,7 +74,7 @@ var/const/INF               =(1<<11)
 	selection_color = "#557e38"
 	economic_power = 4
 	minimal_player_age = 8
-	skill_points = 22
+	skill_points = 30
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/infantry/combat_tech
 	minimum_character_age = list(SPECIES_HUMAN = 20)
 	min_skill = list(	SKILL_CONSTRUCTION = SKILL_ADEPT,
@@ -85,7 +91,10 @@ var/const/INF               =(1<<11)
 
 	alt_titles = list(
 		"Combat Engineer",
-		"Combat Medic")
+		"Combat Medic",
+		"Combat Specialist",
+		"Combat Gunner",
+		"Combat Pilot")
 
 	allowed_branches = list(/datum/mil_branch/marine_corps)
 	allowed_ranks = list(
@@ -117,7 +126,7 @@ var/const/INF               =(1<<11)
 	supervisors = "the Combat Technician and Squad Leader"
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/infantry
 	selection_color = "#557e38"
-	skill_points = 18
+	skill_points = 27
 	minimum_character_age = list(SPECIES_HUMAN = 18)
 	min_skill = list(	SKILL_COMBAT       = SKILL_ADEPT,
 						SKILL_WEAPONS      = SKILL_ADEPT,
@@ -129,7 +138,11 @@ var/const/INF               =(1<<11)
 
 	alt_titles = list(
 		"Grunt",
-		"Trooper")
+		"Trooper",
+		"Squad Marine",
+		"Squad Corpsman",
+		"Squad Mechanic Technician",
+		"Squad Marksman Gunner")
 
 	software_on_spawn = list(/datum/computer_file/program/deck_management)
 	allowed_branches = list(/datum/mil_branch/marine_corps)
@@ -178,7 +191,7 @@ var/const/INF               =(1<<11)
 		SKILL_COMBAT     = SKILL_EXPERT,
 		SKILL_WEAPONS     = SKILL_EXPERT
 	)
-	skill_points = 24
+	skill_points = 25
 	access = list(access_psiadvisor, access_security, access_medical, access_engine, access_maint_tunnels, access_external_airlocks,
 				access_eva, access_bridge, access_cargo, access_RC_announce, access_solgov_crew, access_hangar)
 	minimal_access = list()
@@ -220,7 +233,7 @@ var/const/INF               =(1<<11)
 	max_skill = list(   SKILL_COMBAT      = SKILL_EXPERT,
 	                    SKILL_WEAPONS     = SKILL_EXPERT,
 	                    SKILL_FORENSICS   = SKILL_EXPERT)
-	skill_points = 16
+	skill_points = 25
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/security/maa
 	allowed_branches = list(
 		/datum/mil_branch/fleet = /decl/hierarchy/outfit/job/torch/crew/security/maa/fleet,
@@ -234,7 +247,7 @@ var/const/INF               =(1<<11)
 	)
 	access = list(access_security, access_brig, access_maint_tunnels,
 						access_external_airlocks, access_emergency_storage,
-			            access_eva, access_sec_doors, access_solgov_crew)
+			            access_eva, access_sec_doors, access_solgov_crew, access_forensics_lockers)
 	minimal_access = list()
 	software_on_spawn = list(/datum/computer_file/program/digitalwarrant)
 
@@ -275,7 +288,7 @@ var/const/INF               =(1<<11)
 	                    SKILL_ELECTRICAL   = SKILL_EXPERT,
 	                    SKILL_ENGINES      = SKILL_EXPERT,
 	                    SKILL_ATMOS        = SKILL_EXPERT)
-	skill_points = 24
+	skill_points = 35
 
 
 	access = list(access_medical, access_engine, access_maint_tunnels, access_external_airlocks, access_emergency_storage,
@@ -347,7 +360,7 @@ var/const/INF               =(1<<11)
 	                    SKILL_DEVICES      = SKILL_MAX,
 	                    SKILL_MEDICAL      = SKILL_EXPERT,
 	                    SKILL_ANATOMY      = SKILL_EXPERT)
-	skill_points = 22
+	skill_points = 30
 
 	access = list(access_maint_tunnels, access_research, access_robotics, access_nanotrasen, access_solgov_crew, access_surgery, access_medical)
 	minimal_access = list()
@@ -379,7 +392,7 @@ var/const/INF               =(1<<11)
 	max_skill = list(   SKILL_COMBAT      = SKILL_PROF,
 	                    SKILL_WEAPONS     = SKILL_PROF,
 	                    SKILL_FORENSICS   = SKILL_EXPERT)
-	skill_points = 20
+	skill_points = 30
 
 	access = list( //Same access as the SolGov Representative + Private access to their equipment locker
 		access_representative, access_representative_guard, access_bridge, access_torch_fax, access_solgov_crew,
