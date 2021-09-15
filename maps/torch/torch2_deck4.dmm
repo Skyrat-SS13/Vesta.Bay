@@ -348,6 +348,18 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/hallway/primary/fourthdeck/aft)
+"bl" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/grass,
+/area/hallway/primary/fourthdeck/aft)
 "bm" = (
 /obj/machinery/door/airlock/hatch/maintenance,
 /obj/machinery/door/firedoor,
@@ -532,6 +544,9 @@
 "bN" = (
 /turf/simulated/floor/plating,
 /area/maintenance/fourthdeck/forestarboard)
+"bO" = (
+/turf/simulated/floor/grass,
+/area/hallway/primary/fourthdeck/aft)
 "bP" = (
 /turf/simulated/floor/tiled/monotile,
 /area/shuttle/escape_pod6/station)
@@ -607,6 +622,16 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/fourthdeck/forestarboard)
+"cc" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/grass,
+/area/hallway/primary/fourthdeck/aft)
 "cd" = (
 /obj/structure/railing/mapped,
 /obj/structure/lattice,
@@ -3005,6 +3030,10 @@
 /obj/structure/grille,
 /turf/simulated/floor/plating,
 /area/maintenance/fourthdeck/aft)
+"jL" = (
+/obj/structure/flora/ausbushes/lavendergrass,
+/turf/simulated/floor/grass,
+/area/hallway/primary/fourthdeck/aft)
 "jN" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 4
@@ -3306,7 +3335,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/steel_grid,
+/turf/simulated/floor/grass,
 /area/hallway/primary/fourthdeck/aft)
 "kZ" = (
 /obj/structure/table/rack{
@@ -7413,7 +7442,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/grass,
 /area/hallway/primary/fourthdeck/aft)
 "xn" = (
 /obj/effect/floor_decal/corner/brown{
@@ -7856,7 +7885,7 @@
 /obj/machinery/hologram/holopad,
 /obj/effect/landmark/test/safe_turf,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/tiled/monotile,
+/turf/simulated/floor/grass,
 /area/hallway/primary/fourthdeck/aft)
 "yF" = (
 /obj/structure/ladder/up,
@@ -7867,7 +7896,7 @@
 	dir = 8;
 	pixel_x = 32
 	},
-/turf/simulated/floor/tiled/steel_grid,
+/turf/simulated/floor/grass,
 /area/hallway/primary/fourthdeck/aft)
 "yG" = (
 /obj/machinery/conveyor{
@@ -8263,7 +8292,7 @@
 /obj/effect/floor_decal/corner/green{
 	dir = 6
 	},
-/turf/simulated/floor/tiled/steel_grid,
+/turf/simulated/floor/grass,
 /area/hallway/primary/fourthdeck/aft)
 "Aa" = (
 /obj/structure/bed/chair/shuttle{
@@ -8367,6 +8396,12 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/eva)
+"As" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/turf/simulated/floor/grass,
+/area/hallway/primary/fourthdeck/aft)
 "At" = (
 /obj/effect/floor_decal/corner/brown/half,
 /turf/simulated/floor/tiled,
@@ -11166,7 +11201,7 @@
 	dir = 1;
 	pixel_y = -24
 	},
-/turf/simulated/floor/tiled/steel_grid,
+/turf/simulated/floor/grass,
 /area/hallway/primary/fourthdeck/aft)
 "Kk" = (
 /obj/machinery/suit_cycler/medical/alt,
@@ -12190,7 +12225,8 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled,
+/obj/structure/flora/ausbushes/fullgrass,
+/turf/simulated/floor/grass,
 /area/hallway/primary/fourthdeck/aft)
 "MU" = (
 /obj/machinery/door/firedoor,
@@ -13403,6 +13439,7 @@
 	dir = 1;
 	icon_state = "warning"
 	},
+/obj/item/weapon/gun/energy/gun/small,
 /turf/simulated/floor/tiled/monotile,
 /area/quartermaster/storage/upper)
 "Qg" = (
@@ -14450,6 +14487,10 @@
 "SI" = (
 /turf/simulated/wall/prepainted,
 /area/maintenance/substation/fourthdeck)
+"SJ" = (
+/obj/structure/flora/ausbushes/sparsegrass,
+/turf/simulated/floor/grass,
+/area/hallway/primary/fourthdeck/aft)
 "SK" = (
 /obj/effect/floor_decal/corner/brown{
 	dir = 9
@@ -14901,6 +14942,7 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
+/obj/item/weapon/gun/energy/revolver/secure,
 /turf/simulated/floor/tiled,
 /area/quartermaster/deckchief)
 "TP" = (
@@ -17264,7 +17306,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/grass,
 /area/hallway/primary/fourthdeck/aft)
 "ZF" = (
 /obj/machinery/newscaster{
@@ -38785,8 +38827,8 @@ Xu
 AR
 xm
 MT
-Qb
-MT
+bl
+cc
 Ou
 Qb
 YB
@@ -38987,8 +39029,8 @@ yC
 rz
 ZE
 yD
-ZS
-yC
+As
+jL
 gM
 ZS
 bE
@@ -39187,10 +39229,10 @@ rH
 tb
 yC
 rz
-yC
-yC
-yC
-yC
+SJ
+bO
+jL
+bO
 gM
 yC
 vi
