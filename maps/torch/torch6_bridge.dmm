@@ -8789,12 +8789,12 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
-/obj/item/weapon/storage/secure/safe{
-	name = "Delta safe";
-	pixel_x = -20
-	},
 /obj/item/weapon/storage/secure/briefcase/nukedisk{
 	desc = "Only open in high emergency"
+	},
+/obj/structure/closet/secure_closet/wall{
+	name = "Delta Safe";
+	pixel_x = -30
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/safe_room/bridge)
@@ -15475,12 +15475,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
-/obj/item/weapon/storage/secure/safe{
-	desc = "misuse of this ID card can and will make you arrested by solarian laws";
-	name = "ROIC All Access ID";
-	pixel_x = -20
-	},
 /obj/item/weapon/card/id/captains_spare,
+/obj/structure/closet/secure_closet/wall{
+	desc = "misuse of this ID card can and will make you arrested by solarian laws";
+	name = "ROIC All Acess ID";
+	pixel_x = -30
+	},
 /turf/simulated/floor/tiled/dark,
 /area/bridge/storage)
 "LQ" = (

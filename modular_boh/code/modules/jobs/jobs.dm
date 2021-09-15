@@ -54,7 +54,7 @@ var/const/INF               =(1<<11)
 							 /datum/computer_file/program/reports)
 	allowed_branches = list(/datum/mil_branch/marine_corps)
 	allowed_ranks = list(
-		/datum/mil_rank/marine_corps/e6
+		/datum/mil_rank/marine_corps/e6,
 		/datum/mil_rank/marine_corps/e7
 	)
 	access = list(access_maint_tunnels, access_solgov_crew, access_petrov, access_petrov_security,

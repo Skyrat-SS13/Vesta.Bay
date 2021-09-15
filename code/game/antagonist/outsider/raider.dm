@@ -93,8 +93,7 @@ GLOBAL_DATUM_INIT(raiders, /datum/antagonist/raider, new)
 		/obj/item/weapon/gun/projectile/revolver,
 		/obj/item/weapon/gun/projectile/pirate,
 		/obj/item/weapon/gun/projectile/revolver/medium,
-		/obj/item/weapon/gun/projectile/pistol/throwback
-		/obj/item/gun/projectile/pistol/broomstick
+		/obj/item/weapon/gun/projectile/pistol/throwback,
 		)
 
 	var/list/raider_holster = list(
@@ -304,33 +303,3 @@ GLOBAL_DATUM_INIT(raiders, /datum/antagonist/raider, new)
 	desc = "This is a random raider rifle."
 	icon = 'icons/obj/guns/assault_rifle.dmi'
 	icon_state = "arifle"
-
-/obj/random/raider/biggun/spawn_choices()
-
-	return list(/obj/item/gun/energy/lasercannon,
-				/obj/item/gun/energy/laser,
-				/obj/item/gun/energy/captain,
-				/obj/item/gun/energy/pulse_rifle,
-				/obj/item/gun/energy/pulse_rifle/carbine,
-				/obj/item/gun/energy/sniperrifle,
-				/obj/item/gun/projectile/shotgun/doublebarrel,
-				/obj/item/gun/energy/xray,
-				/obj/item/gun/projectile/automatic/battlerifle,
-				/obj/item/gun/projectile/sniper/semistrip,
-				/obj/item/gun/projectile/sniper/garand,
-				/obj/item/gun/projectile/automatic/assault_rifle,
-				/obj/item/gun/projectile/automatic/sec_smg,
-				/obj/item/gun/energy/crossbow/largecrossbow,
-				/obj/item/gun/projectile/shotgun/pump/combat,
-				/obj/item/gun/energy/ionrifle,
-				/obj/item/gun/projectile/shotgun/pump
-	)
-
-/obj/item/vox_changer/raider
-	allowed_role = "Raider"
-
-/obj/item/vox_changer/raider/OnCreated(mob/living/carbon/human/vox, mob/living/carbon/human/old)
-	GLOB.raiders.equip_vox(vox, old)
-
-/obj/item/vox_changer/raider/OnReady(mob/living/carbon/human/vox, mob/living/carbon/human/old)
-	GLOB.raiders.update_access(vox)

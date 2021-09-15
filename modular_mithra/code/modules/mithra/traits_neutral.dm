@@ -126,7 +126,6 @@
 /datum/trait/photoresistant
 	name = "Phototransductive Praesidium"
 	desc = "Your eyes are slightly more resillient against bright lights."
-	cost = 1
 	var_changes = list("flash_mod" = 0.85)
 	excludes = list(/datum/trait/darksight_plus)
 

@@ -348,18 +348,6 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/hallway/primary/fourthdeck/aft)
-"bl" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 8
-	},
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/grass,
-/area/hallway/primary/fourthdeck/aft)
 "bm" = (
 /obj/machinery/door/airlock/hatch/maintenance,
 /obj/machinery/door/firedoor,
@@ -544,9 +532,6 @@
 "bN" = (
 /turf/simulated/floor/plating,
 /area/maintenance/fourthdeck/forestarboard)
-"bO" = (
-/turf/simulated/floor/grass,
-/area/hallway/primary/fourthdeck/aft)
 "bP" = (
 /turf/simulated/floor/tiled/monotile,
 /area/shuttle/escape_pod6/station)
@@ -622,16 +607,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/fourthdeck/forestarboard)
-"cc" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/grass,
-/area/hallway/primary/fourthdeck/aft)
 "cd" = (
 /obj/structure/railing/mapped,
 /obj/structure/lattice,
@@ -1004,6 +979,12 @@
 	},
 /turf/simulated/open,
 /area/quartermaster/storage/upper)
+"df" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/turf/simulated/floor/grass,
+/area/hallway/primary/fourthdeck/aft)
 "dg" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/storage/auxillary/starboard)
@@ -3030,10 +3011,6 @@
 /obj/structure/grille,
 /turf/simulated/floor/plating,
 /area/maintenance/fourthdeck/aft)
-"jL" = (
-/obj/structure/flora/ausbushes/lavendergrass,
-/turf/simulated/floor/grass,
-/area/hallway/primary/fourthdeck/aft)
 "jN" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 4
@@ -4354,6 +4331,10 @@
 /obj/effect/floor_decal/corner/white,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/fourthdeck/fore)
+"nC" = (
+/obj/structure/flora/ausbushes/lavendergrass,
+/turf/simulated/floor/grass,
+/area/hallway/primary/fourthdeck/aft)
 "nD" = (
 /obj/effect/shuttle_landmark/escape_pod/start/pod7,
 /obj/effect/wallframe_spawn/reinforced/titanium,
@@ -8396,12 +8377,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/eva)
-"As" = (
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 8
-	},
-/turf/simulated/floor/grass,
-/area/hallway/primary/fourthdeck/aft)
 "At" = (
 /obj/effect/floor_decal/corner/brown/half,
 /turf/simulated/floor/tiled,
@@ -8907,6 +8882,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/simulated/floor/tiled/monotile,
 /area/shuttle/escape_pod7/station)
+"CL" = (
+/obj/structure/flora/ausbushes/sparsegrass,
+/turf/simulated/floor/grass,
+/area/hallway/primary/fourthdeck/aft)
 "CN" = (
 /obj/structure/closet/crate,
 /obj/random/junk,
@@ -14133,6 +14112,18 @@
 /obj/effect/floor_decal/corner/brown/half,
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/fourthdeck/aft)
+"RX" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/grass,
+/area/hallway/primary/fourthdeck/aft)
 "RY" = (
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/lounge)
@@ -14487,10 +14478,6 @@
 "SI" = (
 /turf/simulated/wall/prepainted,
 /area/maintenance/substation/fourthdeck)
-"SJ" = (
-/obj/structure/flora/ausbushes/sparsegrass,
-/turf/simulated/floor/grass,
-/area/hallway/primary/fourthdeck/aft)
 "SK" = (
 /obj/effect/floor_decal/corner/brown{
 	dir = 9
@@ -15025,6 +15012,9 @@
 "TY" = (
 /turf/simulated/floor/carpet,
 /area/crew_quarters/lounge)
+"Ua" = (
+/turf/simulated/floor/grass,
+/area/hallway/primary/fourthdeck/aft)
 "Ub" = (
 /turf/simulated/wall/prepainted,
 /area/janitor)
@@ -16382,6 +16372,16 @@
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/fourthdeck/port)
+"Xx" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/grass,
+/area/hallway/primary/fourthdeck/aft)
 "Xz" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -38827,8 +38827,8 @@ Xu
 AR
 xm
 MT
-bl
-cc
+RX
+Xx
 Ou
 Qb
 YB
@@ -39029,8 +39029,8 @@ yC
 rz
 ZE
 yD
-As
-jL
+df
+nC
 gM
 ZS
 bE
@@ -39229,10 +39229,10 @@ rH
 tb
 yC
 rz
-SJ
-bO
-jL
-bO
+CL
+Ua
+nC
+Ua
 gM
 yC
 vi
