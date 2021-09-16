@@ -128,9 +128,8 @@ var/const/INF               =(1<<11)
 						SKILL_EVA		  = SKILL_EXPERT)
 
 	alt_titles = list(
-		"Combat Specialist",
-		"Marksman",
-		"Gunner")
+		"Grunt",
+		"Trooper")
 
 	software_on_spawn = list(/datum/computer_file/program/deck_management)
 	allowed_branches = list(/datum/mil_branch/marine_corps)
