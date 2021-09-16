@@ -8832,10 +8832,8 @@
 "tP" = (
 /obj/machinery/atmospherics/binary/passive_gate/on{
 	dir = 8;
-	max_pressure_setting = 15000;
 	name = "CO2 to Hangar";
-	regulate_mode = 2;
-	target_pressure = 2500;
+	target_pressure = 15000;
 	use_power = 1
 	},
 /obj/machinery/camera/network/engineering{
