@@ -11141,12 +11141,14 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/bridge/aftstarboard)
 "yW" = (
+/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/wall/prepainted,
 /area/security/bridgecheck)
 "za" = (
 /obj/structure/closet/secure_closet/XO,
 /obj/random/drinkbottle,
 /obj/item/gunbox/executive,
+/obj/item/clothing/accessory/storage/holster/thigh,
 /turf/simulated/floor/carpet,
 /area/crew_quarters/heads/office/xo)
 "zb" = (
@@ -12065,6 +12067,12 @@
 	dir = 1
 	},
 /turf/simulated/floor/plating,
+/area/hallway/primary/bridge/fore)
+"By" = (
+/obj/machinery/rotating_alarm/supermatter{
+	dir = 1
+	},
+/turf/simulated/wall/r_wall/prepainted,
 /area/hallway/primary/bridge/fore)
 "Bz" = (
 /obj/machinery/computer/rcon{
@@ -13299,6 +13307,10 @@
 	},
 /turf/simulated/floor/carpet/blue,
 /area/crew_quarters/heads/office/co)
+"Fm" = (
+/obj/machinery/rotating_alarm/supermatter,
+/turf/simulated/wall/r_wall/prepainted,
+/area/bridge/meeting_room)
 "Fn" = (
 /obj/effect/floor_decal/scglogo{
 	dir = 4;
@@ -15074,6 +15086,7 @@
 	},
 /obj/item/weapon/aiModule/freeform,
 /obj/item/gunbox/captain,
+/obj/item/clothing/accessory/storage/holster/thigh,
 /turf/simulated/floor/carpet/blue,
 /area/crew_quarters/heads/cobed)
 "Ks" = (
@@ -18408,6 +18421,10 @@
 "UA" = (
 /turf/simulated/floor/tiled/dark,
 /area/security/bridgecheck)
+"UC" = (
+/obj/machinery/rotating_alarm/supermatter,
+/turf/simulated/wall/r_wall/prepainted,
+/area/bridge)
 "UD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
@@ -18747,6 +18764,7 @@
 	},
 /obj/structure/table/woodentable/walnut,
 /obj/item/sticky_pad/random,
+/obj/item/toy/bosunwhistle,
 /turf/simulated/floor/carpet,
 /area/crew_quarters/heads/office/xo)
 "VH" = (
@@ -20027,6 +20045,13 @@
 /obj/structure/sign/solgov,
 /turf/simulated/wall/r_wall/prepainted,
 /area/command/msea)
+"Zz" = (
+/obj/machinery/rotating_alarm/supermatter{
+	dir = 1
+	},
+/obj/machinery/rotating_alarm/supermatter,
+/turf/simulated/wall/r_wall/prepainted,
+/area/bridge/meeting_room)
 "ZA" = (
 /obj/machinery/shield_diffuser,
 /obj/machinery/door/airlock/external{
@@ -20184,6 +20209,12 @@
 /mob/living/simple_animal/corgi/Ian,
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/heads/office/xo)
+"ZW" = (
+/obj/machinery/rotating_alarm/supermatter{
+	dir = 1
+	},
+/turf/simulated/wall/r_wall/prepainted,
+/area/bridge)
 "ZX" = (
 /obj/effect/floor_decal/corner/paleblue/diagonal,
 /obj/structure/bed/chair/padded/teal,
@@ -28978,13 +29009,13 @@ qO
 yM
 eP
 hV
-eP
+UC
 jy
 hn
 HC
 hn
 dW
-eP
+ZW
 HX
 eP
 Dx
@@ -30592,7 +30623,7 @@ eT
 EM
 Uk
 Hs
-hs
+Fm
 cW
 dg
 Te
@@ -30602,7 +30633,7 @@ zf
 Te
 el
 eK
-hs
+Zz
 qY
 AJ
 rS
@@ -33622,7 +33653,7 @@ Oj
 sT
 uJ
 zo
-hC
+By
 La
 iX
 Lk
