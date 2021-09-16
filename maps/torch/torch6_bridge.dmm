@@ -5145,6 +5145,7 @@
 	dir = 5
 	},
 /obj/effect/floor_decal/spline/plain/beige,
+/obj/structure/closet/walllocker,
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/heads/office/sea)
 "kw" = (
@@ -9609,6 +9610,7 @@
 	},
 /obj/item/weapon/pen,
 /obj/item/weapon/material/clipboard,
+/obj/item/weapon/storage/secure/briefcase/nukedisk,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/office/sea)
 "vl" = (
@@ -16028,7 +16030,6 @@
 	pixel_y = -28;
 	req_access = list(list("ACCESS_ENGINE_EQUIP","ACCESS_ATMOS"))
 	},
-/obj/item/weapon/storage/secure/briefcase/nukedisk,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/cobed)
 "NE" = (
@@ -17980,6 +17981,14 @@
 	dir = 8;
 	icon_state = "techfloor_edges"
 	},
+/obj/structure/closet/cabinet{
+	anchored = 1;
+	name = "Delta Alert Cabinet";
+	pixel_x = -25;
+	req_access = list("ACCESS_VAULT");
+	wall_mounted = 1
+	},
+/obj/item/weapon/storage/secure/briefcase/nukedisk,
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/safe_room/bridge)
 "To" = (
@@ -18084,6 +18093,10 @@
 /obj/item/device/radio/phone,
 /turf/simulated/floor/tiled/dark,
 /area/turret_protected/ai_outer_chamber)
+"TG" = (
+/obj/structure/closet/walllocker,
+/turf/simulated/wall/r_wall/prepainted,
+/area/crew_quarters/safe_room/bridge)
 "TI" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
@@ -30188,7 +30201,7 @@ ti
 ti
 PH
 ti
-ti
+TG
 ti
 ti
 ti
