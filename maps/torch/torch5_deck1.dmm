@@ -7377,6 +7377,7 @@
 	pixel_y = -4;
 	pixel_z = 0
 	},
+/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/wall/r_wall/prepainted,
 /area/hallway/primary/firstdeck/center)
 "awa" = (
@@ -15988,6 +15989,12 @@
 /obj/item/device/destTagger,
 /turf/simulated/floor/tiled/white/monotile,
 /area/rnd/office)
+"cBF" = (
+/obj/machinery/rotating_alarm/supermatter{
+	dir = 1
+	},
+/turf/simulated/wall/prepainted,
+/area/operations_storage/robotics)
 "cBU" = (
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 1
@@ -18648,6 +18655,10 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/security/processing)
+"gtK" = (
+/obj/machinery/rotating_alarm/supermatter,
+/turf/simulated/wall/prepainted,
+/area/medical/staging)
 "guu" = (
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/command/armoury)
@@ -18875,6 +18886,12 @@
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/dark,
 /area/security/storage)
+"gGU" = (
+/obj/machinery/rotating_alarm/supermatter{
+	dir = 1
+	},
+/turf/simulated/wall/r_wall/prepainted,
+/area/rnd/development)
 "gHb" = (
 /obj/structure/closet/crate,
 /obj/item/stack/material/phoron{
@@ -19018,6 +19035,9 @@
 /obj/structure/sign/warning/high_voltage{
 	dir = 1;
 	icon_state = "shock"
+	},
+/obj/machinery/rotating_alarm/supermatter{
+	dir = 1
 	},
 /turf/simulated/wall/r_wall/prepainted,
 /area/rnd/development)
@@ -22652,6 +22672,10 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/security/questioning)
+"kVw" = (
+/obj/machinery/rotating_alarm/supermatter,
+/turf/simulated/wall/r_wall/prepainted,
+/area/medical/counselor)
 "kWb" = (
 /obj/effect/floor_decal/corner/research{
 	dir = 10;
@@ -23485,6 +23509,12 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/teleporter/firstdeck)
+"lZU" = (
+/obj/machinery/rotating_alarm/supermatter{
+	dir = 1
+	},
+/turf/simulated/wall/r_wall/prepainted,
+/area/security/opscheck)
 "mav" = (
 /turf/simulated/wall/prepainted,
 /area/rnd/office)
@@ -25438,6 +25468,10 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/firstdeck/fore)
+"ogN" = (
+/obj/machinery/rotating_alarm/supermatter,
+/turf/simulated/wall/prepainted,
+/area/medical/exam_room)
 "ohy" = (
 /turf/simulated/floor/tiled,
 /area/assembly/robotics/laboratory)
@@ -27446,6 +27480,10 @@
 /obj/machinery/atmospherics/pipe/simple/visible,
 /turf/simulated/floor/tiled/white,
 /area/rnd/misc_lab)
+"qCn" = (
+/obj/machinery/rotating_alarm/supermatter,
+/turf/simulated/wall/prepainted,
+/area/assembly/robotics/laboratory)
 "qCs" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
@@ -31365,6 +31403,12 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/security/detectives_office)
+"vbZ" = (
+/obj/machinery/rotating_alarm/supermatter{
+	dir = 1
+	},
+/turf/simulated/wall/prepainted,
+/area/operations_storage/medical)
 "vci" = (
 /obj/effect/wallframe_spawn/reinforced_phoron,
 /turf/simulated/floor/tiled/techfloor,
@@ -32008,6 +32052,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/security/wing)
+"wrZ" = (
+/obj/machinery/rotating_alarm/supermatter,
+/turf/simulated/wall/r_wall/prepainted,
+/area/hallway/primary/firstdeck/center)
 "wtS" = (
 /obj/random/medical,
 /obj/random/medical,
@@ -32492,6 +32540,10 @@
 "xFL" = (
 /turf/simulated/floor/tiled/steel_grid,
 /area/turbolift/robotics_lift)
+"xIL" = (
+/obj/machinery/rotating_alarm/supermatter,
+/turf/simulated/wall/prepainted,
+/area/assembly/chargebay)
 "xJP" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -47790,7 +47842,7 @@ aqn
 aqn
 aqn
 aqn
-hVG
+wrZ
 sNn
 nUp
 aai
@@ -48800,11 +48852,11 @@ acD
 uSl
 uSl
 uSl
-uSl
+xIL
 axe
 ayh
 axe
-aFg
+vbZ
 aFg
 aFg
 aFg
@@ -49810,7 +49862,7 @@ xcW
 oJb
 oJb
 oJb
-oJb
+qCn
 lgb
 bHp
 mMX
@@ -51022,11 +51074,11 @@ kCb
 oJb
 eRQ
 oJb
-oJb
+qCn
 koX
 ayg
 ure
-aBF
+cBF
 aBF
 aBF
 aBF
@@ -52840,11 +52892,11 @@ gyV
 agj
 agx
 agK
-leb
+gtK
 xSf
 ayp
 axe
-awX
+lZU
 awX
 awX
 awX
@@ -55062,7 +55114,7 @@ nCb
 nCb
 gEb
 gEb
-nCb
+ogN
 axy
 hib
 oAp
@@ -56678,11 +56730,11 @@ ais
 atf
 wxY
 dWo
-tQi
+kVw
 bWA
 ygK
 azN
-aik
+gGU
 aik
 aik
 aik

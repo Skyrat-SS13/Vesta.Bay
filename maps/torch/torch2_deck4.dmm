@@ -1062,6 +1062,12 @@
 	},
 /turf/simulated/open,
 /area/maintenance/fourthdeck/starboard)
+"dv" = (
+/obj/machinery/rotating_alarm/supermatter{
+	dir = 1
+	},
+/turf/simulated/wall/prepainted,
+/area/quartermaster/deckchief)
 "dw" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -3143,6 +3149,12 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/quartermaster/hangar/top)
+"kp" = (
+/obj/machinery/rotating_alarm/supermatter{
+	dir = 1
+	},
+/turf/simulated/wall/r_wall/prepainted,
+/area/teleporter/fourthdeck)
 "kq" = (
 /obj/structure/railing/mapped{
 	dir = 4;
@@ -4284,6 +4296,9 @@
 	dir = 1;
 	pixel_y = -4;
 	pixel_z = 0
+	},
+/obj/machinery/rotating_alarm/supermatter{
+	dir = 1
 	},
 /turf/simulated/wall/r_wall/prepainted,
 /area/hallway/primary/fourthdeck/fore)
@@ -7043,6 +7058,9 @@
 	pixel_y = 3;
 	pixel_z = 0
 	},
+/obj/machinery/rotating_alarm/supermatter{
+	dir = 1
+	},
 /turf/simulated/wall/r_wall/prepainted,
 /area/hallway/primary/fourthdeck/aft)
 "wb" = (
@@ -7403,6 +7421,10 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/maintenance/fourthdeck/starboard)
+"xj" = (
+/obj/machinery/rotating_alarm/supermatter,
+/turf/simulated/wall/prepainted,
+/area/storage/primary)
 "xm" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 8
@@ -7916,6 +7938,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/fourthdeck/aft)
+"yR" = (
+/obj/machinery/rotating_alarm/supermatter,
+/turf/simulated/wall/prepainted,
+/area/hallway/primary/fourthdeck/aft)
 "ze" = (
 /obj/structure/railing/mapped{
 	dir = 1;
@@ -8367,6 +8393,10 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/eva)
+"An" = (
+/obj/machinery/rotating_alarm/supermatter,
+/turf/simulated/wall/r_wall/prepainted,
+/area/teleporter/fourthdeck)
 "At" = (
 /obj/effect/floor_decal/corner/brown/half,
 /turf/simulated/floor/tiled,
@@ -8576,6 +8606,10 @@
 /obj/machinery/door/blast/regular/escape_pod,
 /turf/simulated/floor/reinforced,
 /area/maintenance/fourthdeck/port)
+"BA" = (
+/obj/machinery/rotating_alarm/supermatter,
+/turf/simulated/wall/mahogany,
+/area/command/captainmess)
 "BD" = (
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/fourthdeck/foreport)
@@ -8868,6 +8902,12 @@
 /obj/structure/bed/chair/comfy/brown,
 /turf/simulated/floor/carpet,
 /area/crew_quarters/lounge)
+"CJ" = (
+/obj/machinery/rotating_alarm/supermatter{
+	dir = 1
+	},
+/turf/simulated/wall/r_wall/prepainted,
+/area/hallway/primary/fourthdeck/fore)
 "CK" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/simulated/floor/tiled/monotile,
@@ -9958,6 +9998,10 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/lounge)
+"Gr" = (
+/obj/machinery/rotating_alarm/supermatter,
+/turf/simulated/wall/prepainted,
+/area/crew_quarters/laundry)
 "Gt" = (
 /obj/effect/shuttle_landmark/scavver_gantry/torch,
 /turf/space,
@@ -28474,14 +28518,14 @@ jc
 ej
 mh
 nn
-oA
+kp
 oA
 pM
 qW
 sr
 tV
 vp
-oA
+An
 xT
 mh
 AH
@@ -29087,7 +29131,7 @@ qZ
 st
 tX
 vs
-oA
+An
 xW
 ZZ
 AH
@@ -30097,7 +30141,7 @@ rd
 sx
 ub
 vw
-wF
+xj
 LJ
 mh
 ct
@@ -30898,14 +30942,14 @@ vF
 vF
 Xz
 mr
-ct
+CJ
 ct
 ct
 rd
 hE
 uc
 wF
-wF
+xj
 Pv
 zy
 ct
@@ -35128,7 +35172,7 @@ ak
 er
 er
 Xl
-fd
+BA
 RH
 dS
 eB
@@ -39384,7 +39428,7 @@ PJ
 PJ
 PJ
 PJ
-PJ
+Gr
 gq
 lM
 RW
@@ -40596,11 +40640,11 @@ AT
 da
 Il
 xE
-Xn
+yR
 TH
 MI
 ql
-vK
+dv
 ST
 Sh
 Sy
