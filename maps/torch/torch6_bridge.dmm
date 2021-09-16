@@ -8217,6 +8217,9 @@
 	id_tag = "bridge_safe_exterior";
 	name = "Bridge Safe Room"
 	},
+/obj/item/weapon/airlock_brace{
+	req_access = list("ACCESS_BRIDGE")
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/crew_quarters/safe_room/bridge)
 "rS" = (
@@ -9900,6 +9903,7 @@
 /obj/structure/table/standard{
 	name = "plastic table frame"
 	},
+/obj/item/weapon/storage/secure/briefcase/nukedisk,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/crew_quarters/safe_room/bridge)
 "vW" = (
@@ -17981,14 +17985,6 @@
 	dir = 8;
 	icon_state = "techfloor_edges"
 	},
-/obj/structure/closet/cabinet{
-	anchored = 1;
-	name = "Delta Alert Cabinet";
-	pixel_x = -25;
-	req_access = list("ACCESS_VAULT");
-	wall_mounted = 1
-	},
-/obj/item/weapon/storage/secure/briefcase/nukedisk,
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/safe_room/bridge)
 "To" = (
