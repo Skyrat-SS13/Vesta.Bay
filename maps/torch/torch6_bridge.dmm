@@ -16028,7 +16028,6 @@
 	pixel_y = -28;
 	req_access = list(list("ACCESS_ENGINE_EQUIP","ACCESS_ATMOS"))
 	},
-/obj/item/weapon/storage/secure/briefcase/nukedisk,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/cobed)
 "NE" = (
@@ -17980,6 +17979,16 @@
 	dir = 8;
 	icon_state = "techfloor_edges"
 	},
+/obj/item/weapon/storage/secure/safe{
+	desc = "A secure wall safe with the words "OPEN IN EVENT OF HIGH-EMERGENCY" printed in small print under the keypad.";
+	name = "Delta Level Safe";
+	pixel_x = -20;
+	req_access = ACCESS_VAULT
+	},
+/obj/item/weapon/disk/nuclear,
+/obj/item/weapon/folder/envelope/nuke_instructions,
+/obj/item/weapon/pinpointer/advpinpointer,
+/obj/item/weapon/pinpointer/advpinpointer,
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/safe_room/bridge)
 "To" = (

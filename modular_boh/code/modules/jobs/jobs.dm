@@ -10,7 +10,7 @@ var/const/INF               =(1<<11)
 	name = "Infantry Outfit"
 
 /decl/hierarchy/outfit/job/security/infantry/squadlead
-	name = OUTFIT_JOB_NAME("Squad Lead")
+	name = OUTFIT_JOB_NAME("")
 
 /decl/hierarchy/outfit/job/security/infantry/tech
 	name = OUTFIT_JOB_NAME("Combat Tech")
@@ -20,7 +20,7 @@ var/const/INF               =(1<<11)
 
 //Infantry Jobs
 /datum/job/squad_lead
-	title = "Squad Lead"
+	title = ""
 	department = "Infantry"
 	department_flag = INF
 	head_position = 1
@@ -56,11 +56,11 @@ var/const/INF               =(1<<11)
 			            access_infcom, access_inftech, access_aquila, access_eva, access_bridge)
 
 /datum/job/squad_lead/get_description_blurb()
-	return "<span class='warning'>You are NOT Security. Ignoring this will get you job banned, or worse.</span> - You are a Squad Leader. Your duty is to organize and lead the small infantry squad to support the Pathfinder. You command Marines in your Squad. You make sure that expedition has the firepower it needs. Once on the away mission, your duty is to ensure that the worst doesn't become reality."
+	return "<span class='warning'>You are NOT Security. Ignoring this will get you job banned, or worse.</span> - You are a er. Your duty is to organize and lead the small infantry squad to support the Pathfinder. You command Marines in your Squad. You make sure that expedition has the firepower it needs. Once on the away mission, your duty is to ensure that the worst doesn't become reality."
 
 /datum/job/combat_tech
 	title = "Combat Technician"
-	supervisors = "the Squad Leader"
+	supervisors = "the er"
 	department = "Infantry"
 	department_flag = INF
 	total_positions = 1
@@ -100,12 +100,12 @@ var/const/INF               =(1<<11)
 /datum/job/combat_tech/is_position_available()
 	if(..())
 		for(var/mob/M in GLOB.player_list)
-			if(M.client && M.mind && M.mind.assigned_role == "Squad Lead")
+			if(M.client && M.mind && M.mind.assigned_role == "")
 				return TRUE
 	return FALSE
 
 /datum/job/combat_tech/get_description_blurb()
-	return "<span class='warning'>You are NOT Security. Ignoring this will get you job banned, or worse.</span> - You are the singular Combat Technician in the squad. Your duty is to provide both firepower and demolitions as required. You may assume Command if no Squad Leader is present."
+	return "<span class='warning'>You are NOT Security. Ignoring this will get you job banned, or worse.</span> - You are the singular Combat Technician in the squad. Your duty is to provide both firepower and demolitions as required. You may assume Command if no er is present."
 
 /datum/job/grunt
 	title = "Rifleman"
@@ -114,7 +114,7 @@ var/const/INF               =(1<<11)
 	total_positions = 3
 	spawn_positions = 3
 	minimal_player_age = 6
-	supervisors = "the Combat Technician and Squad Leader"
+	supervisors = "the Combat Technician and er"
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/infantry
 	selection_color = "#557e38"
 	skill_points = 18
@@ -146,12 +146,12 @@ var/const/INF               =(1<<11)
 /datum/job/grunt/is_position_available()
 	if(..())
 		for(var/mob/M in GLOB.player_list)
-			if(M.client && M.mind && M.mind.assigned_role == "Squad Lead")
+			if(M.client && M.mind && M.mind.assigned_role == "")
 				return TRUE
 	return FALSE
 
 /datum/job/grunt/get_description_blurb()
-	return "<span class='warning'>You are NOT Security. Ignoring this will get you job banned, or worse.</span> - You are a Marine! Your duty is to listen to the Squad Leader. If they're not present, the Combat Technician may pull rank. Do your best not to die, while also taking orders. Oorah!"
+	return "<span class='warning'>You are NOT Security. Ignoring this will get you job banned, or worse.</span> - You are a Marine! Your duty is to listen to the er. If they're not present, the Combat Technician may pull rank. Do your best not to die, while also taking orders. Oorah!"
 
 //############# PSYKER
 
