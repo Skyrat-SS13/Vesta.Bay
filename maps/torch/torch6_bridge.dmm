@@ -5145,6 +5145,7 @@
 	dir = 5
 	},
 /obj/effect/floor_decal/spline/plain/beige,
+/obj/structure/closet/walllocker,
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/heads/office/sea)
 "kw" = (
@@ -8216,6 +8217,9 @@
 	id_tag = "bridge_safe_exterior";
 	name = "Bridge Safe Room"
 	},
+/obj/item/weapon/airlock_brace{
+	req_access = list("ACCESS_BRIDGE")
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/crew_quarters/safe_room/bridge)
 "rS" = (
@@ -9609,6 +9613,7 @@
 	},
 /obj/item/weapon/pen,
 /obj/item/weapon/material/clipboard,
+/obj/item/weapon/storage/secure/briefcase/nukedisk,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/office/sea)
 "vl" = (
@@ -9898,6 +9903,7 @@
 /obj/structure/table/standard{
 	name = "plastic table frame"
 	},
+/obj/item/weapon/storage/secure/briefcase/nukedisk,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/crew_quarters/safe_room/bridge)
 "vW" = (
@@ -16028,7 +16034,6 @@
 	pixel_y = -28;
 	req_access = list(list("ACCESS_ENGINE_EQUIP","ACCESS_ATMOS"))
 	},
-/obj/item/weapon/storage/secure/briefcase/nukedisk,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/cobed)
 "NE" = (
@@ -18084,6 +18089,10 @@
 /obj/item/device/radio/phone,
 /turf/simulated/floor/tiled/dark,
 /area/turret_protected/ai_outer_chamber)
+"TG" = (
+/obj/structure/closet/walllocker,
+/turf/simulated/wall/r_wall/prepainted,
+/area/crew_quarters/safe_room/bridge)
 "TI" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
@@ -30188,7 +30197,7 @@ ti
 ti
 PH
 ti
-ti
+TG
 ti
 ti
 ti
