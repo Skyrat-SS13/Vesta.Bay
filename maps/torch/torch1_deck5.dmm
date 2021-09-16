@@ -3798,6 +3798,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/fifthdeck/aftstarboard)
+"hQ" = (
+/obj/machinery/rotating_alarm/supermatter,
+/turf/simulated/wall/r_wall/prepainted,
+/area/infantry)
 "hR" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/reagent_dispensers/watertank,
@@ -6720,6 +6724,20 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/maintenance/fifthdeck/aftport)
+"oe" = (
+/obj/structure/sign/directions/science{
+	dir = 1;
+	pixel_y = 3;
+	pixel_z = 0
+	},
+/obj/structure/sign/directions/infirmary{
+	dir = 1;
+	pixel_y = -4;
+	pixel_z = 0
+	},
+/obj/machinery/rotating_alarm/supermatter,
+/turf/simulated/wall/r_wall/prepainted,
+/area/hallway/primary/fifthdeck/fore)
 "of" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -14156,6 +14174,12 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/white/monotile,
 /area/shuttle/petrov/equipment)
+"ID" = (
+/obj/machinery/rotating_alarm/supermatter{
+	dir = 1
+	},
+/turf/simulated/wall/prepainted,
+/area/quartermaster/exploration)
 "IF" = (
 /obj/machinery/computer/shuttle_control{
 	dir = 4;
@@ -16414,6 +16438,10 @@
 	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/shuttle/petrov/hallwaya)
+"Qq" = (
+/obj/machinery/rotating_alarm/supermatter,
+/turf/simulated/wall/prepainted,
+/area/quartermaster/expedition)
 "Qr" = (
 /obj/machinery/door/firedoor,
 /obj/effect/wallframe_spawn/reinforced/titanium,
@@ -18601,6 +18629,16 @@
 "XW" = (
 /turf/simulated/floor/tiled/white/monotile,
 /area/shuttle/petrov/equipment)
+"XY" = (
+/obj/machinery/rotating_alarm/supermatter,
+/turf/simulated/wall/r_wall/prepainted,
+/area/hallway/primary/fifthdeck/fore)
+"XZ" = (
+/obj/machinery/rotating_alarm/supermatter{
+	dir = 1
+	},
+/turf/simulated/wall/prepainted,
+/area/maintenance/fifthdeck/fore)
 "Yb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/white,
@@ -18976,6 +19014,9 @@
 	icon_state = "direction_evac";
 	pixel_y = -4
 	},
+/obj/machinery/rotating_alarm/supermatter{
+	dir = 1
+	},
 /turf/simulated/wall/r_wall/prepainted,
 /area/hallway/primary/fifthdeck/aft)
 "Zc" = (
@@ -19204,6 +19245,9 @@
 	dir = 1;
 	pixel_y = -4;
 	pixel_z = 0
+	},
+/obj/machinery/rotating_alarm/supermatter{
+	dir = 1
 	},
 /turf/simulated/wall/r_wall/prepainted,
 /area/hallway/primary/fifthdeck/aft)
@@ -31707,7 +31751,7 @@ Go
 Rh
 ET
 ME
-xw
+hQ
 uM
 uP
 Fc
@@ -31913,7 +31957,7 @@ xw
 su
 DF
 KZ
-yq
+XZ
 sf
 jo
 jk
@@ -33532,11 +33576,11 @@ kl
 kl
 kl
 oJ
-pq
+oe
 au
 rQ
 aI
-eu
+ID
 hx
 kj
 kj
@@ -34340,11 +34384,11 @@ kl
 kl
 kl
 kl
-Sd
+XY
 qJ
 aF
 oX
-eu
+ID
 iO
 kp
 fW
@@ -41006,7 +41050,7 @@ Lp
 UG
 UG
 sp
-WU
+Qq
 qz
 um
 Xz
