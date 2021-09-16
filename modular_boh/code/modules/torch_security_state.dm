@@ -97,7 +97,7 @@
 
 	up_description = "A major security emergency has developed. Security personnel are to report to their supervisor for orders, are permitted to search staff and facilities, and may have weapons visible on their person."
 	down_description = "Code blue procedures are now in effect. Security personnel are to report to their supervisor for orders, are permitted to search staff and facilities, and may have weapons visible on their person."
-
+	
 /decl/security_level/default/torchdept/code_red
 	name = "code red"
 	icon = 'icons/misc/security_state.dmi'
@@ -111,7 +111,7 @@
 	overlay_status_display = "status_display_red"
 	security_level_lightmode = "red"
 
-	up_description = "A severe emergency has occurred. All staff are to report to their supervisor for orders. All crew should obey orders from relevant emergency personnel. Security personnel are permitted to search staff and facilities, and may have weapons unholstered at any time. Saferooms have been unbolted."
+	up_description = "A severe emergency has occurred. Now sounding General Quarters. All essential ship personnel are restricted to their departments, to await further orders. Security may search any individual with due cause, and may have weapons visible on their person and unholstered. All combat ready personnel are to report to security for orders. Lethals are now permitted, and nonessential crew must report to the nearest saferoom, as being visible in general areas is strictly prohibited."
 	psionic_control_level = PSI_IMPLANT_DISABLED
 
 	var/static/datum/announcement/priority/security/security_announcement_red = new(do_log = 0, do_newscast = 1, new_sound = sound('sound/misc/redalert1.ogg'))
@@ -119,7 +119,7 @@
 /decl/security_level/default/torchdept/code_red/switching_up_to()
 	security_announcement_red.Announce(up_description, "Attention! Code red alert procedures now in effect!")
 	notify_station()
-	GLOB.using_map.unbolt_saferooms()
+	GLOB.using_map.unbolt_saferooms()	
 
 /decl/security_level/default/torchdept/code_red/switching_down_to()
 	security_announcement_red.Announce("Code Delta has been disengaged. All staff are to report to their supervisor for orders. All crew should obey orders from relevant emergency personnel. Security personnel are permitted to search staff and facilities, and may have weapons unholstered at any time.", "Attention! Code red alert procedures now in effect!")
@@ -138,12 +138,15 @@
 	overlay_alarm = "alarm_delta"
 	overlay_status_display = "status_display_delta"
 
-	var/static/datum/announcement/priority/security/security_announcement_delta = new(do_log = 0, do_newscast = 1, new_sound = sound('sound/effects/siren.ogg'))
+	psionic_control_level = PSI_IMPLANT_DISABLED
+
+	var/static/datum/announcement/priority/security/security_announcement_delta = new(do_log = 0, do_newscast = 1, new_sound = sound('sound/effects/selfdestruct.ogg'))
 
 /decl/security_level/default/torchdept/code_delta/switching_up_to()
-	security_announcement_delta.Announce("Code Delta procedures have been engaged. All crew are instructed to obey all instructions given by heads of staff. Any violations of these orders can be punished by death. This is not a drill.", "Attention! Delta security level reached!")
+	security_announcement_delta.Announce("Code Delta procedures have been engaged. The nuclear device has been activated, and the escape pods have been armed. The escape pods will be unlocked when the nuclear device reaches terminal countdown. All crew are instructed to obey all instructions given by heads of staff. Any violations of these orders can be punished by death. This is not a drill.", "Attention! Delta security level reached!")
 	notify_station()
-
+	GLOB.using_map.unbolt_saferooms()
+	evacuation_controller.call_evacuation(usr, 1, forced = TRUE)
 #undef PSI_IMPLANT_AUTOMATIC
 #undef PSI_IMPLANT_SHOCK
 #undef PSI_IMPLANT_WARN

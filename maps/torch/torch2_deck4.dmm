@@ -1062,6 +1062,9 @@
 	},
 /turf/simulated/open,
 /area/maintenance/fourthdeck/starboard)
+"dv" = (
+/turf/space,
+/area/maintenance/waterstore)
 "dw" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -1199,7 +1202,7 @@
 /turf/simulated/floor/wood/mahogany,
 /area/command/captainmess)
 "dS" = (
-/turf/simulated/floor/carpet/blue2,
+/turf/simulated/floor/carpet/blue,
 /area/command/captainmess)
 "dT" = (
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -1322,7 +1325,7 @@
 	dir = 8;
 	icon_state = "wooden_chair_wings_preview"
 	},
-/turf/simulated/floor/carpet/blue2,
+/turf/simulated/floor/carpet/blue,
 /area/command/captainmess)
 "en" = (
 /obj/machinery/conveyor{
@@ -1423,7 +1426,7 @@
 	dir = 4;
 	icon_state = "wooden_chair_wings_preview"
 	},
-/turf/simulated/floor/carpet/blue2,
+/turf/simulated/floor/carpet/blue,
 /area/command/captainmess)
 "eE" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -1541,9 +1544,6 @@
 /obj/item/weapon/book/manual/nt_regs,
 /turf/simulated/floor/wood,
 /area/crew_quarters/lounge)
-"fd" = (
-/turf/simulated/wall/mahogany,
-/area/command/captainmess)
 "fe" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -1731,7 +1731,7 @@
 "fB" = (
 /obj/structure/table/woodentable/walnut,
 /obj/random_multi/single_item/runtime,
-/turf/simulated/floor/carpet/blue2,
+/turf/simulated/floor/carpet/blue,
 /area/command/captainmess)
 "fC" = (
 /obj/structure/cable/green{
@@ -2025,7 +2025,7 @@
 "gs" = (
 /obj/item/weapon/storage/box/donut,
 /obj/structure/table/woodentable/walnut,
-/turf/simulated/floor/carpet/blue2,
+/turf/simulated/floor/carpet/blue,
 /area/command/captainmess)
 "gw" = (
 /obj/structure/table/marble,
@@ -2293,7 +2293,7 @@
 	dir = 4
 	},
 /obj/structure/table/woodentable/walnut,
-/turf/simulated/floor/carpet/blue2,
+/turf/simulated/floor/carpet/blue,
 /area/command/captainmess)
 "hn" = (
 /obj/structure/bed/chair/wood/wings/mahogany{
@@ -2309,7 +2309,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/carpet/blue2,
+/turf/simulated/floor/carpet/blue,
 /area/command/captainmess)
 "ho" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -3975,8 +3975,6 @@
 /area/maintenance/fourthdeck/foreport)
 "mM" = (
 /obj/effect/floor_decal/corner/blue/diagonal,
-/obj/item/weapon/ironingiron,
-/obj/item/weapon/ironingiron,
 /obj/item/weapon/storage/box/detergent,
 /obj/item/weapon/storage/box/detergent,
 /obj/structure/table/rack,
@@ -4287,6 +4285,9 @@
 	pixel_y = -4;
 	pixel_z = 0
 	},
+/obj/machinery/rotating_alarm/supermatter{
+	dir = 1
+	},
 /turf/simulated/wall/r_wall/prepainted,
 /area/hallway/primary/fourthdeck/fore)
 "nx" = (
@@ -4370,6 +4371,7 @@
 	dir = 4;
 	pixel_x = -22
 	},
+/obj/item/weapon/ironingiron,
 /turf/simulated/floor/tiled/white,
 /area/crew_quarters/laundry)
 "nU" = (
@@ -4516,9 +4518,6 @@
 /area/hallway/primary/fourthdeck/fore)
 "oz" = (
 /obj/machinery/status_display,
-/turf/simulated/wall/r_wall/prepainted,
-/area/teleporter/fourthdeck)
-"oA" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/teleporter/fourthdeck)
 "oB" = (
@@ -4669,6 +4668,7 @@
 	pixel_x = -23;
 	pixel_y = 0
 	},
+/obj/item/weapon/ironingiron,
 /turf/simulated/floor/tiled/white,
 /area/crew_quarters/laundry)
 "pg" = (
@@ -7043,6 +7043,9 @@
 	pixel_y = 3;
 	pixel_z = 0
 	},
+/obj/machinery/rotating_alarm/supermatter{
+	dir = 1
+	},
 /turf/simulated/wall/r_wall/prepainted,
 /area/hallway/primary/fourthdeck/aft)
 "wb" = (
@@ -7207,9 +7210,6 @@
 	name = "Primary Tool Storage"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
-/area/storage/primary)
-"wF" = (
-/turf/simulated/wall/prepainted,
 /area/storage/primary)
 "wG" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -7403,6 +7403,9 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/maintenance/fourthdeck/starboard)
+"xj" = (
+/turf/simulated/wall/prepainted,
+/area/storage/primary)
 "xm" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 8
@@ -8367,6 +8370,9 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/eva)
+"An" = (
+/turf/simulated/wall/r_wall/prepainted,
+/area/teleporter/fourthdeck)
 "At" = (
 /obj/effect/floor_decal/corner/brown/half,
 /turf/simulated/floor/tiled,
@@ -8576,6 +8582,9 @@
 /obj/machinery/door/blast/regular/escape_pod,
 /turf/simulated/floor/reinforced,
 /area/maintenance/fourthdeck/port)
+"BA" = (
+/turf/simulated/wall/mahogany,
+/area/command/captainmess)
 "BD" = (
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/fourthdeck/foreport)
@@ -12818,7 +12827,7 @@
 	pixel_y = 0
 	},
 /obj/structure/table/woodentable/walnut,
-/turf/simulated/floor/carpet/blue2,
+/turf/simulated/floor/carpet/blue,
 /area/command/captainmess)
 "OJ" = (
 /obj/machinery/computer/modular/preset/security{
@@ -14297,6 +14306,9 @@
 /area/shuttle/escape_pod6/station)
 "Su" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/rotating_alarm/supermatter{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/fourthdeck/fore)
 "Sv" = (
@@ -14780,6 +14792,9 @@
 	dir = 1;
 	pixel_y = -4;
 	pixel_z = 0
+	},
+/obj/machinery/rotating_alarm/supermatter{
+	dir = 4
 	},
 /turf/simulated/wall/r_wall/prepainted,
 /area/storage/primary)
@@ -16179,7 +16194,7 @@
 	dir = 4;
 	icon_state = "wooden_chair_wings_preview"
 	},
-/turf/simulated/floor/carpet/blue2,
+/turf/simulated/floor/carpet/blue,
 /area/command/captainmess)
 "Xh" = (
 /obj/structure/cable/green{
@@ -16332,6 +16347,9 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/machinery/rotating_alarm/supermatter{
+	dir = 1
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/fourthdeck/aft)
@@ -28272,14 +28290,14 @@ jb
 ej
 mg
 nm
-oA
+An
 oz
 pL
-oA
-oA
-oA
+An
+An
+An
 vo
-oA
+An
 wq
 Pz
 AH
@@ -28474,14 +28492,14 @@ jc
 ej
 mh
 nn
-oA
-oA
+An
+An
 pM
 qW
 sr
 tV
 vp
-oA
+An
 xT
 mh
 AH
@@ -28677,13 +28695,13 @@ lb
 mi
 Nu
 no
-oA
+An
 pN
 qX
 qX
 tW
 vq
-oA
+An
 xU
 zq
 AI
@@ -28879,13 +28897,13 @@ ej
 Uy
 mj
 np
-oA
+An
 pO
 qY
 ss
 qY
 vr
-oA
+An
 xV
 zr
 AH
@@ -29081,13 +29099,13 @@ ej
 mk
 nm
 nq
-oA
+An
 pP
 qZ
 st
 tX
 vs
-oA
+An
 xW
 ZZ
 AH
@@ -29283,13 +29301,13 @@ le
 ml
 Rn
 nr
-oA
-oA
-oA
-oA
-oA
-oA
-oA
+An
+An
+An
+An
+An
+An
+An
 xX
 zt
 AJ
@@ -29485,7 +29503,7 @@ ld
 mm
 ns
 Zj
-wF
+xj
 pQ
 ra
 su
@@ -29889,7 +29907,7 @@ vF
 mn
 Si
 Sv
-wF
+xj
 pS
 rc
 sw
@@ -30097,7 +30115,7 @@ rd
 sx
 ub
 vw
-wF
+xj
 LJ
 mh
 ct
@@ -30904,8 +30922,8 @@ ct
 rd
 hE
 uc
-wF
-wF
+xj
+xj
 Pv
 zy
 ct
@@ -34729,7 +34747,7 @@ ap
 MX
 MX
 MX
-fd
+BA
 hl
 Mp
 Mp
@@ -34926,7 +34944,7 @@ ak
 aS
 bv
 Lu
-fd
+BA
 QA
 dR
 eA
@@ -35128,7 +35146,7 @@ ak
 er
 er
 Xl
-fd
+BA
 RH
 dS
 eB
@@ -35330,7 +35348,7 @@ ak
 rr
 er
 VR
-fd
+BA
 Tz
 dS
 OI
@@ -35532,7 +35550,7 @@ ak
 aV
 er
 VR
-fd
+BA
 Rq
 dS
 em
@@ -35734,7 +35752,7 @@ ak
 aU
 er
 VR
-fd
+BA
 py
 Yu
 Yu
@@ -36139,7 +36157,7 @@ bN
 bw
 bZ
 dU
-fd
+BA
 WU
 WU
 WU
@@ -36341,7 +36359,7 @@ bN
 BH
 bZ
 dU
-fd
+BA
 Un
 XM
 XM
@@ -36543,8 +36561,8 @@ bN
 bw
 bZ
 dU
-fd
-fd
+BA
+BA
 cq
 gw
 RL
@@ -36957,7 +36975,7 @@ NM
 NM
 NM
 NM
-VW
+dv
 WI
 vH
 Wv

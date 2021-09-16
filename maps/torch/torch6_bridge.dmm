@@ -2291,6 +2291,9 @@
 	c_tag = "Bridge";
 	dir = 1
 	},
+/obj/machinery/rotating_alarm/supermatter{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/bridge)
 "dX" = (
@@ -3250,6 +3253,7 @@
 /obj/machinery/atmospherics/valve/shutoff/scrubbers{
 	dir = 4
 	},
+/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/floor/tiled/dark,
 /area/bridge/hallway/port)
 "fI" = (
@@ -4736,6 +4740,7 @@
 /obj/effect/floor_decal/corner/blue{
 	dir = 5
 	},
+/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/bridge)
 "jz" = (
@@ -4941,6 +4946,9 @@
 /obj/effect/floor_decal/corner/blue{
 	dir = 6
 	},
+/obj/machinery/rotating_alarm/supermatter{
+	dir = 8
+	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/bridge/fore)
 "jU" = (
@@ -5145,6 +5153,7 @@
 	dir = 5
 	},
 /obj/effect/floor_decal/spline/plain/beige,
+/obj/structure/closet/walllocker,
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/heads/office/sea)
 "kw" = (
@@ -8216,6 +8225,9 @@
 	id_tag = "bridge_safe_exterior";
 	name = "Bridge Safe Room"
 	},
+/obj/item/weapon/airlock_brace{
+	req_access = list("ACCESS_BRIDGE")
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/crew_quarters/safe_room/bridge)
 "rS" = (
@@ -10821,6 +10833,7 @@
 /obj/effect/floor_decal/corner/blue{
 	dir = 4
 	},
+/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/bridge/fore)
 "xW" = (
@@ -11142,6 +11155,7 @@
 /obj/structure/closet/secure_closet/XO,
 /obj/random/drinkbottle,
 /obj/item/gunbox/executive,
+/obj/item/clothing/accessory/storage/holster/thigh,
 /turf/simulated/floor/carpet,
 /area/crew_quarters/heads/office/xo)
 "zb" = (
@@ -12061,6 +12075,13 @@
 	},
 /turf/simulated/floor/plating,
 /area/hallway/primary/bridge/fore)
+"By" = (
+/obj/effect/floor_decal/corner/blue{
+	dir = 5
+	},
+/obj/machinery/rotating_alarm/supermatter,
+/turf/simulated/floor/tiled/dark,
+/area/bridge/hallway/starboard)
 "Bz" = (
 /obj/machinery/computer/rcon{
 	dir = 1
@@ -13294,6 +13315,14 @@
 	},
 /turf/simulated/floor/carpet/blue,
 /area/crew_quarters/heads/office/co)
+"Fm" = (
+/obj/effect/floor_decal/corner/blue/half{
+	dir = 1;
+	icon_state = "bordercolorhalf"
+	},
+/obj/machinery/rotating_alarm/supermatter,
+/turf/simulated/floor/tiled,
+/area/hallway/primary/bridge/aft)
 "Fn" = (
 /obj/effect/floor_decal/scglogo{
 	dir = 4;
@@ -15069,6 +15098,7 @@
 	},
 /obj/item/weapon/aiModule/freeform,
 /obj/item/gunbox/captain,
+/obj/item/clothing/accessory/storage/holster/thigh,
 /turf/simulated/floor/carpet/blue,
 /area/crew_quarters/heads/cobed)
 "Ks" = (
@@ -16028,7 +16058,6 @@
 	pixel_y = -28;
 	req_access = list(list("ACCESS_ENGINE_EQUIP","ACCESS_ATMOS"))
 	},
-/obj/item/weapon/storage/secure/briefcase/nukedisk,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/cobed)
 "NE" = (
@@ -17977,9 +18006,19 @@
 	icon_state = "chair_preview"
 	},
 /obj/effect/floor_decal/techfloor{
-	dir = 8;
-	icon_state = "techfloor_edges"
+	dir = 8
 	},
+/obj/structure/closet/secure_closet/wall{
+	anchored = 1;
+	desc = "It's a card-locked storage unit. ONLY FOR USE IN EXTREME EMERGENCY.";
+	name = "DELTA LEVEL SAFE";
+	pixel_x = -25;
+	req_access = list("ACCESS_VAULT");
+	wall_mounted = 1
+	},
+/obj/item/weapon/disk/nuclear,
+/obj/item/weapon/pinpointer/advpinpointer,
+/obj/item/weapon/folder/envelope/nuke_instructions,
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/safe_room/bridge)
 "To" = (
@@ -18084,6 +18123,10 @@
 /obj/item/device/radio/phone,
 /turf/simulated/floor/tiled/dark,
 /area/turret_protected/ai_outer_chamber)
+"TG" = (
+/obj/structure/closet/walllocker,
+/turf/simulated/wall/r_wall/prepainted,
+/area/crew_quarters/safe_room/bridge)
 "TI" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
@@ -18390,6 +18433,13 @@
 "UA" = (
 /turf/simulated/floor/tiled/dark,
 /area/security/bridgecheck)
+"UC" = (
+/obj/effect/floor_decal/corner/blue{
+	dir = 5
+	},
+/obj/machinery/rotating_alarm/supermatter,
+/turf/simulated/floor/tiled,
+/area/hallway/primary/bridge/aft)
 "UD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
@@ -18729,6 +18779,7 @@
 	},
 /obj/structure/table/woodentable/walnut,
 /obj/item/sticky_pad/random,
+/obj/item/toy/bosunwhistle,
 /turf/simulated/floor/carpet,
 /area/crew_quarters/heads/office/xo)
 "VH" = (
@@ -20009,6 +20060,18 @@
 /obj/structure/sign/solgov,
 /turf/simulated/wall/r_wall/prepainted,
 /area/command/msea)
+"Zz" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/rotating_alarm/supermatter,
+/turf/simulated/floor/tiled/monotile,
+/area/hallway/primary/bridge/fore)
 "ZA" = (
 /obj/machinery/shield_diffuser,
 /obj/machinery/door/airlock/external{
@@ -29764,7 +29827,7 @@ aO
 eq
 aO
 yg
-bY
+By
 cl
 cw
 cD
@@ -30188,7 +30251,7 @@ ti
 ti
 PH
 ti
-ti
+TG
 ti
 ti
 ti
@@ -32605,7 +32668,7 @@ mE
 mE
 mE
 mE
-rd
+Zz
 ga
 sL
 sL
@@ -35224,7 +35287,7 @@ gm
 gm
 gm
 fI
-kM
+Fm
 El
 mW
 kJ
@@ -37042,7 +37105,7 @@ zJ
 zJ
 zJ
 zJ
-kU
+UC
 Bv
 ne
 oY
