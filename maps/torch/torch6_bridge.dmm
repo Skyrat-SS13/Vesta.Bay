@@ -17980,10 +17980,10 @@
 	icon_state = "techfloor_edges"
 	},
 /obj/item/weapon/storage/secure/safe{
-	desc = "A secure wall safe with the words "OPEN IN EVENT OF HIGH-EMERGENCY" printed in small print under the keypad.";
+	desc = "A secure wall safe with the words OPEN IN EVENT OF HIGH-EMERGENCY printed in small print under the keypad.";
 	name = "Delta Level Safe";
 	pixel_x = -20;
-	req_access = ACCESS_VAULT
+	req_access = list("ACCESS_VAULT");
 	},
 /obj/item/weapon/disk/nuclear,
 /obj/item/weapon/folder/envelope/nuke_instructions,
