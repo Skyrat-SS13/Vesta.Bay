@@ -328,7 +328,7 @@
 	id_types = list(/obj/item/weapon/card/id/torch/crew/infantry)
 
 /decl/hierarchy/outfit/job/torch/crew/infantry/squad_lead
-	name = OUTFIT_JOB_NAME("er")
+	name = OUTFIT_JOB_NAME("Squad Leader")
 	uniform = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/command
 	id_types = list(/obj/item/weapon/card/id/torch/crew/infantry/infcom)
 	l_ear = /obj/item/device/radio/headset/infcom

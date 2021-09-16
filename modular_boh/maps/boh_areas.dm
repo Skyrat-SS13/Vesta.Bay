@@ -27,7 +27,7 @@
 	req_access = list(access_infantry)
 
 /area/infantry/infcom
-	name = "\improper er's Cabin"
+	name = "\improper Squad Leader's Cabin"
 	req_access = list(access_infcom)
 
 /area/infantry/inftech

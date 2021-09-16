@@ -24363,6 +24363,7 @@
 /area/operations_storage/medical)
 "mVb" = (
 /obj/machinery/nuclearbomb/station{
+	light_falloff_curve = 10;
 	maxTime = 600;
 	minTime = 600;
 	name = "ship self-destruct terminal";
