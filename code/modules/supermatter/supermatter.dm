@@ -28,7 +28,7 @@
 	name = "Supermatter"
 	desc = "A strangely translucent and iridescent crystal. <span class='danger'>You get headaches just from looking at it.</span>"
 	icon = 'icons/obj/engine.dmi'
-	icon_state = "darkmatter"
+	icon_state = "supermatter"
 	density = 1
 	anchored = 0
 	light_outer_range = 4
@@ -51,7 +51,7 @@
 
 	var/gasefficency = 0.25
 
-	var/base_icon_state = "darkmatter"
+	var/base_icon_state = "supermatter"
 
 	var/damage = 0
 	var/damage_archived = 0
@@ -62,7 +62,7 @@
 	var/warning_alert = "Danger! Crystal hyperstructure instability!"
 	var/emergency_point = 700
 	var/emergency_alert = "CRYSTAL DELAMINATION IMMINENT."
-	var/explosion_point = 1000
+	var/explosion_point = 1000 
 
 	light_color = "#927a10"
 	var/base_color = "#927a10"
@@ -581,8 +581,8 @@ obj/machinery/power/supermatter/Destroy()
 /obj/machinery/power/supermatter/shard //Small subtype, less efficient and more sensitive, but less boom.
 	name = "Supermatter Shard"
 	desc = "A strangely translucent and iridescent crystal that looks like it used to be part of a larger structure. <span class='danger'>You get headaches just from looking at it.</span>"
-	icon_state = "darkmatter_shard"
-	base_icon_state = "darkmatter_shard"
+	icon_state = "supermatter_shard"
+	base_icon_state = "supermatter_shard"
 
 	warning_point = 50
 	emergency_point = 400
