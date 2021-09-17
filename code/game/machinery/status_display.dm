@@ -47,7 +47,7 @@
 	var/const/STATUS_DISPLAY_IMAGE = 5
 	var/const/STATUS_DISPLAY_CUSTOM = 99
 	
-	var/status_display_show_alert_border = FALSE
+	var/status_display_show_alert_border = TRUE
 
 /obj/machinery/status_display/Destroy()
 	if(radio_controller)
