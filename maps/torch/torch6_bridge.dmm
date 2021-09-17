@@ -9621,7 +9621,6 @@
 	},
 /obj/item/weapon/pen,
 /obj/item/weapon/material/clipboard,
-/obj/item/weapon/storage/secure/briefcase/nukedisk,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/office/sea)
 "vl" = (
