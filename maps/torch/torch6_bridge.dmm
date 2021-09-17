@@ -10282,9 +10282,9 @@
 "wE" = (
 /obj/structure/sign/double/icarus/solgovflag/right{
 	dir = 1;
+	pixel_y = -32;
 	pixel_z = -32
 	},
-/obj/machinery/photocopier,
 /turf/simulated/floor/carpet/blue2,
 /area/crew_quarters/heads/office/sgr)
 "wG" = (
@@ -29026,7 +29026,7 @@ hV
 eP
 jy
 hn
-HC
+hn
 hn
 dW
 eP
