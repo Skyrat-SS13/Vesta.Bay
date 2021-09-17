@@ -10285,6 +10285,7 @@
 	pixel_y = -32;
 	pixel_z = -32
 	},
+/obj/machinery/photocopier,
 /turf/simulated/floor/carpet/blue2,
 /area/crew_quarters/heads/office/sgr)
 "wG" = (
