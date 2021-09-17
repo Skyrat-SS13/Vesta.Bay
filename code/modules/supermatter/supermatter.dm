@@ -695,6 +695,7 @@ obj/machinery/power/supermatter/Destroy()
 	frame_type = /obj/item/frame/supermatter_alarm
 	construct_state = /decl/machine_construction/default/item_chassis
 	base_type = /obj/machinery/rotating_alarm/supermatter
+	anchored = 1
 
 /obj/machinery/rotating_alarm/supermatter/Initialize()
 	. = ..()

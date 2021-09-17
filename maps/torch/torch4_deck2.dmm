@@ -239,6 +239,9 @@
 	name = "\improper TRAINED PERSONNEL OPERATION ONLY";
 	pixel_y = -32
 	},
+/obj/machinery/rotating_alarm/supermatter{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/engineering/engine_monitoring)
 "au" = (
@@ -1842,6 +1845,7 @@
 "dn" = (
 /obj/structure/bed/roller,
 /obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/seconddeck/elevator)
 "do" = (
@@ -3109,6 +3113,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/floor/plating,
 /area/hallway/primary/seconddeck)
 "fS" = (
@@ -3946,6 +3951,9 @@
 /area/hallway/primary/seconddeck/fore)
 "hQ" = (
 /obj/effect/floor_decal/industrial/warning/corner,
+/obj/machinery/rotating_alarm/supermatter{
+	dir = 8
+	},
 /turf/simulated/floor/tiled,
 /area/engineering/engineering_bay)
 "hU" = (
@@ -4052,6 +4060,7 @@
 	dir = 4
 	},
 /obj/effect/catwalk_plated,
+/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/floor/plating,
 /area/hallway/primary/seconddeck/fore)
 "ie" = (
@@ -4577,6 +4586,7 @@
 /obj/machinery/firealarm{
 	pixel_y = 21
 	},
+/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/floor/tiled,
 /area/engineering/engineering_bay)
 "jy" = (
@@ -5254,6 +5264,9 @@
 	icon_state = "bordercolorhalf"
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/rotating_alarm/supermatter{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/engineering/engine_monitoring)
 "kY" = (
@@ -5427,6 +5440,7 @@
 	pixel_x = 0;
 	pixel_y = 24
 	},
+/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/seconddeck/center)
 "lq" = (
@@ -6911,6 +6925,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/floor/plating,
 /area/engineering/foyer)
 "py" = (
@@ -7685,6 +7700,9 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
 	},
+/obj/machinery/rotating_alarm/supermatter{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/engineering/engineering_monitoring)
 "qV" = (
@@ -8200,6 +8218,9 @@
 	},
 /obj/machinery/light{
 	dir = 8
+	},
+/obj/machinery/rotating_alarm/supermatter{
+	dir = 4
 	},
 /turf/simulated/floor/tiled,
 /area/engineering/engine_monitoring)
@@ -10756,16 +10777,24 @@
 /turf/simulated/floor/reinforced/n20,
 /area/engineering/atmos)
 "zy" = (
-/obj/machinery/rotating_alarm/supermatter{
-	dir = 4;
-	pixel_x = 15
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
 	},
-/obj/machinery/rotating_alarm/supermatter{
-	dir = 8;
-	pixel_x = -15
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1
 	},
-/turf/simulated/wall/r_wall/prepainted,
-/area/engineering/engine_monitoring)
+/obj/effect/floor_decal/corner/research{
+	dir = 5;
+	icon_state = "corner_white"
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/rotating_alarm/supermatter,
+/turf/simulated/floor/tiled,
+/area/hallway/primary/seconddeck)
 "zA" = (
 /obj/structure/closet,
 /obj/random/single/cola,
@@ -13314,13 +13343,6 @@
 	},
 /turf/space,
 /area/space)
-"FU" = (
-/obj/machinery/rotating_alarm/supermatter{
-	dir = 8;
-	pixel_x = -15
-	},
-/turf/simulated/wall/r_wall/prepainted,
-/area/engineering/engine_monitoring)
 "FV" = (
 /obj/machinery/computer/teleporter{
 	dir = 1
@@ -13714,9 +13736,6 @@
 /area/vacant/prototype/control)
 "Hk" = (
 /obj/structure/sign/atmosplaque,
-/obj/machinery/rotating_alarm/supermatter{
-	pixel_y = -15
-	},
 /turf/simulated/wall/r_wall/prepainted,
 /area/engineering/locker_room)
 "Hl" = (
@@ -14423,12 +14442,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/vacant/prototype/engine)
-"Jk" = (
-/obj/machinery/rotating_alarm/supermatter{
-	pixel_y = -15
-	},
-/turf/simulated/wall/prepainted,
-/area/engineering/engineering_bay)
 "Jl" = (
 /obj/machinery/atmospherics/omni/filter{
 	tag_east = 5;
@@ -15572,6 +15585,7 @@
 /area/engineering/atmos)
 "Np" = (
 /obj/machinery/door/firedoor,
+/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/engineering/locker_room)
 "Nq" = (
@@ -15914,6 +15928,7 @@
 	c_tag = "Second Deck Hallway - Elevator Landing";
 	dir = 4
 	},
+/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/seconddeck/elevator)
 "On" = (
@@ -37034,7 +37049,7 @@ VE
 IL
 VE
 ZG
-pL
+zy
 rW
 rO
 TJ
@@ -40460,7 +40475,7 @@ hg
 gq
 sA
 gq
-Jk
+iN
 jx
 FL
 FL
@@ -42685,13 +42700,13 @@ NZ
 sw
 OI
 hp
-FU
+qV
 lL
 qV
 qV
 qV
 IB
-zy
+qV
 qV
 UU
 tM

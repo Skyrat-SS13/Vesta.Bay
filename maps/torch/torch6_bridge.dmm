@@ -2291,6 +2291,9 @@
 	c_tag = "Bridge";
 	dir = 1
 	},
+/obj/machinery/rotating_alarm/supermatter{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/bridge)
 "dX" = (
@@ -3250,6 +3253,7 @@
 /obj/machinery/atmospherics/valve/shutoff/scrubbers{
 	dir = 4
 	},
+/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/floor/tiled/dark,
 /area/bridge/hallway/port)
 "fI" = (
@@ -4736,6 +4740,7 @@
 /obj/effect/floor_decal/corner/blue{
 	dir = 5
 	},
+/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/bridge)
 "jz" = (
@@ -4940,6 +4945,9 @@
 	},
 /obj/effect/floor_decal/corner/blue{
 	dir = 6
+	},
+/obj/machinery/rotating_alarm/supermatter{
+	dir = 8
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/bridge/fore)
@@ -10826,6 +10834,7 @@
 /obj/effect/floor_decal/corner/blue{
 	dir = 4
 	},
+/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/bridge/fore)
 "xW" = (
@@ -11141,7 +11150,6 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/bridge/aftstarboard)
 "yW" = (
-/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/wall/prepainted,
 /area/security/bridgecheck)
 "za" = (
@@ -12069,11 +12077,12 @@
 /turf/simulated/floor/plating,
 /area/hallway/primary/bridge/fore)
 "By" = (
-/obj/machinery/rotating_alarm/supermatter{
-	dir = 1
+/obj/effect/floor_decal/corner/blue{
+	dir = 5
 	},
-/turf/simulated/wall/r_wall/prepainted,
-/area/hallway/primary/bridge/fore)
+/obj/machinery/rotating_alarm/supermatter,
+/turf/simulated/floor/tiled/dark,
+/area/bridge/hallway/starboard)
 "Bz" = (
 /obj/machinery/computer/rcon{
 	dir = 1
@@ -13308,9 +13317,13 @@
 /turf/simulated/floor/carpet/blue,
 /area/crew_quarters/heads/office/co)
 "Fm" = (
+/obj/effect/floor_decal/corner/blue/half{
+	dir = 1;
+	icon_state = "bordercolorhalf"
+	},
 /obj/machinery/rotating_alarm/supermatter,
-/turf/simulated/wall/r_wall/prepainted,
-/area/bridge/meeting_room)
+/turf/simulated/floor/tiled,
+/area/hallway/primary/bridge/aft)
 "Fn" = (
 /obj/effect/floor_decal/scglogo{
 	dir = 4;
@@ -18422,9 +18435,12 @@
 /turf/simulated/floor/tiled/dark,
 /area/security/bridgecheck)
 "UC" = (
+/obj/effect/floor_decal/corner/blue{
+	dir = 5
+	},
 /obj/machinery/rotating_alarm/supermatter,
-/turf/simulated/wall/r_wall/prepainted,
-/area/bridge)
+/turf/simulated/floor/tiled,
+/area/hallway/primary/bridge/aft)
 "UD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
@@ -20046,12 +20062,17 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/command/msea)
 "Zz" = (
-/obj/machinery/rotating_alarm/supermatter{
-	dir = 1
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/rotating_alarm/supermatter,
-/turf/simulated/wall/r_wall/prepainted,
-/area/bridge/meeting_room)
+/turf/simulated/floor/tiled/monotile,
+/area/hallway/primary/bridge/fore)
 "ZA" = (
 /obj/machinery/shield_diffuser,
 /obj/machinery/door/airlock/external{
@@ -20209,12 +20230,6 @@
 /mob/living/simple_animal/corgi/Ian,
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/heads/office/xo)
-"ZW" = (
-/obj/machinery/rotating_alarm/supermatter{
-	dir = 1
-	},
-/turf/simulated/wall/r_wall/prepainted,
-/area/bridge)
 "ZX" = (
 /obj/effect/floor_decal/corner/paleblue/diagonal,
 /obj/structure/bed/chair/padded/teal,
@@ -29009,13 +29024,13 @@ qO
 yM
 eP
 hV
-UC
+eP
 jy
 hn
 HC
 hn
 dW
-ZW
+eP
 HX
 eP
 Dx
@@ -29813,7 +29828,7 @@ aO
 eq
 aO
 yg
-bY
+By
 cl
 cw
 cD
@@ -30623,7 +30638,7 @@ eT
 EM
 Uk
 Hs
-Fm
+hs
 cW
 dg
 Te
@@ -30633,7 +30648,7 @@ zf
 Te
 el
 eK
-Zz
+hs
 qY
 AJ
 rS
@@ -32654,7 +32669,7 @@ mE
 mE
 mE
 mE
-rd
+Zz
 ga
 sL
 sL
@@ -33653,7 +33668,7 @@ Oj
 sT
 uJ
 zo
-By
+hC
 La
 iX
 Lk
@@ -35273,7 +35288,7 @@ gm
 gm
 gm
 fI
-kM
+Fm
 El
 mW
 kJ
@@ -37091,7 +37106,7 @@ zJ
 zJ
 zJ
 zJ
-kU
+UC
 Bv
 ne
 oY

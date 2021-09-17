@@ -90,5 +90,4 @@
 	icon = 'icons/obj/lighting.dmi'
 	icon_state = "bulb-construct-item"
 	refund_amt = 1
-	anchored = 1
 	build_machine_type = /obj/machinery/rotating_alarm/supermatter
