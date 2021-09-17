@@ -611,7 +611,7 @@ obj/machinery/power/supermatter/Destroy()
 	var/_size = 48
 	var/_factor = 0.5
 	var/_density = 4
-	var/_offset = 30
+	var/_offset = 0
 	plane = EFFECTS_ABOVE_LIGHTING_PLANE
 	layer = EYE_GLOW_LAYER
 	mouse_opacity = 0
