@@ -135,7 +135,7 @@
 		return FALSE
 	return set_security_level(all_security_levels[current_index - 1], force_change)
 
-/decl/security_level
+/decl/security_level 
 	var/icon
 	var/name
 

@@ -383,7 +383,6 @@
 /obj/effect/floor_decal/corner/yellow{
 	dir = 4
 	},
-/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/thirddeck/aft)
 "bd" = (
@@ -2691,12 +2690,9 @@
 /turf/simulated/floor/tiled/dark,
 /area/command/disperser)
 "fB" = (
-/obj/effect/floor_decal/corner/green{
-	dir = 5
-	},
 /obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/floor/tiled,
-/area/hallway/primary/thirddeck/center)
+/area/hallway/primary/thirddeck/fore)
 "fC" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -3435,9 +3431,12 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/foreport)
 "gN" = (
+/obj/machinery/cryopod{
+	dir = 4
+	},
 /obj/machinery/rotating_alarm/supermatter,
-/turf/simulated/floor/tiled,
-/area/hallway/primary/thirddeck/fore)
+/turf/simulated/floor/tiled/techmaint,
+/area/crew_quarters/sleep/cryo)
 "gO" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -5460,13 +5459,6 @@
 "kK" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/hallway/primary/thirddeck/center)
-"kL" = (
-/obj/machinery/cryopod{
-	dir = 4
-	},
-/obj/machinery/rotating_alarm/supermatter,
-/turf/simulated/floor/tiled/techmaint,
-/area/crew_quarters/sleep/cryo)
 "kN" = (
 /obj/machinery/light/spot{
 	dir = 1
@@ -5857,7 +5849,6 @@
 	dir = 5
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on,
-/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/thirddeck/aft)
 "lK" = (
@@ -7073,12 +7064,6 @@
 /obj/machinery/portable_atmospherics/hydroponics/soil,
 /turf/simulated/floor/grass,
 /area/crew_quarters/observation)
-"oK" = (
-/obj/machinery/rotating_alarm/supermatter{
-	dir = 1
-	},
-/turf/simulated/wall/prepainted,
-/area/chapel/office)
 "oL" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -9791,9 +9776,6 @@
 /area/crew_quarters/sleep/cryo)
 "uT" = (
 /obj/machinery/status_display,
-/obj/machinery/rotating_alarm/supermatter{
-	dir = 1
-	},
 /turf/simulated/wall/r_wall/prepainted,
 /area/crew_quarters/sleep/cryo)
 "uU" = (
@@ -17016,12 +16998,6 @@
 /obj/machinery/light/spot,
 /turf/simulated/floor/tiled/freezer,
 /area/pool)
-"Mm" = (
-/obj/machinery/rotating_alarm/supermatter{
-	dir = 1
-	},
-/turf/simulated/wall/prepainted,
-/area/crew_quarters/observation)
 "Mn" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4;
@@ -17520,7 +17496,6 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/floor/tiled/steel_grid,
 /area/hallway/primary/thirddeck/center)
 "NB" = (
@@ -18423,7 +18398,6 @@
 	dir = 1;
 	icon_state = "bordercolorhalf"
 	},
-/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/thirddeck/aft)
 "PY" = (
@@ -20031,9 +20005,6 @@
 /area/hydroponics)
 "Un" = (
 /obj/machinery/status_display,
-/obj/machinery/rotating_alarm/supermatter{
-	dir = 1
-	},
 /turf/simulated/wall/prepainted,
 /area/crew_quarters/office)
 "Uo" = (
@@ -31438,7 +31409,7 @@ fJ
 fJ
 fJ
 PH
-Mm
+yH
 uu
 Ph
 SR
@@ -35676,7 +35647,7 @@ PK
 se
 Xg
 Xg
-gN
+fB
 fC
 iI
 jh
@@ -38706,7 +38677,7 @@ xE
 IZ
 Jc
 uP
-kL
+gN
 vU
 yb
 yU
@@ -39308,7 +39279,7 @@ Ko
 AA
 Gz
 Ad
-fB
+Xn
 sp
 Mz
 uS
@@ -40924,7 +40895,7 @@ fU
 fU
 XE
 Ad
-fB
+Xn
 sj
 Dt
 uU
@@ -47391,7 +47362,7 @@ qd
 rw
 Xv
 je
-oK
+TE
 wA
 xy
 yB
