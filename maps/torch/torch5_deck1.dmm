@@ -9227,7 +9227,6 @@
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/structure/table/rack,
 /obj/item/clothing/accessory/storage/holster/thigh,
-/obj/item/clothing/suit/armor/pcarrier/blue/sol,
 /obj/item/clothing/head/helmet/solgov/security,
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/item/weapon/gun/energy/gun/small/secure,
@@ -9237,6 +9236,7 @@
 	},
 /obj/item/weapon/melee/telebaton,
 /obj/item/device/flash,
+/obj/item/clothing/suit/armor/pcarrier/blue/sol,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/command/armoury/tactical)
 "aEH" = (
@@ -19441,7 +19441,6 @@
 "htK" = (
 /obj/structure/table/rack,
 /obj/item/clothing/accessory/storage/holster/thigh,
-/obj/item/clothing/suit/armor/pcarrier/blue/sol,
 /obj/item/clothing/head/helmet/solgov/security,
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/item/weapon/gun/energy/gun/small/secure,
@@ -19451,6 +19450,7 @@
 	},
 /obj/item/weapon/melee/telebaton,
 /obj/item/device/flash,
+/obj/item/clothing/suit/armor/pcarrier/blue/sol,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/command/armoury/tactical)
 "hub" = (
@@ -23809,7 +23809,6 @@
 	},
 /obj/structure/table/rack,
 /obj/item/clothing/accessory/storage/holster/thigh,
-/obj/item/clothing/suit/armor/pcarrier/blue/sol,
 /obj/item/clothing/head/helmet/solgov/security,
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/item/weapon/gun/energy/gun/small/secure,
@@ -23819,6 +23818,7 @@
 	},
 /obj/item/weapon/melee/telebaton,
 /obj/item/device/flash,
+/obj/item/clothing/suit/armor/pcarrier/blue/sol,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/command/armoury/tactical)
 "mrW" = (
@@ -28466,7 +28466,6 @@
 	},
 /obj/structure/table/rack,
 /obj/item/clothing/accessory/storage/holster/thigh,
-/obj/item/clothing/suit/armor/pcarrier/blue/sol,
 /obj/item/clothing/head/helmet/solgov/security,
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/item/weapon/gun/energy/gun/small/secure,
@@ -28476,6 +28475,7 @@
 	},
 /obj/item/weapon/melee/telebaton,
 /obj/item/device/flash,
+/obj/item/clothing/suit/armor/pcarrier/blue/sol,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/command/armoury/tactical)
 "rzb" = (
@@ -31436,12 +31436,12 @@
 	},
 /obj/structure/table/rack,
 /obj/item/clothing/accessory/storage/holster/thigh,
-/obj/item/clothing/suit/armor/pcarrier/blue/sol,
 /obj/item/clothing/head/helmet/solgov/security,
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/item/weapon/gun/energy/gun/small/secure,
 /obj/item/weapon/melee/telebaton,
 /obj/item/device/flash,
+/obj/item/clothing/suit/armor/pcarrier/blue/sol,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/command/armoury/tactical)
 "vfK" = (
