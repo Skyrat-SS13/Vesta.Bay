@@ -529,6 +529,7 @@
 /obj/machinery/pager/robotics{
 	pixel_y = 30
 	},
+/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/firstdeck/center)
 "abg" = (
@@ -6228,6 +6229,7 @@
 /obj/effect/floor_decal/corner/blue{
 	dir = 5
 	},
+/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/firstdeck/fore)
 "aqh" = (
@@ -6264,6 +6266,7 @@
 /obj/effect/floor_decal/corner/blue{
 	dir = 5
 	},
+/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/firstdeck/fore)
 "aqm" = (
@@ -7365,6 +7368,9 @@
 	dir = 4;
 	icon_state = "bordercolorhalf"
 	},
+/obj/machinery/rotating_alarm/supermatter{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/firstdeck/fore)
 "avZ" = (
@@ -7377,7 +7383,6 @@
 	pixel_y = -4;
 	pixel_z = 0
 	},
-/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/wall/r_wall/prepainted,
 /area/hallway/primary/firstdeck/center)
 "awa" = (
@@ -7498,6 +7503,7 @@
 /obj/machinery/camera/network/first_deck{
 	c_tag = "First Deck Hallway - Aft"
 	},
+/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/firstdeck/aft)
 "awV" = (
@@ -7580,6 +7586,7 @@
 	dir = 5;
 	icon_state = "corner_white"
 	},
+/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/firstdeck/center)
 "axl" = (
@@ -9360,6 +9367,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/floor/plating,
 /area/hallway/primary/firstdeck/fore)
 "aEY" = (
@@ -10311,7 +10319,6 @@
 	pixel_y = -28
 	},
 /obj/structure/cable/green,
-/obj/item/gunbox,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/bo)
 "aJp" = (
@@ -15255,6 +15262,11 @@
 	dir = 4;
 	icon_state = "techfloor_corners"
 	},
+/obj/machinery/button/alternate/door/bolts{
+	id_tag = "MILARM";
+	name = "MILARM Bolts";
+	pixel_y = 25
+	},
 /turf/simulated/floor/tiled/dark,
 /area/command/armoury)
 "bNb" = (
@@ -15287,14 +15299,6 @@
 	dir = 4
 	},
 /obj/machinery/door/firedoor,
-/obj/machinery/door/blast/regular{
-	density = 0;
-	dir = 4;
-	icon_state = "pdoor0";
-	id_tag = "Prison Gate";
-	name = "Security Blast Door";
-	opacity = 0
-	},
 /obj/structure/cable/green{
 	d1 = 1;
 	d2 = 8;
@@ -15374,20 +15378,6 @@
 /turf/simulated/floor/plating,
 /area/shuttle/escape_pod13/station)
 "bSm" = (
-/obj/machinery/door/blast/regular{
-	density = 0;
-	dir = 4;
-	icon_state = "pdoor0";
-	id_tag = "Prison Gate";
-	name = "Security Blast Door";
-	opacity = 0
-	},
-/obj/machinery/door/airlock/multi_tile/glass/security{
-	dir = 8;
-	door_color = "#22425c";
-	name = "Security Lobby";
-	stripe_color = "#0d304d"
-	},
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/security/wing)
@@ -15990,11 +15980,12 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/rnd/office)
 "cBF" = (
-/obj/machinery/rotating_alarm/supermatter{
-	dir = 1
+/obj/effect/floor_decal/corner/green{
+	dir = 5
 	},
-/turf/simulated/wall/prepainted,
-/area/operations_storage/robotics)
+/obj/machinery/rotating_alarm/supermatter,
+/turf/simulated/floor/tiled,
+/area/hallway/primary/firstdeck/center)
 "cBU" = (
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 1
@@ -16417,6 +16408,12 @@
 /obj/effect/floor_decal/corner/red{
 	color = "#22425c";
 	dir = 9
+	},
+/obj/machinery/button/alternate/door/bolts{
+	id_tag = "TACARM";
+	name = "TACARM Bolts";
+	pixel_x = -27;
+	req_access = list("ACCESS_VAULT")
 	},
 /turf/simulated/floor/tiled/dark,
 /area/security/storage)
@@ -16970,6 +16967,7 @@
 /obj/structure/sign/directions/med{
 	pixel_y = 32
 	},
+/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/firstdeck/aft)
 "dMr" = (
@@ -17418,7 +17416,8 @@
 	dir = 4
 	},
 /obj/machinery/door/airlock/highsecurity/bolted{
-	name = "Security - TACARM"
+	id_tag = "TACARM";
+	name = "TACARM"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/command/armoury/tactical)
@@ -18658,9 +18657,12 @@
 /turf/simulated/floor/tiled/dark,
 /area/security/processing)
 "gtK" = (
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 5
+	},
 /obj/machinery/rotating_alarm/supermatter,
-/turf/simulated/wall/prepainted,
-/area/medical/staging)
+/turf/simulated/floor/tiled,
+/area/hallway/primary/firstdeck/center)
 "guu" = (
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/command/armoury)
@@ -18888,12 +18890,6 @@
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/dark,
 /area/security/storage)
-"gGU" = (
-/obj/machinery/rotating_alarm/supermatter{
-	dir = 1
-	},
-/turf/simulated/wall/r_wall/prepainted,
-/area/rnd/development)
 "gHb" = (
 /obj/structure/closet/crate,
 /obj/item/stack/material/phoron{
@@ -19968,9 +19964,6 @@
 /obj/item/weapon/stool/padded,
 /turf/simulated/floor/tiled,
 /area/rnd/entry)
-"hVG" = (
-/turf/simulated/wall/r_wall/prepainted,
-/area/hallway/primary/firstdeck/center)
 "hWb" = (
 /obj/structure/cable/green{
 	d2 = 8;
@@ -22121,7 +22114,8 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/highsecurity/bolted{
-	name = "Militia - TACARM"
+	id_tag = "MILARM";
+	name = "MILARM"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/command/armoury/tactical)
@@ -22422,7 +22416,7 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/door/airlock/highsecurity{
-	name = "Security - SECARM"
+	name = "SECARM"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/security/armoury)
@@ -22675,10 +22669,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/security/questioning)
-"kVw" = (
-/obj/machinery/rotating_alarm/supermatter,
-/turf/simulated/wall/r_wall/prepainted,
-/area/medical/counselor)
 "kWb" = (
 /obj/effect/floor_decal/corner/research{
 	dir = 10;
@@ -23512,12 +23502,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/teleporter/firstdeck)
-"lZU" = (
-/obj/machinery/rotating_alarm/supermatter{
-	dir = 1
-	},
-/turf/simulated/wall/r_wall/prepainted,
-/area/security/opscheck)
 "mav" = (
 /turf/simulated/wall/prepainted,
 /area/rnd/office)
@@ -24917,9 +24901,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/medical/exam_room)
-"nCb" = (
-/turf/simulated/wall/prepainted,
-/area/medical/exam_room)
 "nDd" = (
 /obj/structure/bed/chair/armchair/brown{
 	dir = 8
@@ -25220,6 +25201,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/floor/plating,
 /area/hallway/primary/firstdeck/fore)
 "nWl" = (
@@ -25472,7 +25454,6 @@
 /turf/simulated/floor/tiled,
 /area/hallway/primary/firstdeck/fore)
 "ogN" = (
-/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/wall/prepainted,
 /area/medical/exam_room)
 "ohy" = (
@@ -25825,9 +25806,6 @@
 /obj/structure/closet/emcloset,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/firstdeck/foreport)
-"oJb" = (
-/turf/simulated/wall/prepainted,
-/area/assembly/robotics/laboratory)
 "oLz" = (
 /obj/machinery/alarm{
 	pixel_y = 24
@@ -26157,6 +26135,12 @@
 	dir = 8;
 	icon_state = "tube1"
 	},
+/obj/machinery/button/alternate/door/bolts{
+	id_tag = "TACARM";
+	name = "TACARM Bolts";
+	pixel_x = -27;
+	req_access = list("ACCESS_VAULT")
+	},
 /turf/simulated/floor/tiled/dark,
 /area/security/armoury)
 "oZb" = (
@@ -26447,14 +26431,6 @@
 /area/rnd/research)
 "ptD" = (
 /obj/effect/wallframe_spawn/reinforced,
-/obj/machinery/door/blast/regular{
-	density = 0;
-	dir = 4;
-	icon_state = "pdoor0";
-	id_tag = "Prison Gate";
-	name = "Security Blast Door";
-	opacity = 0
-	},
 /obj/structure/cable/green{
 	d2 = 2;
 	icon_state = "0-2"
@@ -27484,7 +27460,6 @@
 /turf/simulated/floor/tiled/white,
 /area/rnd/misc_lab)
 "qCn" = (
-/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/wall/prepainted,
 /area/assembly/robotics/laboratory)
 "qCs" = (
@@ -31245,9 +31220,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/security/storage)
-"uSl" = (
-/turf/simulated/wall/prepainted,
-/area/assembly/chargebay)
 "uSr" = (
 /turf/simulated/floor/wood/walnut,
 /area/medical/counselor)
@@ -32056,7 +32028,6 @@
 /turf/simulated/floor/plating,
 /area/security/wing)
 "wrZ" = (
-/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/wall/r_wall/prepainted,
 /area/hallway/primary/firstdeck/center)
 "wtS" = (
@@ -32247,6 +32218,7 @@
 	dir = 1;
 	icon_state = "bordercolorhalf"
 	},
+/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/firstdeck/center)
 "wXc" = (
@@ -32541,7 +32513,6 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/turbolift/robotics_lift)
 "xIL" = (
-/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/wall/prepainted,
 /area/assembly/chargebay)
 "xJP" = (
@@ -32629,7 +32600,8 @@
 	dir = 4
 	},
 /obj/machinery/door/airlock/highsecurity/bolted{
-	name = "Security - TACARM"
+	id_tag = "TACARM";
+	name = "TACARM"
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/command/armoury/tactical)
@@ -46826,13 +46798,13 @@ geb
 hQb
 lCb
 lNb
-hVG
-hVG
-hVG
-hVG
-hVG
-hVG
-hVG
+wrZ
+wrZ
+wrZ
+wrZ
+wrZ
+wrZ
+wrZ
 axa
 axZ
 axa
@@ -47028,7 +47000,7 @@ gHb
 hWb
 lCb
 lOb
-hVG
+wrZ
 aqn
 aqn
 aqn
@@ -47230,7 +47202,7 @@ bMb
 bMb
 bMb
 bMb
-hVG
+wrZ
 aqn
 aqn
 aqn
@@ -47432,7 +47404,7 @@ aeg
 amn
 anm
 anm
-hVG
+wrZ
 aqn
 aqn
 aqn
@@ -47634,7 +47606,7 @@ aeg
 amn
 ann
 anm
-hVG
+wrZ
 aqn
 aqn
 aqn
@@ -47836,7 +47808,7 @@ agN
 nXk
 ann
 anm
-hVG
+wrZ
 aqn
 aqn
 aqn
@@ -48038,14 +48010,14 @@ agN
 ahQ
 anp
 aol
-hVG
-hVG
-hVG
-hVG
-hVG
-hVG
+wrZ
+wrZ
+wrZ
+wrZ
+wrZ
+wrZ
 awb
-rKo
+cBF
 aye
 ure
 aAm
@@ -48849,9 +48821,9 @@ acD
 acD
 acD
 acD
-uSl
-uSl
-uSl
+xIL
+xIL
+xIL
 xIL
 axe
 ayh
@@ -49050,11 +49022,11 @@ xcW
 dFH
 xFL
 nxK
-uSl
+xIL
 bxK
 gWY
 auO
-uSl
+xIL
 rsV
 ayg
 ure
@@ -49252,7 +49224,7 @@ xcW
 aop
 xFL
 aqp
-uSl
+xIL
 nVe
 mcA
 auP
@@ -49660,7 +49632,7 @@ foK
 kDb
 ajv
 lcq
-uSl
+xIL
 axi
 ayg
 ure
@@ -49859,9 +49831,9 @@ dRs
 gQI
 oMq
 xcW
-oJb
-oJb
-oJb
+qCn
+qCn
+qCn
 qCn
 lgb
 bHp
@@ -50872,7 +50844,7 @@ kyb
 atK
 apo
 kdb
-oJb
+qCn
 abf
 ayg
 azq
@@ -51071,14 +51043,14 @@ kCb
 kCb
 kCb
 kCb
-oJb
+qCn
 eRQ
-oJb
+qCn
 qCn
 koX
 ayg
 ure
-cBF
+aBF
 aBF
 aBF
 aBF
@@ -51883,7 +51855,7 @@ kKb
 kSb
 lbb
 leb
-ycz
+gtK
 ayg
 azm
 auN
@@ -52892,11 +52864,11 @@ gyV
 agj
 agx
 agK
-gtK
+leb
 xSf
 ayp
 axe
-lZU
+awX
 awX
 awX
 awX
@@ -55110,8 +55082,8 @@ dDb
 aeo
 afi
 aqM
-nCb
-nCb
+ogN
+ogN
 gEb
 gEb
 ogN
@@ -55918,11 +55890,11 @@ adn
 aeB
 afm
 qLr
-nCb
+ogN
 omb
 aub
 avo
-nCb
+ogN
 awM
 jAM
 jab
@@ -56120,11 +56092,11 @@ aqQ
 aeC
 afo
 aqQ
-nCb
+ogN
 vnC
 auc
 kFT
-nCb
+ogN
 jhb
 ayz
 jhb
@@ -56322,11 +56294,11 @@ sWP
 aeF
 afp
 aqR
-nCb
+ogN
 cbj
 lKn
 uuS
-nCb
+ogN
 axB
 jAM
 azT
@@ -56524,11 +56496,11 @@ tmc
 aeW
 afu
 aqS
-nCb
-nCb
-nCb
-nCb
-nCb
+ogN
+ogN
+ogN
+ogN
+ogN
 kRr
 hib
 tiz
@@ -56730,11 +56702,11 @@ ais
 atf
 wxY
 dWo
-kVw
+tQi
 bWA
 ygK
 azN
-gGU
+aik
 aik
 aik
 aik
