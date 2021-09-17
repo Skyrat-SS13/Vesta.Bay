@@ -1,7 +1,8 @@
-# Sky of Orion
+# NTSS Andromeda
 
-This is Sky of Orion's repository based on the [Baystation12](http://github.com/Baystation12/Baystation12/) codebase.
-[Discord](https://discord.com/invite/G6nFkeAEyn)
+This is Skyrat's fork of [Vesta](https://github.com/VestaOfOrion/Vesta.Bay)'s repository based on the [Baystation12](http://github.com/Baystation12/Baystation12/) codebase.
+
+[![Join our discord](https://i.imgur.com/MMAn1sz.png)](https://discord.com/invite/G6nFkeAEyn)
 
 ---
 
