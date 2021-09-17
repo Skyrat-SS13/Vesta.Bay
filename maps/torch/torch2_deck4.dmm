@@ -1063,11 +1063,8 @@
 /turf/simulated/open,
 /area/maintenance/fourthdeck/starboard)
 "dv" = (
-/obj/machinery/rotating_alarm/supermatter{
-	dir = 1
-	},
-/turf/simulated/wall/prepainted,
-/area/quartermaster/deckchief)
+/turf/space,
+/area/maintenance/waterstore)
 "dw" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -1547,9 +1544,6 @@
 /obj/item/weapon/book/manual/nt_regs,
 /turf/simulated/floor/wood,
 /area/crew_quarters/lounge)
-"fd" = (
-/turf/simulated/wall/mahogany,
-/area/command/captainmess)
 "fe" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -3149,12 +3143,6 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/quartermaster/hangar/top)
-"kp" = (
-/obj/machinery/rotating_alarm/supermatter{
-	dir = 1
-	},
-/turf/simulated/wall/r_wall/prepainted,
-/area/teleporter/fourthdeck)
 "kq" = (
 /obj/structure/railing/mapped{
 	dir = 4;
@@ -4530,9 +4518,6 @@
 /area/hallway/primary/fourthdeck/fore)
 "oz" = (
 /obj/machinery/status_display,
-/turf/simulated/wall/r_wall/prepainted,
-/area/teleporter/fourthdeck)
-"oA" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/teleporter/fourthdeck)
 "oB" = (
@@ -7226,9 +7211,6 @@
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/storage/primary)
-"wF" = (
-/turf/simulated/wall/prepainted,
-/area/storage/primary)
 "wG" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -7422,7 +7404,6 @@
 /turf/simulated/floor/plating,
 /area/maintenance/fourthdeck/starboard)
 "xj" = (
-/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/wall/prepainted,
 /area/storage/primary)
 "xm" = (
@@ -7938,10 +7919,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/fourthdeck/aft)
-"yR" = (
-/obj/machinery/rotating_alarm/supermatter,
-/turf/simulated/wall/prepainted,
-/area/hallway/primary/fourthdeck/aft)
 "ze" = (
 /obj/structure/railing/mapped{
 	dir = 1;
@@ -8394,7 +8371,6 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/eva)
 "An" = (
-/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/wall/r_wall/prepainted,
 /area/teleporter/fourthdeck)
 "At" = (
@@ -8607,7 +8583,6 @@
 /turf/simulated/floor/reinforced,
 /area/maintenance/fourthdeck/port)
 "BA" = (
-/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/wall/mahogany,
 /area/command/captainmess)
 "BD" = (
@@ -8902,12 +8877,6 @@
 /obj/structure/bed/chair/comfy/brown,
 /turf/simulated/floor/carpet,
 /area/crew_quarters/lounge)
-"CJ" = (
-/obj/machinery/rotating_alarm/supermatter{
-	dir = 1
-	},
-/turf/simulated/wall/r_wall/prepainted,
-/area/hallway/primary/fourthdeck/fore)
 "CK" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/simulated/floor/tiled/monotile,
@@ -9998,10 +9967,6 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/lounge)
-"Gr" = (
-/obj/machinery/rotating_alarm/supermatter,
-/turf/simulated/wall/prepainted,
-/area/crew_quarters/laundry)
 "Gt" = (
 /obj/effect/shuttle_landmark/scavver_gantry/torch,
 /turf/space,
@@ -14341,6 +14306,9 @@
 /area/shuttle/escape_pod6/station)
 "Su" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/rotating_alarm/supermatter{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/fourthdeck/fore)
 "Sv" = (
@@ -14824,6 +14792,9 @@
 	dir = 1;
 	pixel_y = -4;
 	pixel_z = 0
+	},
+/obj/machinery/rotating_alarm/supermatter{
+	dir = 4
 	},
 /turf/simulated/wall/r_wall/prepainted,
 /area/storage/primary)
@@ -16376,6 +16347,9 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/machinery/rotating_alarm/supermatter{
+	dir = 1
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/fourthdeck/aft)
@@ -28316,14 +28290,14 @@ jb
 ej
 mg
 nm
-oA
+An
 oz
 pL
-oA
-oA
-oA
+An
+An
+An
 vo
-oA
+An
 wq
 Pz
 AH
@@ -28518,8 +28492,8 @@ jc
 ej
 mh
 nn
-kp
-oA
+An
+An
 pM
 qW
 sr
@@ -28721,13 +28695,13 @@ lb
 mi
 Nu
 no
-oA
+An
 pN
 qX
 qX
 tW
 vq
-oA
+An
 xU
 zq
 AI
@@ -28923,13 +28897,13 @@ ej
 Uy
 mj
 np
-oA
+An
 pO
 qY
 ss
 qY
 vr
-oA
+An
 xV
 zr
 AH
@@ -29125,7 +29099,7 @@ ej
 mk
 nm
 nq
-oA
+An
 pP
 qZ
 st
@@ -29327,13 +29301,13 @@ le
 ml
 Rn
 nr
-oA
-oA
-oA
-oA
-oA
-oA
-oA
+An
+An
+An
+An
+An
+An
+An
 xX
 zt
 AJ
@@ -29529,7 +29503,7 @@ ld
 mm
 ns
 Zj
-wF
+xj
 pQ
 ra
 su
@@ -29933,7 +29907,7 @@ vF
 mn
 Si
 Sv
-wF
+xj
 pS
 rc
 sw
@@ -30942,13 +30916,13 @@ vF
 vF
 Xz
 mr
-CJ
+ct
 ct
 ct
 rd
 hE
 uc
-wF
+xj
 xj
 Pv
 zy
@@ -34773,7 +34747,7 @@ ap
 MX
 MX
 MX
-fd
+BA
 hl
 Mp
 Mp
@@ -34970,7 +34944,7 @@ ak
 aS
 bv
 Lu
-fd
+BA
 QA
 dR
 eA
@@ -35374,7 +35348,7 @@ ak
 rr
 er
 VR
-fd
+BA
 Tz
 dS
 OI
@@ -35576,7 +35550,7 @@ ak
 aV
 er
 VR
-fd
+BA
 Rq
 dS
 em
@@ -35778,7 +35752,7 @@ ak
 aU
 er
 VR
-fd
+BA
 py
 Yu
 Yu
@@ -36183,7 +36157,7 @@ bN
 bw
 bZ
 dU
-fd
+BA
 WU
 WU
 WU
@@ -36385,7 +36359,7 @@ bN
 BH
 bZ
 dU
-fd
+BA
 Un
 XM
 XM
@@ -36587,8 +36561,8 @@ bN
 bw
 bZ
 dU
-fd
-fd
+BA
+BA
 cq
 gw
 RL
@@ -37001,7 +36975,7 @@ NM
 NM
 NM
 NM
-VW
+dv
 WI
 vH
 Wv
@@ -39428,7 +39402,7 @@ PJ
 PJ
 PJ
 PJ
-Gr
+PJ
 gq
 lM
 RW
@@ -40640,11 +40614,11 @@ AT
 da
 Il
 xE
-yR
+Xn
 TH
 MI
 ql
-dv
+vK
 ST
 Sh
 Sy

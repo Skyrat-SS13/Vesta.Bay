@@ -383,6 +383,7 @@
 /obj/effect/floor_decal/corner/yellow{
 	dir = 4
 	},
+/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/thirddeck/aft)
 "bd" = (
@@ -2690,8 +2691,12 @@
 /turf/simulated/floor/tiled/dark,
 /area/command/disperser)
 "fB" = (
-/turf/simulated/wall/prepainted,
-/area/crew_quarters/mess)
+/obj/effect/floor_decal/corner/green{
+	dir = 5
+	},
+/obj/machinery/rotating_alarm/supermatter,
+/turf/simulated/floor/tiled,
+/area/hallway/primary/thirddeck/center)
 "fC" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -3430,8 +3435,9 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/foreport)
 "gN" = (
-/turf/simulated/wall/r_wall/prepainted,
-/area/holocontrol)
+/obj/machinery/rotating_alarm/supermatter,
+/turf/simulated/floor/tiled,
+/area/hallway/primary/thirddeck/fore)
 "gO" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -5455,8 +5461,12 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/hallway/primary/thirddeck/center)
 "kL" = (
-/turf/simulated/wall/prepainted,
-/area/crew_quarters/bar)
+/obj/machinery/cryopod{
+	dir = 4
+	},
+/obj/machinery/rotating_alarm/supermatter,
+/turf/simulated/floor/tiled/techmaint,
+/area/crew_quarters/sleep/cryo)
 "kN" = (
 /obj/machinery/light/spot{
 	dir = 1
@@ -5847,6 +5857,7 @@
 	dir = 5
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/thirddeck/aft)
 "lK" = (
@@ -6215,10 +6226,6 @@
 /obj/machinery/light/spot,
 /turf/simulated/floor/tiled/freezer,
 /area/pool)
-"mu" = (
-/obj/machinery/rotating_alarm/supermatter,
-/turf/simulated/wall/prepainted,
-/area/holocontrol)
 "mv" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -6289,12 +6296,6 @@
 /obj/structure/lattice,
 /turf/simulated/open,
 /area/maintenance/thirddeck/aftstarboard)
-"mI" = (
-/obj/machinery/rotating_alarm/supermatter{
-	dir = 1
-	},
-/turf/simulated/wall/r_wall/prepainted,
-/area/security/habcheck)
 "mK" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/techfloor,
@@ -6433,6 +6434,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /obj/structure/closet/emcloset,
 /obj/effect/floor_decal/corner/green/mono,
+/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/thirddeck/fore)
 "nb" = (
@@ -8391,6 +8393,9 @@
 	dir = 4
 	},
 /obj/effect/catwalk_plated,
+/obj/machinery/rotating_alarm/supermatter{
+	dir = 8
+	},
 /turf/simulated/floor/plating,
 /area/hallway/primary/thirddeck/fore)
 "rT" = (
@@ -10602,7 +10607,6 @@
 /turf/simulated/floor/plating,
 /area/security/habcheck)
 "xe" = (
-/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/wall/prepainted,
 /area/crew_quarters/bar)
 "xf" = (
@@ -10837,7 +10841,6 @@
 /obj/machinery/rotating_alarm/supermatter{
 	dir = 1
 	},
-/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/wall/prepainted,
 /area/pool)
 "xM" = (
@@ -11762,7 +11765,6 @@
 /turf/simulated/floor/pool,
 /area/pool)
 "Ad" = (
-/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/wall/prepainted,
 /area/crew_quarters/mess)
 "Ae" = (
@@ -12677,6 +12679,7 @@
 	dir = 1;
 	icon_state = "bordercolorhalf"
 	},
+/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/thirddeck/center)
 "CE" = (
@@ -14737,12 +14740,6 @@
 	},
 /turf/simulated/wall/r_wall/hull,
 /area/maintenance/thirddeck/aftstarboard)
-"Ht" = (
-/obj/machinery/rotating_alarm/supermatter{
-	dir = 1
-	},
-/turf/simulated/wall/r_wall/prepainted,
-/area/crew_quarters/sleep/cryo)
 "Hu" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -15508,6 +15505,9 @@
 /area/hallway/primary/thirddeck/aft)
 "Jc" = (
 /obj/effect/floor_decal/corner/green,
+/obj/machinery/rotating_alarm/supermatter{
+	dir = 1
+	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/thirddeck/center)
 "Jd" = (
@@ -17020,7 +17020,6 @@
 /obj/machinery/rotating_alarm/supermatter{
 	dir = 1
 	},
-/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/wall/prepainted,
 /area/crew_quarters/observation)
 "Mn" = (
@@ -17521,6 +17520,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/floor/tiled/steel_grid,
 /area/hallway/primary/thirddeck/center)
 "NB" = (
@@ -18423,6 +18423,7 @@
 	dir = 1;
 	icon_state = "bordercolorhalf"
 	},
+/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/thirddeck/aft)
 "PY" = (
@@ -19160,10 +19161,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/pool)
-"RU" = (
-/obj/machinery/rotating_alarm/supermatter,
-/turf/simulated/wall/r_wall/prepainted,
-/area/crew_quarters/observation)
 "RV" = (
 /obj/machinery/portable_atmospherics/powered/pump/filled,
 /turf/simulated/floor/tiled/techfloor,
@@ -21096,7 +21093,6 @@
 /turf/simulated/floor/tiled/freezer,
 /area/pool)
 "WW" = (
-/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/wall/r_wall/prepainted,
 /area/holocontrol)
 "WX" = (
@@ -31226,7 +31222,7 @@ jo
 Xi
 aM
 aM
-RU
+Ww
 lX
 fJ
 sq
@@ -35680,7 +35676,7 @@ PK
 se
 Xg
 Xg
-VU
+gN
 fC
 iI
 jh
@@ -37497,7 +37493,7 @@ pU
 YP
 sl
 pn
-mI
+Vx
 Vx
 Vx
 Vx
@@ -37688,7 +37684,7 @@ fp
 NT
 ik
 iX
-kL
+xe
 OX
 SP
 ml
@@ -38092,7 +38088,7 @@ Od
 ww
 im
 iY
-kL
+xe
 lx
 mn
 Yl
@@ -38294,7 +38290,7 @@ du
 Fw
 ii
 ev
-kL
+xe
 kN
 wC
 RL
@@ -38705,12 +38701,12 @@ Vg
 Vg
 Vg
 pc
-kL
+xe
 xE
 IZ
 Jc
-Ht
-vU
+uP
+kL
 vU
 yb
 yU
@@ -39312,7 +39308,7 @@ Ko
 AA
 Gz
 Ad
-Xn
+fB
 sp
 Mz
 uS
@@ -39513,7 +39509,7 @@ IF
 Ko
 AA
 pf
-fB
+Ad
 qU
 sj
 zo
@@ -39715,7 +39711,7 @@ IF
 Ko
 AA
 pg
-fB
+Ad
 le
 VM
 tH
@@ -40321,7 +40317,7 @@ Xs
 Xs
 Xs
 pi
-fB
+Ad
 qV
 sj
 tC
@@ -40511,10 +40507,10 @@ RN
 wn
 Qn
 bA
-fB
-fB
+Ad
+Ad
 gA
-fB
+Ad
 Ei
 Yf
 Xs
@@ -40523,7 +40519,7 @@ Xs
 Xs
 Xs
 Xs
-fB
+Ad
 qR
 sr
 qR
@@ -40716,8 +40712,8 @@ bA
 Po
 gC
 hy
-fB
-fB
+Ad
+Ad
 nD
 ct
 nD
@@ -40725,7 +40721,7 @@ vz
 vz
 vz
 vz
-fB
+Ad
 tF
 sj
 tL
@@ -40927,8 +40923,8 @@ XE
 fU
 fU
 XE
+Ad
 fB
-Xn
 sj
 Dt
 uU
@@ -41129,7 +41125,7 @@ EF
 yQ
 oj
 EF
-fB
+Ad
 MS
 sj
 UQ
@@ -41327,10 +41323,10 @@ Vv
 nD
 nD
 nD
-fB
-fB
-fB
-fB
+Ad
+Ad
+Ad
+Ad
 Ad
 qP
 RQ
@@ -44761,10 +44757,10 @@ rA
 xW
 FR
 nA
-gN
-gN
-gN
-gN
+WW
+WW
+WW
+WW
 WW
 sW
 sv
@@ -45966,7 +45962,7 @@ dl
 ea
 eI
 eI
-gN
+WW
 hA
 hA
 hA
@@ -46168,7 +46164,7 @@ dm
 eb
 eJ
 yL
-gN
+WW
 hA
 hA
 hA
@@ -46370,7 +46366,7 @@ dl
 ec
 eK
 nq
-gN
+WW
 hA
 hA
 hA
@@ -46572,7 +46568,7 @@ dl
 ed
 ab
 hk
-gN
+WW
 hA
 hA
 hA
@@ -46774,7 +46770,7 @@ dl
 dl
 eM
 eI
-gN
+WW
 hA
 hA
 hA
@@ -47391,7 +47387,7 @@ hA
 hA
 hA
 hA
-mu
+qd
 rw
 Xv
 je
