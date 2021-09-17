@@ -16409,12 +16409,6 @@
 	color = "#22425c";
 	dir = 9
 	},
-/obj/machinery/button/alternate/door/bolts{
-	id_tag = "TACARM";
-	name = "TACARM Bolts";
-	pixel_x = -27;
-	req_access = list("ACCESS_VAULT")
-	},
 /turf/simulated/floor/tiled/dark,
 /area/security/storage)
 "dcb" = (
@@ -31378,12 +31372,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/security/detectives_office)
-"vbZ" = (
-/obj/machinery/rotating_alarm/supermatter{
-	dir = 1
-	},
-/turf/simulated/wall/prepainted,
-/area/operations_storage/medical)
 "vci" = (
 /obj/effect/wallframe_spawn/reinforced_phoron,
 /turf/simulated/floor/tiled/techfloor,
@@ -48828,7 +48816,7 @@ xIL
 axe
 ayh
 axe
-vbZ
+aFg
 aFg
 aFg
 aFg

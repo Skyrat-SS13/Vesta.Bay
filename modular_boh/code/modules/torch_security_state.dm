@@ -37,6 +37,7 @@
 	overlay_alarm = "alarm_green"
 	overlay_status_display = "status_display_green"
 	security_level_lightmode = "reset"
+	alert_border = "alert_border_green"
 
 	var/static/datum/announcement/priority/security/security_announcement_green = new(do_log = 0, do_newscast = 1, new_sound = sound('sound/misc/notice2.ogg'))
 
@@ -58,6 +59,7 @@
 	overlay_alarm = "alarm_violet"
 	overlay_status_display = "status_display_violet"
 	security_level_lightmode = "violet"
+	alert_border = "alert_border_violet"
 
 	up_description = "A major medical emergency has developed. Medical personnel are required to report to their supervisor for orders, and non-medical personnel are required to obey all relevant instructions from medical staff."
 	down_description = "Code violet procedures are now in effect; Medical personnel are required to report to their supervisor for orders, and non-medical personnel are required to obey relevant instructions from medical staff."
@@ -73,6 +75,7 @@
 	overlay_alarm = "alarm_orange"
 	overlay_status_display = "status_display_orange"
 	security_level_lightmode = "orange"
+	alert_border = "alert_border_orange"
 
 	psionic_control_level = PSI_IMPLANT_LOG
 
@@ -92,6 +95,7 @@
 	overlay_alarm = "alarm_blue"
 	overlay_status_display = "status_display_blue"
 	security_level_lightmode = "blue"
+	alert_border = "alert_border_blue"
 
 	psionic_control_level = PSI_IMPLANT_LOG
 
@@ -107,9 +111,11 @@
 	light_outer_range = 3
 	light_color_alarm = COLOR_RED
 	light_color_status_display = COLOR_RED
+
 	overlay_alarm = "alarm_red"
 	overlay_status_display = "status_display_red"
 	security_level_lightmode = "red"
+	alert_border = "alert_border_red"
 
 	up_description = "A severe emergency has occurred. Now sounding General Quarters. All essential ship personnel are restricted to their departments, to await further orders. Security may search any individual with due cause, and may have weapons visible on their person and unholstered. All combat ready personnel are to report to security for orders. Lethals are now permitted, and nonessential crew must report to the nearest saferoom, as being visible in general areas is strictly prohibited."
 	psionic_control_level = PSI_IMPLANT_DISABLED
@@ -127,8 +133,8 @@
 
 /decl/security_level/default/torchdept/code_delta
 	name = "code delta"
-	security_level_lightmode = "delta"
-
+	icon = 'icons/misc/security_state.dmi'
+	
 	light_max_bright = 0.75
 	light_inner_range = 0.1
 	light_outer_range = 3
@@ -137,6 +143,8 @@
 
 	overlay_alarm = "alarm_delta"
 	overlay_status_display = "status_display_delta"
+	security_level_lightmode = "delta"
+	alert_border = "alert_border_delta"
 
 	psionic_control_level = PSI_IMPLANT_DISABLED
 
