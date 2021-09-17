@@ -2003,13 +2003,6 @@
 	dir = 1;
 	icon_state = "handrail"
 	},
-/obj/machinery/vending/wallmed1{
-	dir = 1;
-	icon_state = "wallmed";
-	name = "Emergency NanoMed";
-	pixel_x = 0;
-	pixel_y = -32
-	},
 /turf/simulated/floor/tiled,
 /area/exploration_shuttle/airlock)
 "dC" = (
@@ -11318,6 +11311,11 @@
 /obj/effect/paint/silver,
 /turf/simulated/floor/plating,
 /area/shuttle/petrov/equipment)
+"yS" = (
+/obj/effect/paint/hull,
+/obj/machinery/vending/wallmed2,
+/turf/simulated/wall/titanium,
+/area/guppy_hangar/start)
 "yU" = (
 /obj/machinery/atmospherics/unary/heater,
 /obj/machinery/light{
@@ -17322,6 +17320,13 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/fifthdeck/aftstarboard)
+"Tn" = (
+/obj/effect/paint/hull,
+/obj/machinery/vending/wallmed2{
+	dir = 1
+	},
+/turf/simulated/wall/titanium,
+/area/exploration_shuttle/power)
 "To" = (
 /obj/structure/sign/solgov,
 /turf/simulated/wall/r_wall/hull,
@@ -37010,7 +37015,7 @@ cE
 cQ
 dk
 dB
-eF
+Tn
 eF
 fu
 eF
@@ -38823,7 +38828,7 @@ ao
 aY
 bH
 cf
-cj
+yS
 Rd
 sJ
 Ko
