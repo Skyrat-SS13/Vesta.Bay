@@ -4728,8 +4728,9 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/engine_room)
 "jO" = (
-/obj/machinery/atmospherics/pipe/simple/visible/cyan{
-	dir = 1
+/obj/machinery/atmospherics/pipe/manifold/visible/cyan{
+	dir = 8;
+	icon_state = "map"
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/space)
@@ -5580,6 +5581,15 @@
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/seconddeck/foreport)
+"lH" = (
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/black{
+	dir = 4
+	},
+/turf/simulated/wall/r_wall/prepainted,
+/area/engineering/atmos)
 "lJ" = (
 /obj/item/weapon/stool/padded,
 /obj/effect/floor_decal/industrial/warning,
@@ -8540,16 +8550,17 @@
 	icon_state = "nosmoking";
 	pixel_x = -32
 	},
+/obj/machinery/atmospherics/binary/pump{
+	dir = 8;
+	name = "Cold Loop to Atmos"
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/engineering/engine_room)
 "tc" = (
-/obj/machinery/atmospherics/pipe/simple/visible/cyan{
-	dir = 5;
-	icon_state = "intact"
-	},
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/manifold/visible/cyan,
 /turf/simulated/floor/tiled/techfloor,
 /area/engineering/engine_room)
 "td" = (
@@ -14235,8 +14246,9 @@
 /turf/simulated/floor/plating,
 /area/maintenance/seconddeck/aftport)
 "Iu" = (
-/obj/machinery/atmospherics/pipe/simple/visible/cyan{
-	dir = 1
+/obj/machinery/atmospherics/pipe/manifold/visible/cyan{
+	dir = 8;
+	icon_state = "map"
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/engineering/engine_room)
@@ -15480,7 +15492,9 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/locker_room)
 "MP" = (
-/obj/machinery/atmospherics/binary/pump,
+/obj/machinery/atmospherics/binary/pump{
+	name = "Hot Loop to Atmos"
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/engineering/engine_room)
 "MQ" = (
@@ -15766,6 +15780,10 @@
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/seconddeck/foreport)
+"NM" = (
+/obj/machinery/atmospherics/pipe/manifold/visible/black,
+/turf/simulated/wall/r_wall/prepainted,
+/area/engineering/atmos)
 "NN" = (
 /obj/structure/closet/crate/med_crate/toxin,
 /obj/effect/floor_decal/industrial/outline/grey,
@@ -16638,7 +16656,8 @@
 "Qk" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/machinery/atmospherics/binary/pump{
-	dir = 1
+	dir = 1;
+	name = "Emergency CO2 to Hot Loop"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/engine_room)
@@ -44627,7 +44646,7 @@ oA
 rc
 Md
 Ie
-No
+NM
 tV
 uE
 xH
@@ -44829,7 +44848,7 @@ Qk
 pZ
 so
 KP
-UO
+lH
 UO
 UO
 wt

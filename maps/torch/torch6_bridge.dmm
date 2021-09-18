@@ -18017,9 +18017,7 @@
 	req_access = list("ACCESS_VAULT");
 	wall_mounted = 1
 	},
-/obj/item/weapon/disk/nuclear,
-/obj/item/weapon/pinpointer/advpinpointer,
-/obj/item/weapon/folder/envelope/nuke_instructions,
+/obj/item/weapon/storage/secure/briefcase/nukedisk,
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/safe_room/bridge)
 "To" = (
