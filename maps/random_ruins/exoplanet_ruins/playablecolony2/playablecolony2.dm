@@ -6,7 +6,7 @@
 	description = "a recently landed colony ship"
 	suffixes = list("playablecolony2/colony2.dmm")
 	cost = 2
-	template_flags = TEMPLATE_FLAG_CLEAR_CONTENTS | TEMPLATE_FLAG_NO_RUINS | TEMPLATE_FLAG_NO_RADS
+	template_flags = TEMPLATE_FLAG_CLEAR_CONTENTS | TEMPLATE_FLAG_NO_RUINS | TEMPLATE_FLAG_NO_RADS | TEMPLATE_FLAG_SPAWN_GUARANTEED
 	ruin_tags = RUIN_HUMAN|RUIN_HABITAT
 	ban_ruins = list(/datum/map_template/ruin/exoplanet/playablecolony)
 	apc_test_exempt_areas = list(

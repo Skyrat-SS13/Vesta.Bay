@@ -370,6 +370,8 @@ var/list/gear_datums = list()
 	return item
 
 /datum/gear/proc/spawn_on_mob(var/mob/living/carbon/human/H, var/metadata)
+	if (H.species.name == SPECIES_PLASMASANS && (slot == slot_wear_suit || slot == slot_head))
+		return
 	var/obj/item/item = spawn_item(H, H, metadata)
 	if(H.equip_to_slot_if_possible(item, slot, del_on_fail = 1, force = 1))
 		. = item

@@ -212,3 +212,23 @@
 /datum/gear/uniform/frontier
 	display_name = "frontier clothes"
 	path = /obj/item/clothing/under/frontier
+
+/datum/gear/uniform/captain
+	display_name = "Commanding Officer's Classic Jumpsuit"
+	path = /obj/item/clothing/under/rank/captain
+
+/datum/gear/uniform/hop
+	display_name = "Executive Officer's Classic Jumpsuit"
+	path = /obj/item/clothing/under/rank/head_of_personnel
+
+/datum/gear/uniform/ce
+	display_name = "Chief Engineer's Classic Jumpsuit"
+	path = /obj/item/clothing/under/rank/chief_engineer
+/datum/gear/uniform/rd
+	display_name = "Research Director's Classic Jumpsuit"
+	path = /obj/item/clothing/under/rank/research_director
+
+/datum/gear/uniform/cmo
+	display_name = "Chief Medical Officer's Classic Jumpsuit"
+	path = /obj/item/clothing/under/rank/chief_medical_officer
+

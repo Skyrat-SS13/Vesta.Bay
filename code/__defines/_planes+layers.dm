@@ -180,15 +180,8 @@ What is the naming convention for planes or layers?
 //This is difference between planes used for atoms and effects
 #define PLANE_DIFFERENCE              3
 
-
-/atom/plane = DEFAULT_PLANE
-
-#define DEFAULT_APPEARANCE_FLAGS (PIXEL_SCALE)
-
-/atom/appearance_flags = DEFAULT_APPEARANCE_FLAGS
-/image/appearance_flags = DEFAULT_APPEARANCE_FLAGS
-/mutable_appearance/appearance_flags = DEFAULT_APPEARANCE_FLAGS //Inherits /image but re docs, subject to change
-
+/atom
+	plane = DEFAULT_PLANE
 
 /image/proc/plating_decal_layerise()
 	plane = DEFAULT_PLANE
@@ -211,7 +204,7 @@ What is the naming convention for planes or layers?
 */
 
 /obj/screen/plane_master
-	appearance_flags = DEFAULT_APPEARANCE_FLAGS | PLANE_MASTER
+	appearance_flags = PLANE_MASTER
 	screen_loc = "CENTER,CENTER"
 	globalscreen = 1
 
@@ -221,7 +214,7 @@ What is the naming convention for planes or layers?
 /obj/screen/plane_master/ghost_dummy
 	// this avoids a bug which means plane masters which have nothing to control get angry and mess with the other plane masters out of spite
 	alpha = 0
-	appearance_flags = DEFAULT_APPEARANCE_FLAGS
+	appearance_flags = 0
 	plane = OBSERVER_PLANE
 
 GLOBAL_LIST_INIT(ghost_master, list(

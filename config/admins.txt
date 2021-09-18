@@ -6,6 +6,7 @@
 ######################################################################
 
 # not_a_user - Admin
+  Codingale - GameAdmin
   Guidesu - DevAdmin 
   LilElie - GameAdmin       
   ChildrenOfTheSun - GameAdmin

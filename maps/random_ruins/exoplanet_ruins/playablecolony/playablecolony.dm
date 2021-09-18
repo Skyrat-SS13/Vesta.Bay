@@ -5,14 +5,16 @@
 	id = "playablecolony"
 	description = "a fully functional colony on the frontier of settled space"
 	suffixes = list("playablecolony/colony.dmm")
-	cost = 3
+	cost = 0.1
+	spawn_weight = 0.1
+	force_ruins = TRUE
+	allow_ruins = TRUE
 	template_flags = TEMPLATE_FLAG_CLEAR_CONTENTS | TEMPLATE_FLAG_NO_RUINS | TEMPLATE_FLAG_NO_RADS
 	ruin_tags = RUIN_HUMAN|RUIN_HABITAT
 	ban_ruins = list(/datum/map_template/ruin/exoplanet/playablecolony2)
 	apc_test_exempt_areas = list(
 		/area/map_template/colony/mineralprocessing = NO_SCRUBBER|NO_VENT
 	)
-	spawn_weight = 0.3
 
 /decl/submap_archetype/playablecolony
 	descriptor = "established colony"
@@ -24,8 +26,12 @@
 	info = "You are a Colonist, living on the rim of explored, let alone inhabited, space in a reconstructed shelter made from the very ship that took you here."
 	alt_titles = list(
 		"Colony Engineer",
-		"Colony Doctor")
-	total_positions = 5
+		"Colony Doctor",
+		"Colony Security Marshall",
+		"Colony Miner",
+		"Colony Service Worker",
+		"Colony Explorer")
+	total_positions = 7
 	outfit_type = /decl/hierarchy/outfit/job/colonist
 	min_skill = list(	SKILL_CONSTRUCTION = SKILL_BASIC,
 						SKILL_ANATOMY = SKILL_BASIC,
@@ -33,7 +39,7 @@
 						SKILL_BOTANY = SKILL_BASIC,
 						SKILL_EVA = SKILL_BASIC,
 						SKILL_ELECTRICAL = SKILL_BASIC)
-	skill_points = 20
+	skill_points = 40
 
 /decl/hierarchy/outfit/job/colonist
 	name = OUTFIT_JOB_NAME("Colonist")

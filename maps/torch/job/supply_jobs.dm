@@ -100,6 +100,7 @@
 	                    SKILL_EVA     = SKILL_BASIC)
 
 	max_skill = list(   SKILL_PILOT       = SKILL_MAX)
+	skill_points = 21
 
 	outfit_type = /decl/hierarchy/outfit/job/torch/passenger/research/prospector
 	allowed_branches = list(/datum/mil_branch/civilian)
@@ -109,7 +110,7 @@
 		access_mining, access_mining_office, access_mining_station,
 		access_expedition_shuttle, access_guppy, access_hangar,
 		access_guppy_helm, access_solgov_crew, access_eva,
-		access_radio_exp, access_radio_sup
+		access_radio_exp, access_radio_sup, access_cargo, access_cargo_bot, access_maint_tunnels, access_mailsorting
 	)
 
 	minimal_access = list()
