@@ -5117,6 +5117,15 @@
 /obj/structure/closet/secure_closet/engineering_torch,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/locker_room)
+"kI" = (
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/black{
+	dir = 4
+	},
+/turf/simulated/wall/r_wall/prepainted,
+/area/engineering/atmos)
 "kJ" = (
 /turf/simulated/floor/tiled/steel_grid,
 /area/engineering/engineering_monitoring)
@@ -5581,15 +5590,6 @@
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/seconddeck/foreport)
-"lH" = (
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/black{
-	dir = 4
-	},
-/turf/simulated/wall/r_wall/prepainted,
-/area/engineering/atmos)
 "lJ" = (
 /obj/item/weapon/stool/padded,
 /obj/effect/floor_decal/industrial/warning,
@@ -8322,6 +8322,7 @@
 	dir = 4;
 	icon_state = "warning"
 	},
+/obj/machinery/meter,
 /turf/simulated/floor/tiled/techfloor,
 /area/engineering/engine_room)
 "ss" = (
@@ -15780,10 +15781,6 @@
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/seconddeck/foreport)
-"NM" = (
-/obj/machinery/atmospherics/pipe/manifold/visible/black,
-/turf/simulated/wall/r_wall/prepainted,
-/area/engineering/atmos)
 "NN" = (
 /obj/structure/closet/crate/med_crate/toxin,
 /obj/effect/floor_decal/industrial/outline/grey,
@@ -18006,6 +18003,10 @@
 /obj/random/junk,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/seconddeck/foreport)
+"UT" = (
+/obj/machinery/atmospherics/pipe/manifold/visible/black,
+/turf/simulated/wall/r_wall/prepainted,
+/area/engineering/atmos)
 "UU" = (
 /obj/structure/sign/warning/nosmoking_1,
 /turf/simulated/wall/r_wall/prepainted,
@@ -44646,7 +44647,7 @@ oA
 rc
 Md
 Ie
-NM
+UT
 tV
 uE
 xH
@@ -44848,7 +44849,7 @@ Qk
 pZ
 so
 KP
-lH
+kI
 UO
 UO
 wt
