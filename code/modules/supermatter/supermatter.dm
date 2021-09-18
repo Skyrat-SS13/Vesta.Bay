@@ -624,7 +624,7 @@ obj/machinery/power/supermatter/Destroy()
 
 /obj/effect/spinning_light/Initialize()
 	. = ..()
-	filters = filter(type= "rays", size = _size, color = COLOR_ORANGE, factor = _factor, density = _density, offset = _offset, FILTER_OVERLAY)
+	filters = filter(type= "rays", size = _size, color = COLOR_ORANGE, factor = _factor, density = _density, offset = _offset)
 
 	alpha = 200
 
