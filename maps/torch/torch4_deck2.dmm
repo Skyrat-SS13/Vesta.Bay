@@ -8906,6 +8906,15 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/engineering/atmos)
+"tS" = (
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/black{
+	dir = 4
+	},
+/turf/simulated/wall/r_wall/prepainted,
+/area/engineering/atmos)
 "tV" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
 	dir = 8;
@@ -10750,15 +10759,6 @@
 	icon_state = "corner_white"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/engineering/atmos)
-"zn" = (
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/black{
-	dir = 4
-	},
-/turf/simulated/wall/r_wall/prepainted,
 /area/engineering/atmos)
 "zr" = (
 /obj/machinery/atmospherics/pipe/simple/visible/green,
@@ -44875,7 +44875,7 @@ Qk
 pZ
 so
 KP
-zn
+tS
 UO
 UO
 wt
