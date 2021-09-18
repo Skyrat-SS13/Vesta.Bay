@@ -87,7 +87,7 @@
 		return "2"
 	return "0"
 
-/mob/proc/say_overhead(var/message, var/datum/language/speaking = null)
+/mob/proc/say_overhead(var/message, var/datum/language/speaking)
 	var/list/speech_bubble_hearers = list()
 	var/italics = 0
 	for(var/mob/M in get_mobs_in_view(7, src))
