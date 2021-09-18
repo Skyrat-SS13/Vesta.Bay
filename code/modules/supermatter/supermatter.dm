@@ -322,7 +322,7 @@ obj/machinery/power/supermatter/Destroy()
 				if(T && (T.z in GLOB.using_map.station_levels) && !istype(M,/mob/new_player) && !isdeaf(M))
 					sound_to(M, 'sound/ambience/matteralarm.ogg')
 			var/decl/security_state/security_state = decls_repository.get_decl(GLOB.using_map.security_state)
-			security_state.set_security_level(/decl/security_level/default/torchdept/code_orange, TRUE)
+			security_state.set_security_level(code_orange, TRUE)
 		else if(safe_warned && public_alert)
 			GLOB.global_announcer.autosay(alert_msg, "Supermatter Monitor")
 			public_alert = 0
