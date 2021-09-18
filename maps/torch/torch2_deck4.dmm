@@ -5212,6 +5212,7 @@
 	dir = 1;
 	icon_state = "bordercolorhalf"
 	},
+/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/fourthdeck/center)
 "ri" = (
@@ -5248,6 +5249,7 @@
 	icon_state = "corner_white"
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/fourthdeck/center)
 "rm" = (
