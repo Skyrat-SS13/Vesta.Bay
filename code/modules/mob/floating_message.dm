@@ -18,13 +18,13 @@ var/list/floating_chat_colors = list()
 	if(small)
 		fontsize = 2
 	var/limit = 160
-	if(copytext_char(message, length_char(message) - 1) == "!!")
+	if(copytext(message, length(message) - 1) == "!!")
 		fontsize = 8
 		limit = 160
 		style += "font-weight: bold;"
 
-	if(length_char(message) > limit)
-		message = "[copytext_char(message, 1, limit)]..."
+	if(length(message) > limit)
+		message = "[copytext(message, 1, limit)]..."
 
 	if(!floating_chat_colors[src])
 		floating_chat_colors[src] = get_random_colour(0,160,230)

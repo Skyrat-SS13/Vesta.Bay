@@ -302,9 +302,9 @@
 
 /mob/proc/say_emphasis_strip(input)
 	var/static/regex/italics = regex("\\|(?=\\S)(.*?)(?=\\S)\\|", "g")
-	input = replacetext_char(input, italics, "$1")
+	input = replacetext(input, italics, "$1")
 	var/static/regex/bold = regex("\\+(?=\\S)(.*?)(?=\\S)\\+", "g")
-	input = replacetext_char(input, bold, "$1")
+	input = replacetext(input, bold, "$1")
 	var/static/regex/underline = regex("_(?=\\S)(.*?)(?=\\S)_", "g")
-	input = replacetext_char(input, underline, "$1")
+	input = replacetext(input, underline, "$1")
 	return input
