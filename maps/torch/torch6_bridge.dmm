@@ -5153,7 +5153,6 @@
 	dir = 5
 	},
 /obj/effect/floor_decal/spline/plain/beige,
-/obj/structure/closet/walllocker,
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/heads/office/sea)
 "kw" = (
@@ -8787,11 +8786,6 @@
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/heads/office/sea)
 "to" = (
-/obj/structure/sign/warning/nosmoking_1{
-	dir = 4;
-	icon_state = "nosmoking";
-	pixel_x = -37
-	},
 /obj/effect/floor_decal/techfloor{
 	dir = 8;
 	icon_state = "techfloor_edges"
@@ -15987,6 +15981,12 @@
 	},
 /turf/simulated/open,
 /area/maintenance/bridge/aftport)
+"Nq" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/turf/simulated/wall/r_wall/prepainted,
+/area/crew_quarters/heads/office/sea)
 "Ns" = (
 /obj/structure/railing/mapped{
 	dir = 4;
@@ -29242,7 +29242,7 @@ vm
 tW
 Iq
 sB
-sB
+Nq
 sB
 sB
 wS
