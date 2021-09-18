@@ -6149,6 +6149,7 @@
 /obj/random/medical/lite,
 /obj/effect/floor_decal/corner/paleblue/mono,
 /obj/effect/floor_decal/industrial/outline/yellow,
+/obj/item/weapon/storage/firstaid/adv,
 /turf/simulated/floor/tiled/white/monotile,
 /area/medical/equipstorage)
 "apR" = (
@@ -10319,6 +10320,7 @@
 	pixel_y = -28
 	},
 /obj/structure/cable/green,
+/obj/item/weapon/gun/energy/gun/secure,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/bo)
 "aJp" = (
@@ -10709,6 +10711,9 @@
 "aLv" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
+	},
+/obj/structure/window/reinforced{
+	health = 1e+007
 	},
 /turf/simulated/floor/tiled/dark,
 /area/command/armoury/tactical)
@@ -16270,7 +16275,6 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/obj/item/weapon/scalpel/manager,
 /turf/simulated/floor/tiled/white,
 /area/medical/surgery2)
 "cUb" = (
@@ -16408,6 +16412,12 @@
 /obj/effect/floor_decal/corner/red{
 	color = "#22425c";
 	dir = 9
+	},
+/obj/machinery/button/alternate/door/bolts{
+	id_tag = "RIOTARM";
+	name = "TACARM Bolts";
+	pixel_x = -27;
+	req_access = list("ACCESS_VAULT")
 	},
 /turf/simulated/floor/tiled/dark,
 /area/security/storage)
@@ -16621,9 +16631,24 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/command/armoury)
 "dmb" = (
-/obj/structure/closet/emcloset,
-/turf/simulated/floor/tiled/techfloor,
-/area/maintenance/firstdeck/aftstarboard)
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/security/storage)
 "dmz" = (
 /obj/machinery/firealarm{
 	dir = 8;
@@ -16638,9 +16663,11 @@
 /turf/simulated/floor/tiled/dark,
 /area/security/detectives_office)
 "dnb" = (
-/obj/structure/closet/secure_closet/crew,
-/turf/simulated/floor/plating,
-/area/maintenance/firstdeck/aftstarboard)
+/obj/structure/window/reinforced{
+	health = 1e+007
+	},
+/turf/simulated/floor/tiled/dark,
+/area/command/armoury/tactical)
 "dnx" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -16787,10 +16814,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/firstdeck/aft)
-"dEb" = (
-/obj/random/torchcloset,
-/turf/simulated/floor/tiled/techfloor,
-/area/maintenance/firstdeck/aftstarboard)
 "dFb" = (
 /obj/effect/floor_decal/floordetail/edgedrain{
 	dir = 9;
@@ -17410,8 +17433,8 @@
 	dir = 4
 	},
 /obj/machinery/door/airlock/highsecurity/bolted{
-	id_tag = "TACARM";
-	name = "TACARM"
+	id_tag = "RIOTARM";
+	name = "TACARM - RIOT"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/command/armoury/tactical)
@@ -18142,7 +18165,6 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/obj/item/weapon/scalpel/manager,
 /turf/simulated/floor/tiled/white,
 /area/medical/surgery)
 "fDJ" = (
@@ -18671,6 +18693,7 @@
 /obj/effect/floor_decal/corner/paleblue/mono,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/light,
+/obj/item/weapon/storage/firstaid/trauma,
 /turf/simulated/floor/tiled/white/monotile,
 /area/medical/equipstorage)
 "gvC" = (
@@ -22616,6 +22639,32 @@
 /obj/item/weapon/reagent_containers/hypospray,
 /obj/item/weapon/reagent_containers/hypospray,
 /obj/item/weapon/reagent_containers/hypospray,
+/obj/item/weapon/reagent_containers/hypospray,
+/obj/item/weapon/reagent_containers/glass/beaker/vial,
+/obj/item/weapon/reagent_containers/glass/beaker/vial,
+/obj/item/weapon/reagent_containers/glass/beaker/vial,
+/obj/item/weapon/reagent_containers/glass/beaker/vial,
+/obj/item/weapon/reagent_containers/glass/beaker/vial,
+/obj/item/weapon/reagent_containers/glass/beaker/vial,
+/obj/item/weapon/reagent_containers/glass/beaker/vial,
+/obj/item/weapon/reagent_containers/glass/beaker/vial,
+/obj/item/weapon/reagent_containers/glass/beaker/vial,
+/obj/item/weapon/reagent_containers/glass/beaker/vial,
+/obj/item/weapon/reagent_containers/glass/beaker/vial,
+/obj/item/weapon/reagent_containers/glass/beaker/vial,
+/obj/item/weapon/reagent_containers/glass/beaker/vial,
+/obj/item/weapon/reagent_containers/glass/beaker/vial,
+/obj/item/weapon/reagent_containers/glass/beaker/vial,
+/obj/item/weapon/reagent_containers/glass/beaker/vial,
+/obj/item/weapon/reagent_containers/glass/beaker/vial,
+/obj/item/weapon/reagent_containers/glass/beaker/vial,
+/obj/item/weapon/reagent_containers/glass/beaker/vial,
+/obj/item/weapon/reagent_containers/glass/beaker/vial,
+/obj/item/weapon/reagent_containers/glass/beaker/vial,
+/obj/item/weapon/reagent_containers/glass/beaker/vial,
+/obj/item/weapon/reagent_containers/glass/beaker/vial,
+/obj/item/weapon/reagent_containers/glass/beaker/vial,
+/obj/item/weapon/reagent_containers/glass/beaker/vial,
 /turf/simulated/floor/tiled/white/monotile,
 /area/medical/equipstorage)
 "kUb" = (
@@ -25041,7 +25090,6 @@
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 5
 	},
-/obj/item/weapon/storage/pill_bottle/tramadol,
 /obj/machinery/alarm{
 	dir = 8;
 	icon_state = "alarm0";
@@ -25052,11 +25100,16 @@
 	pixel_x = 0;
 	pixel_y = 32
 	},
+/obj/item/weapon/storage/pill_bottle/dermaline,
+/obj/item/weapon/storage/pill_bottle/kelotane,
 /obj/item/weapon/storage/pill_bottle/bicaridine,
 /obj/item/weapon/storage/pill_bottle/dexalin_plus,
-/obj/item/weapon/storage/pill_bottle/kelotane,
-/obj/item/weapon/storage/pill_bottle/dermaline,
+/obj/item/weapon/storage/pill_bottle/antitox,
+/obj/item/weapon/storage/pill_bottle/dylovene,
+/obj/item/weapon/storage/pill_bottle/inaprovaline,
+/obj/item/weapon/storage/pill_bottle/tramadol,
 /obj/item/weapon/storage/pill_bottle/spaceacillin,
+/obj/item/weapon/storage/pill_bottle/assorted,
 /turf/simulated/floor/tiled/white,
 /area/medical/equipstorage)
 "nOO" = (
@@ -28261,6 +28314,7 @@
 	color = "#22425c"
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/vehicle/bike/gyroscooter,
 /turf/simulated/floor/tiled/dark,
 /area/security/locker)
 "rrI" = (
@@ -29523,6 +29577,7 @@
 /obj/machinery/door/airlock/multi_tile/glass/security{
 	dir = 8;
 	door_color = "#22425c";
+	id_tag = "BrigFoyer";
 	name = "Security Lobby"
 	},
 /obj/machinery/door/blast/regular{
@@ -30891,6 +30946,17 @@
 	},
 /obj/machinery/shieldwallgen,
 /obj/effect/floor_decal/industrial/outline/grey,
+/obj/machinery/power/apc{
+	dir = 1;
+	name = "north bump";
+	pixel_x = 0;
+	pixel_y = 24;
+	req_access = list(list("ACCESS_ENGINE_EQUIP","ACCESS_ATMOS"))
+	},
+/obj/structure/cable/green{
+	d2 = 2;
+	icon_state = "0-2"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/security/storage)
 "uke" = (
@@ -31983,6 +32049,9 @@
 /obj/item/stack/material/plastic/ten,
 /obj/item/stack/material/glass/ten,
 /obj/item/stack/material/steel/ten,
+/obj/item/stack/material/glass/ten,
+/obj/item/stack/material/glass/ten,
+/obj/item/stack/material/glass/ten,
 /turf/simulated/floor/tiled/white/monotile,
 /area/medical/equipstorage)
 "wmK" = (
@@ -32589,7 +32658,7 @@
 	},
 /obj/machinery/door/airlock/highsecurity/bolted{
 	id_tag = "TACARM";
-	name = "TACARM"
+	name = "TACARM - LETHALS"
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/command/armoury/tactical)
@@ -40544,7 +40613,7 @@ aBc
 elT
 dLf
 vyq
-sBg
+dnb
 iLA
 pxv
 sBg
@@ -41350,7 +41419,7 @@ fEI
 suM
 aMT
 ujx
-uRO
+dmb
 vpj
 aLy
 aMC
@@ -54252,7 +54321,7 @@ adt
 uXe
 uXe
 sde
-dmb
+uXe
 dDb
 abm
 abs
@@ -54454,7 +54523,7 @@ adw
 sde
 sde
 sde
-dnb
+sde
 dDb
 abn
 abt
@@ -55060,7 +55129,7 @@ adv
 sde
 sde
 sde
-dEb
+uXe
 dDb
 agH
 mJY

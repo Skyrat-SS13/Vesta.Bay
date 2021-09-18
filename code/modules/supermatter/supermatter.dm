@@ -315,7 +315,7 @@ obj/machinery/power/supermatter/Destroy()
 		//Public alerts
 		if((damage > emergency_point) && !public_alert)
 			GLOB.global_announcer.autosay("WARNING: SUPERMATTER CRYSTAL DELAMINATION IMMINENT! SAFEROOMS UNBOLTED.", "Supermatter Monitor")
-			public_alert = 1
+			public_alert = 1	
 			GLOB.using_map.unbolt_saferooms() // torch
 			for(var/mob/M in GLOB.player_list)
 				var/turf/T = get_turf(M)
@@ -435,7 +435,7 @@ obj/machinery/power/supermatter/Destroy()
 		color = color_contrast(Interpolate(0, 50, Clamp( (damage - emergency_point) / (explosion_point - emergency_point),0,1)))
 
 		if (damage >= emergency_point && !filters.len)
-			filters = filter(type="rays", size = 64, color = emergency_color, factor = 0.6, density = 12)
+			filters = filter(type = "rays", size = 64, color = emergency_color, factor = 0.6, density = 12)
 			animate(filters[1], time = 10 SECONDS, offset = 10, loop=-1)
 			animate(time = 10 SECONDS, offset = 0, loop=-1)
 
@@ -624,7 +624,7 @@ obj/machinery/power/supermatter/Destroy()
 
 /obj/effect/spinning_light/Initialize()
 	. = ..()
-	filters = filter(type="rays", size = _size, color = COLOR_ORANGE, factor = _factor, density = _density, flags = FILTER_OVERLAY, offset = _offset)
+	filters = filter(type= "rays", size = _size, color = COLOR_ORANGE, factor = _factor, density = _density, offset = _offset)
 
 	alpha = 200
 
