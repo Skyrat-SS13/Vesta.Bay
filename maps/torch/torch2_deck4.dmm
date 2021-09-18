@@ -1062,9 +1062,6 @@
 	},
 /turf/simulated/open,
 /area/maintenance/fourthdeck/starboard)
-"dv" = (
-/turf/space,
-/area/maintenance/waterstore)
 "dw" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -36975,7 +36972,7 @@ NM
 NM
 NM
 NM
-dv
+VW
 WI
 vH
 Wv
