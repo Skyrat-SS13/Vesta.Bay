@@ -62,7 +62,7 @@
 	var/warning_alert = "Danger! Crystal hyperstructure instability!"
 	var/emergency_point = 700
 	var/emergency_alert = "CRYSTAL DELAMINATION IMMINENT."
-	var/explosion_point = 1000 
+	var/explosion_point = 1000
 
 	light_color = "#927a10"
 	var/base_color = "#927a10"
@@ -295,7 +295,7 @@ obj/machinery/power/supermatter/Destroy()
 	for(var/mob/M in GLOB.player_list)
 		var/turf/T = get_turf(M)
 		if(T && (T.z in GLOB.using_map.station_levels) && !istype(M,/mob/new_player) && !isdeaf(M))
-			sound_to(M, 'sound/misc/alert24.mp3') 
+			sound_to(M, 'sound/misc/alert24.mp3')
 
 	if(damage > emergency_point)
 		alert_msg = emergency_alert + alert_msg
@@ -311,7 +311,7 @@ obj/machinery/power/supermatter/Destroy()
 	else
 		alert_msg = null
 	if(alert_msg)
-		GLOB.global_announcer.autosay(alert_msg, "Supermatter Monitor", "Common") // Codingale was just "Engineering" 
+		GLOB.global_announcer.autosay(alert_msg, "Supermatter Monitor", "Common") // Codingale was just "Engineering"
 		//Public alerts
 		if((damage > emergency_point) && !public_alert)
 			GLOB.global_announcer.autosay("WARNING: SUPERMATTER CRYSTAL DELAMINATION IMMINENT! SAFEROOMS UNBOLTED.", "Supermatter Monitor")
@@ -430,7 +430,7 @@ obj/machinery/power/supermatter/Destroy()
 			continue
 		var/effect = max(0, min(200, power * config_hallucination_power * sqrt( 1 / max(1,get_dist(subject, src)))) )
 		subject.adjust_hallucination(effect, 0.25 * effect)
-		
+
 		//Apply visual effects based on damage
 		color = color_contrast(Interpolate(0, 50, Clamp( (damage - emergency_point) / (explosion_point - emergency_point),0,1)))
 
@@ -654,7 +654,7 @@ obj/machinery/power/supermatter/Destroy()
 
 	var/alarm_light_color = COLOR_ORANGE
 	var/angle = 0 //This is an angle to rotate the colour of alarm and its light. Default is orange, so, a 45 degree angle clockwise will make it green
-	
+
 /obj/machinery/rotating_alarm/Initialize()
 	. = ..()
 

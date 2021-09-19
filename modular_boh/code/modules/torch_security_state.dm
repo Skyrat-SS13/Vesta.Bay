@@ -101,7 +101,7 @@
 
 	up_description = "A major security emergency has developed. Security personnel are to report to their supervisor for orders, are permitted to search staff and facilities, and may have weapons visible on their person."
 	down_description = "Code blue procedures are now in effect. Security personnel are to report to their supervisor for orders, are permitted to search staff and facilities, and may have weapons visible on their person."
-	
+
 /decl/security_level/default/torchdept/code_red
 	name = "code red"
 	icon = 'icons/misc/security_state.dmi'
@@ -125,7 +125,7 @@
 /decl/security_level/default/torchdept/code_red/switching_up_to()
 	security_announcement_red.Announce(up_description, "Attention! Code red alert procedures now in effect!")
 	notify_station()
-	GLOB.using_map.unbolt_saferooms()	
+	GLOB.using_map.unbolt_saferooms()
 
 /decl/security_level/default/torchdept/code_red/switching_down_to()
 	security_announcement_red.Announce("Code Delta has been disengaged. All staff are to report to their supervisor for orders. All crew should obey orders from relevant emergency personnel. Security personnel are permitted to search staff and facilities, and may have weapons unholstered at any time.", "Attention! Code red alert procedures now in effect!")
@@ -134,7 +134,7 @@
 /decl/security_level/default/torchdept/code_delta
 	name = "code delta"
 	icon = 'icons/misc/security_state.dmi'
-	
+
 	light_max_bright = 0.75
 	light_inner_range = 0.1
 	light_outer_range = 3
@@ -155,6 +155,7 @@
 	notify_station()
 	GLOB.using_map.unbolt_saferooms()
 	evacuation_controller.call_evacuation(usr, 1, forced = TRUE)
+
 #undef PSI_IMPLANT_AUTOMATIC
 #undef PSI_IMPLANT_SHOCK
 #undef PSI_IMPLANT_WARN
