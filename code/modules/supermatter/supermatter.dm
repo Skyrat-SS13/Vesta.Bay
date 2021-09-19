@@ -39,7 +39,7 @@
 	var/thermal_release_modifier = 10000		//Higher == more heat released during reaction
 	var/phoron_release_modifier = 1500		//Higher == less phoron released by reaction
 	var/oxygen_release_modifier = 15000		//Higher == less oxygen released at high temperature/power
-	var/radiation_release_modifier = 2      //Higher == more radiation released with more power.
+	var/radiation_release_modifier = 2		//Higher == more radiation released with more power.
 	var/reaction_power_modifier =  1.1			//Higher == more overall power
 
 	//Controls how much power is produced by each collector in range - this is the main parameter for tweaking SM balance, as it basically controls how the power variable relates to the rest of the game.
@@ -57,7 +57,7 @@
 	var/damage_archived = 0
 	var/safe_alert = "Crystaline hyperstructure returning to safe operating levels."
 	var/safe_warned = 0
-	var/public_alert = 0 //Stick to Engineering frequency except for big warnings when integrity bad
+	var/public_alert = 0	//Stick to Engineering frequency except for big warnings when integrity bad
 	var/warning_point = 100
 	var/warning_alert = "Danger! Crystal hyperstructure instability!"
 	var/emergency_point = 700
@@ -635,9 +635,9 @@ obj/machinery/power/supermatter/Destroy()
 	var/matrix/squished = new
 	squished.Scale(1, 0.5)
 	animate(src, transform = (test * m.Turn(90)), spin_rate / 4, loop = -1,)
-	animate(transform =      test * m.Turn(90), spin_rate / 4, loop = -1, )
-	animate(transform =      (test * m.Turn(90)), spin_rate / 4, loop = -1, )
-	animate(transform =      test * matrix(),   spin_rate / 4, loop = -1, )
+	animate(transform = test * m.Turn(90), spin_rate / 4, loop = -1,)
+	animate(transform = (test * m.Turn(90)), spin_rate / 4, loop = -1,)
+	animate(transform = test * matrix(),   spin_rate / 4, loop = -1,)
 
 /obj/machinery/rotating_alarm
 	name = "Industrial alarm"

@@ -49,7 +49,7 @@
 	default_law_type = /datum/ai_laws/solgov
 	use_overmap = 1
 
-    // These are the default, and are overriden by the config if uncommented.
+	// These are the default, and are overriden by the config if uncommented.
 	num_exoplanets = 3
 	away_site_budget = 7
 	id_hud_icons = 'maps/torch/icons/assignment_hud.dmi'
