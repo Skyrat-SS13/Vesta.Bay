@@ -1062,9 +1062,6 @@
 	},
 /turf/simulated/open,
 /area/maintenance/fourthdeck/starboard)
-"dv" = (
-/turf/space,
-/area/maintenance/waterstore)
 "dw" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -5215,6 +5212,7 @@
 	dir = 1;
 	icon_state = "bordercolorhalf"
 	},
+/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/fourthdeck/center)
 "ri" = (
@@ -5251,6 +5249,7 @@
 	icon_state = "corner_white"
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/machinery/rotating_alarm/supermatter,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/fourthdeck/center)
 "rm" = (
@@ -36975,7 +36974,7 @@ NM
 NM
 NM
 NM
-dv
+VW
 WI
 vH
 Wv
