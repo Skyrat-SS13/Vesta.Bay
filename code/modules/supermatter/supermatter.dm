@@ -60,6 +60,7 @@
 	var/public_alert = 0 //Stick to Engineering frequency except for big warnings when integrity bad
 	var/warning_point = 100
 	var/warning_alert = "Danger! Crystal hyperstructure instability!"
+	var/danger_point = 500
 	var/emergency_point = 700
 	var/emergency_alert = "CRYSTAL DELAMINATION IMMINENT."
 	var/explosion_point = 1000 
@@ -296,8 +297,14 @@ obj/machinery/power/supermatter/Destroy()
 		var/turf/T = get_turf(M)
 		if(T && (T.z in GLOB.using_map.station_levels) && !istype(M,/mob/new_player) && !isdeaf(M))
 			sound_to(M, 'sound/misc/alert24.mp3') 
+	
+	if(damage > danger_point)
+		for(var/mob/M in GLOB.player_list)
+			var/turf/T = get_turf(M)
+			if(T && (T.z in GLOB.using_map.station_levels) && !istype(M,/mob/new_player) && !isdeaf(M))
+				sound_to(M, 'sound/effects/siren.ogg') 
 
-	if(damage > emergency_point)
+	else if(damage > emergency_point)
 		alert_msg = emergency_alert + alert_msg
 		lastwarning = world.timeofday - WARNING_DELAY * 4
 	else if(damage >= damage_archived) // The damage is still going up
@@ -310,6 +317,7 @@ obj/machinery/power/supermatter/Destroy()
 		lastwarning = world.timeofday
 	else
 		alert_msg = null
+		
 	if(alert_msg)
 		GLOB.global_announcer.autosay(alert_msg, "Supermatter Monitor", "Common") // Codingale was just "Engineering" 
 		//Public alerts
