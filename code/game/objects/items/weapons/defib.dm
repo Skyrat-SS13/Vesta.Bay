@@ -270,7 +270,7 @@
 	if(!check_contact(H))
 		return "buzzes, \"Patient's chest is obstructed. Operation aborted.\""
 
-/obj/item/weapon/shockpaddles/proc/can_revive(mob/living/carbon/human/H, /var/deadtime) //This is checked right before attempting to revive
+/obj/item/weapon/shockpaddles/proc/can_revive(mob/living/carbon/human/H) //This is checked right before attempting to revive
 	var/deadtime = world.time - H.timeofdeath
 	switch(H.stat)
 		if(DEAD)
@@ -279,9 +279,9 @@
 				brain.damage -= 1 //ugly but it works
 				make_alive(H)
 				H.resuscitate()
-				return "buzzes, \"Patient experiencing near brain-death. Further care recommended. \""
+				return "buzzes, \"Patient experiencing near brain-death. Further care recommended.\""
 			else
-				return "buzzes, \"Patient's neural status has degraded beyond reperable state. Consider alternative procedures. \""
+				return "buzzes, \"Patient's neural status has degraded beyond reperable state. Consider alternative procedures.\""
 		if(CONSCIOUS)
 			H.resuscitate()
 			return "buzzes, \"Patient is concious. Applying shock.\""

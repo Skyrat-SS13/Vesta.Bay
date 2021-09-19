@@ -1,4 +1,3 @@
-
 /datum/map/away_sites_testing
 	name = "Away Sites Testing"
 	full_name = "Away Sites Testing Land"
@@ -19,3 +18,6 @@
 
 /proc/cmp_sort_templates_tallest_to_shortest(var/datum/map_template/a, var/datum/map_template/b)
 	return b.tallness - a.tallness
+
+/decl/security_level/default/torchdept/code_orange //No, no, no! This shouldn't be here, remind me or the person who changed the SM code to remove this at some point - HTG
+	name = "away site example orange"

@@ -39,7 +39,7 @@
 	var/thermal_release_modifier = 10000		//Higher == more heat released during reaction
 	var/phoron_release_modifier = 1500		//Higher == less phoron released by reaction
 	var/oxygen_release_modifier = 15000		//Higher == less oxygen released at high temperature/power
-	var/radiation_release_modifier = 2      //Higher == more radiation released with more power.
+	var/radiation_release_modifier = 2		//Higher == more radiation released with more power.
 	var/reaction_power_modifier =  1.1			//Higher == more overall power
 
 	//Controls how much power is produced by each collector in range - this is the main parameter for tweaking SM balance, as it basically controls how the power variable relates to the rest of the game.
@@ -57,12 +57,12 @@
 	var/damage_archived = 0
 	var/safe_alert = "Crystaline hyperstructure returning to safe operating levels."
 	var/safe_warned = 0
-	var/public_alert = 0 //Stick to Engineering frequency except for big warnings when integrity bad
+	var/public_alert = 0	//Stick to Engineering frequency except for big warnings when integrity bad
 	var/warning_point = 100
 	var/warning_alert = "Danger! Crystal hyperstructure instability!"
 	var/emergency_point = 700
 	var/emergency_alert = "CRYSTAL DELAMINATION IMMINENT."
-	var/explosion_point = 1000 
+	var/explosion_point = 1000
 
 	light_color = "#927a10"
 	var/base_color = "#927a10"
@@ -295,7 +295,7 @@ obj/machinery/power/supermatter/Destroy()
 	for(var/mob/M in GLOB.player_list)
 		var/turf/T = get_turf(M)
 		if(T && (T.z in GLOB.using_map.station_levels) && !istype(M,/mob/new_player) && !isdeaf(M))
-			sound_to(M, 'sound/misc/alert24.mp3') 
+			sound_to(M, 'sound/misc/alert24.mp3')
 
 	if(damage > emergency_point)
 		alert_msg = emergency_alert + alert_msg
@@ -311,7 +311,7 @@ obj/machinery/power/supermatter/Destroy()
 	else
 		alert_msg = null
 	if(alert_msg)
-		GLOB.global_announcer.autosay(alert_msg, "Supermatter Monitor", "Common") // Codingale was just "Engineering" 
+		GLOB.global_announcer.autosay(alert_msg, "Supermatter Monitor", "Common") // Codingale was just "Engineering"
 		//Public alerts
 		if((damage > emergency_point) && !public_alert)
 			GLOB.global_announcer.autosay("WARNING: SUPERMATTER CRYSTAL DELAMINATION IMMINENT! SAFEROOMS UNBOLTED.", "Supermatter Monitor")
@@ -322,7 +322,7 @@ obj/machinery/power/supermatter/Destroy()
 				if(T && (T.z in GLOB.using_map.station_levels) && !istype(M,/mob/new_player) && !isdeaf(M))
 					sound_to(M, 'sound/ambience/matteralarm.ogg')
 			var/decl/security_state/security_state = decls_repository.get_decl(GLOB.using_map.security_state)
-			security_state.set_security_level(/decl/security_level/default/torchdept/code_orange, TRUE)
+			security_state.set_security_level(/decl/security_level/default/torchdept/code_orange, TRUE) //If this isn't defined in the map tests it gives an error - HTG
 		else if(safe_warned && public_alert)
 			GLOB.global_announcer.autosay(alert_msg, "Supermatter Monitor")
 			public_alert = 0
@@ -430,7 +430,7 @@ obj/machinery/power/supermatter/Destroy()
 			continue
 		var/effect = max(0, min(200, power * config_hallucination_power * sqrt( 1 / max(1,get_dist(subject, src)))) )
 		subject.adjust_hallucination(effect, 0.25 * effect)
-		
+
 		//Apply visual effects based on damage
 		color = color_contrast(Interpolate(0, 50, Clamp( (damage - emergency_point) / (explosion_point - emergency_point),0,1)))
 
@@ -635,9 +635,9 @@ obj/machinery/power/supermatter/Destroy()
 	var/matrix/squished = new
 	squished.Scale(1, 0.5)
 	animate(src, transform = (test * m.Turn(90)), spin_rate / 4, loop = -1,)
-	animate(transform =      test * m.Turn(90), spin_rate / 4, loop = -1, )
-	animate(transform =      (test * m.Turn(90)), spin_rate / 4, loop = -1, )
-	animate(transform =      test * matrix(),   spin_rate / 4, loop = -1, )
+	animate(transform = test * m.Turn(90), spin_rate / 4, loop = -1,)
+	animate(transform = (test * m.Turn(90)), spin_rate / 4, loop = -1,)
+	animate(transform = test * matrix(),   spin_rate / 4, loop = -1,)
 
 /obj/machinery/rotating_alarm
 	name = "Industrial alarm"
@@ -654,7 +654,7 @@ obj/machinery/power/supermatter/Destroy()
 
 	var/alarm_light_color = COLOR_ORANGE
 	var/angle = 0 //This is an angle to rotate the colour of alarm and its light. Default is orange, so, a 45 degree angle clockwise will make it green
-	
+
 /obj/machinery/rotating_alarm/Initialize()
 	. = ..()
 

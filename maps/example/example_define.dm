@@ -20,3 +20,6 @@
 	emergency_shuttle_leaving_dock = "The emergency escape shuttle has departed from %dock_name%."
 	emergency_shuttle_called_message = "An emergency escape shuttle has been sent."
 	emergency_shuttle_recall_message = "The emergency shuttle has been recalled"
+
+/decl/security_level/default/torchdept/code_orange //No, no, no! This shouldn't be here, remind me or the person who changed the SM code to remove this at some point - HTG
+	name = "example orange"
