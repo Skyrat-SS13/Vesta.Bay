@@ -298,11 +298,11 @@ obj/machinery/power/supermatter/Destroy()
 		if(T && (T.z in GLOB.using_map.station_levels) && !istype(M,/mob/new_player) && !isdeaf(M))
 			sound_to(M, 'sound/misc/alert24.mp3') 
 	
-	if(damage > danger_point)
-		for(var/mob/M in GLOB.player_list)
-			var/turf/T = get_turf(M)
-			if(T && (T.z in GLOB.using_map.station_levels) && !istype(M,/mob/new_player) && !isdeaf(M))
-				sound_to(M, 'sound/effects/siren.ogg') 
+		if(damage > danger_point)
+			for(var/mob/M in GLOB.player_list)
+				var/turf/T = get_turf(M)
+				if(T && (T.z in GLOB.using_map.station_levels) && !istype(M,/mob/new_player) && !isdeaf(M))
+					sound_to(M, 'sound/effects/siren.ogg') 
 
 	else if(damage > emergency_point)
 		alert_msg = emergency_alert + alert_msg
