@@ -367,8 +367,6 @@
 			return global.dbcon;
 		if("dbcon_old")
 			return global.dbcon_old;
-		if("deadtime")
-			return global.deadtime;
 		if("debug_verbs")
 			return global.debug_verbs;
 		if("decls_repository")
@@ -1312,8 +1310,6 @@
 			global.dbcon=newval;
 		if("dbcon_old")
 			global.dbcon_old=newval;
-		if("deadtime")
-			global.deadtime=newval;
 		if("debug_verbs")
 			global.debug_verbs=newval;
 		if("decls_repository")
@@ -2073,7 +2069,6 @@
 	"damage_icon_parts",
 	"dbcon",
 	"dbcon_old",
-	"deadtime",
 	"debug_verbs",
 	"decls_repository",
 	"default_material_composition",

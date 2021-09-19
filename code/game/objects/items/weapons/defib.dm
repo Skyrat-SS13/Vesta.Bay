@@ -208,7 +208,6 @@
 	throwforce = 6
 	w_class = ITEM_SIZE_LARGE
 
-	var/deadtime = 0 //Fallback since this is only ever defined in specific instances... - HTG
 	var/safety = 1 //if you can zap people with the paddles on harm mode
 	var/combat = 0 //If it can be used to revive people wearing thick clothing (e.g. spacesuits)
 	var/cooldowntime = (6 SECONDS) // How long in deciseconds until the defib is ready again after use.
@@ -271,7 +270,7 @@
 	if(!check_contact(H))
 		return "buzzes, \"Patient's chest is obstructed. Operation aborted.\""
 
-/obj/item/weapon/shockpaddles/proc/can_revive(mob/living/carbon/human/H, /var/deadtime) //This is checked right before attempting to revive
+/obj/item/weapon/shockpaddles/proc/can_revive(mob/living/carbon/human/H, var/deadtime) //This is checked right before attempting to revive
 	var/deadtime = world.time - H.timeofdeath
 	switch(H.stat)
 		if(DEAD)
