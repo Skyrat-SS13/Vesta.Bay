@@ -22,7 +22,7 @@
 #define DETONATION_SHUTDOWN_RNG_FACTOR 20	// RNG factor. Above shutdown times can be +- X%, where this setting is the percent. Do not set to 100 or more.
 #define DETONATION_SOLAR_BREAK_CHANCE 60	// prob() of breaking solar arrays (this is per-panel, and only affects the Z level SM is on)
 
-#define WARNING_DELAY 40			//seconds between warnings.
+#define WARNING_DELAY 20			//seconds between warnings.
 
 /obj/machinery/power/supermatter
 	name = "Supermatter"
@@ -58,12 +58,12 @@
 	var/safe_alert = "Crystaline hyperstructure returning to safe operating levels."
 	var/safe_warned = 0
 	var/public_alert = 0 //Stick to Engineering frequency except for big warnings when integrity bad
-	var/warning_point = 99
+	var/warning_point = 100
 	var/warning_alert = "Danger! Crystal hyperstructure instability!"
-	var/danger_point = 499
-	var/emergency_point = 699
+	var/danger_point = 500
+	var/emergency_point = 700
 	var/emergency_alert = "CRYSTAL DELAMINATION IMMINENT."
-	var/explosion_point = 999 
+	var/explosion_point = 1000 
 
 	light_color = "#927a10"
 	var/base_color = "#927a10"
@@ -304,7 +304,7 @@ obj/machinery/power/supermatter/Destroy()
 
 	if(damage > emergency_point)
 		alert_msg = emergency_alert + alert_msg
-		lastwarning = world.timeofday - WARNING_DELAY * 2
+		lastwarning = world.timeofday - WARNING_DELAY * 4
 	else if(damage >= damage_archived) // The damage is still going up
 		safe_warned = 0
 		alert_msg = warning_alert + alert_msg
@@ -352,7 +352,7 @@ obj/machinery/power/supermatter/Destroy()
 		shift_light(5, warning_color)
 		if(damage > emergency_point)
 			shift_light(7, emergency_color)
-		if(!istype(L, /turf/space) && ((world.timeofday - lastwarning) >= WARNING_DELAY * 5) && (L.z in GLOB.using_map.station_levels))
+		if(!istype(L, /turf/space) && ((world.timeofday - lastwarning) >= WARNING_DELAY * 10) && (L.z in GLOB.using_map.station_levels))
 			announce_warning()
 	else
 		shift_light(4,base_color)
