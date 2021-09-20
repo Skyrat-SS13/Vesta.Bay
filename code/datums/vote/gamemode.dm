@@ -19,14 +19,8 @@
 
 /datum/vote/gamemode/setup_vote(mob/creator, automatic)
 	..()
-	choices += config.votable_modes
-	for (var/F in choices)
-		var/datum/game_mode/M = gamemode_cache[F]
-		if(!M)
-			continue
-		display_choices[F] = capitalize(M.name)
-		additional_text[F] ="<td align = 'center'>[M.required_players]</td>"
-	display_choices["secret"] = "Secret"
+	display_choices["extended"] = "Extended"
+//    display_choices["secret"] = "Secret"
 
 /datum/vote/gamemode/handle_default_votes()
 	..()
