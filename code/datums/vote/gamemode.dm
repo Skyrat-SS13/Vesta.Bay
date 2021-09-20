@@ -24,9 +24,9 @@
 		var/datum/game_mode/M = gamemode_cache[F]
 		if(!M)
 			continue
-		display_choices[F] = capitalize(M.name)
 		additional_text[F] ="<td align = 'center'>[M.required_players]</td>"
 	display_choices["secret"] = "Secret"
+	display_choices["extended"] = "Extended"
 
 /datum/vote/gamemode/handle_default_votes()
 	..()
