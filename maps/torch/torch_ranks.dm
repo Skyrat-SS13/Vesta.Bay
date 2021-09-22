@@ -133,7 +133,7 @@
 /datum/mil_branch/fleet
 	name = "Fleet"
 	name_short = "SCGF"
-	email_domain = "Andromeda.fleet.mil"
+	email_domain = "Andromeda.scgf.mil"
 
 	rank_types = list(
 		/datum/mil_rank/fleet/e1,

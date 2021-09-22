@@ -2,7 +2,7 @@
 
 /obj/item/clothing/accessory/solgov/smc_patch
 	name = "\improper Marine Corps Patch"
-	desc = "A robust shoulder patch, carrying the symbol of the Solar Marine Corps, or SMC for short."
+	desc = "A robust shoulder patch, carrying the symbol of the SCG Marine Corps, or SCGMC for short.."
 	icon = 'modular_boh/icon/obj/obj_accessories_boh.dmi'
 	accessory_icons = list(slot_w_uniform_str = 'modular_boh/icon/mob/onmob_accessories_boh.dmi')
 	icon_state = "smcpatch"
@@ -35,10 +35,10 @@
 	badge_string = "NTSS Andromeda"
 
 /obj/item/clothing/accessory/badge/solgov/tags/fleet
-	badge_string = "NTEF"
+	badge_string = "SCGF"
 
 /obj/item/clothing/accessory/badge/solgov/tags/marine
-	badge_string = "SMC"
+	badge_string = "SCGMC"
 
 // custom ribbon for loadout
 /obj/item/clothing/accessory/ribbon/solgov/custom

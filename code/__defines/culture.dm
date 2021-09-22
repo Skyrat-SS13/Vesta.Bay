@@ -17,7 +17,7 @@
 #define FACTION_FREETRADE      "Free Trade Union"
 #define FACTION_HEPHAESTUS     "Hephaestus Industries"
 #define FACTION_XYNERGY        "Xynergy"
-#define FACTION_FLEET          "Nanotrasen Expeditionary Fleet" 
+#define FACTION_FLEET          "Sol Central Government Defense Fleet" 
 //#define FACTION_EXPEDITIONARY  "Expeditionary Corps" // Not used for our current lore
 #define FACTION_PCRC           "Proxima Centauri Risk Control"
 #define FACTION_SAARE          "Strategic Assault and Asset Retention Enterprises"
