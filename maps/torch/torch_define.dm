@@ -16,7 +16,7 @@
 	allowed_spawns = list("Cryogenic Storage", "Cyborg Storage")
 	default_spawn = "Cryogenic Storage"
 
-	station_name  = "\improper NTSS Andromeda"
+	station_name  = "\improper SFV Andromeda"
 	station_short = "\improper Andromeda"
 	dock_name     = "TBD"
 	boss_name     = "Mars Fleet Command"
