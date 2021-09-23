@@ -210,12 +210,6 @@
 /obj/item/clothing/under/solgov/utility/fleet/combat/exploration
 	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/exploration/fleet)
 
-/obj/item/clothing/under/solgov/utility/fleet/officer
-	name = "fleet officer's coveralls"
-	desc = "Alternative utility uniform of the SCG Fleet, for officers."
-	icon_state = "navyutilityoff"
-	worn_state = "navyutilityoff"
-
 /obj/item/clothing/under/solgov/utility/fleet/officer/command
 	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/command/fleet)
 

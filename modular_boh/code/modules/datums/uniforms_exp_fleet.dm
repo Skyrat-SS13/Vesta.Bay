@@ -27,7 +27,7 @@
 
 // Expeditionary Fleet, now with 100% less bloat
 /decl/hierarchy/mil_uniform/fleet
-	name = "Master NTEF outfit"
+	name = "Master SCGF outfit"
 	hierarchy_type = /decl/hierarchy/mil_uniform/fleet
 	branches = list(/datum/mil_branch/fleet)
 
@@ -36,8 +36,8 @@
 
 	utility_under = /obj/item/clothing/under/solgov/utility/fleet
 	utility_shoes = /obj/item/clothing/shoes/dutyboots
-	utility_hat = /obj/item/clothing/head/solgov/utility/fleet/ntef
-	utility_extra = list(/obj/item/clothing/head/beret/solgov/fleet, /obj/item/clothing/head/ushanka/solgov/fleet, /obj/item/clothing/suit/storage/hooded/wintercoat/solgov/fleet,/obj/item/clothing/head/soft/solgov/fleet/ntef, /obj/item/clothing/shoes/jackboots/unathi)
+	utility_hat = /obj/item/clothing/head/solgov/utility/fleet/SCGF
+	utility_extra = list(/obj/item/clothing/head/beret/solgov/fleet, /obj/item/clothing/head/ushanka/solgov/fleet, /obj/item/clothing/suit/storage/hooded/wintercoat/solgov/fleet, /obj/item/clothing/shoes/jackboots/unathi)
 
 	service_under = /obj/item/clothing/under/solgov/service/fleet
 	service_skirt = /obj/item/clothing/under/solgov/service/fleet/skirt
@@ -52,11 +52,10 @@
 	dress_hat = /obj/item/clothing/head/solgov/dress/fleet
 	dress_gloves = /obj/item/clothing/gloves/white
 
-	dress_extra = list(/obj/item/clothing/accessory/solgov/ec_scarf, /obj/item/clothing/accessory/cloak/boh/dress)
-	dress_extra_alt = list(/obj/item/clothing/head/beret/solgov/fleet/dress)
+	dress_extra = list(/obj/item/clothing/head/beret/solgov/fleet/dress)
 
 /decl/hierarchy/mil_uniform/fleet/com //Can only be officers
-	name = "NTEF command"
+	name = "SCGF"
 	departments = COM
 
 	utility_under = /obj/item/clothing/under/solgov/utility/fleet/command
@@ -64,7 +63,6 @@
 						 /obj/item/clothing/head/beret/solgov/fleet/command,
 						 /obj/item/clothing/head/ushanka/solgov/fleet,
 						 /obj/item/clothing/suit/storage/hooded/wintercoat/solgov/fleet,
-						 /obj/item/clothing/head/soft/solgov/fleet/ntef,
 						 /obj/item/clothing/gloves/thick/duty/solgov/cmd,
 						 /obj/item/clothing/gloves/thick/duty/solgov/fingerless/cmd,
 						 /obj/item/clothing/under/solgov/utility/fleet/polopants/command,
@@ -75,10 +73,10 @@
 	service_under = /obj/item/clothing/under/solgov/service/fleet/officer
 	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet/officer
 	dress_hat = /obj/item/clothing/head/solgov/dress/fleet/command
-	dress_extra = list(/obj/item/clothing/accessory/solgov/ec_scarf, /obj/item/clothing/accessory/cloak/boh/dress/command, /obj/item/weapon/material/sword/replica/officersword)
+	dress_extra = /obj/item/weapon/material/sword/replica/officersword
 
 /decl/hierarchy/mil_uniform/fleet/com/seniorofficer
-	name = "NTEF senior command"
+	name = "SCGF senior command"
 	min_rank = 19
 
 	service_over = /obj/item/clothing/suit/storage/solgov/service/fleet/command
@@ -86,7 +84,7 @@
 	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet/command
 
 /decl/hierarchy/mil_uniform/fleet/com/capt //Can only be officers
-	name = "NTEF captain"
+	name = "SCGF captain"
 	min_rank = 21
 	service_under = /obj/item/clothing/under/solgov/service/fleet/command
 	service_skirt = /obj/item/clothing/under/solgov/service/fleet/skirt/command
@@ -95,7 +93,7 @@
 	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet/captain
 
 /decl/hierarchy/mil_uniform/fleet/com/flagofficer
-	name = "NTEF flag command"
+	name = "SCGF flag command"
 	min_rank = 22
 
 	service_under = /obj/item/clothing/under/solgov/service/fleet/command
@@ -104,7 +102,7 @@
 	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet/command
 
 /decl/hierarchy/mil_uniform/fleet/com/flagofficer/adm //Can only be officers
-	name = "NTEF admiral"
+	name = "SCGF admiral"
 	min_rank = 23
 
 	utility_hat = /obj/item/clothing/head/soft/solgov/expedition/co
@@ -113,13 +111,12 @@
 	dress_hat = /obj/item/clothing/head/solgov/service/expedition/captain
 
 /decl/hierarchy/mil_uniform/fleet/eng
-	name = "NTEF engineering"
+	name = "SCGF engineering"
 	departments = ENG
 	utility_under = /obj/item/clothing/under/solgov/utility/fleet/engineering
 	utility_extra = list(/obj/item/clothing/head/beret/solgov/fleet/engineering,
 						 /obj/item/clothing/head/ushanka/solgov/fleet,
 						 /obj/item/clothing/suit/storage/hooded/wintercoat/solgov/fleet,
-						 /obj/item/clothing/head/soft/solgov/fleet/ntef,
 						 /obj/item/clothing/gloves/thick/duty/solgov/eng,
 						 /obj/item/clothing/gloves/thick/duty/solgov/fingerless/eng,
 						 /obj/item/clothing/under/solgov/utility/fleet/polopants,
@@ -127,20 +124,19 @@
 						 /obj/item/clothing/shoes/jackboots/unathi)
 
 
-	dress_extra = list(/obj/item/clothing/accessory/cloak/boh/engineering, /obj/item/clothing/head/beret/solgov/fleet/dress)
+	dress_extra = list( /obj/item/clothing/head/beret/solgov/fleet/dress)
 
 /decl/hierarchy/mil_uniform/fleet/eng/noncom
-	name = "NTEF engineering NCO"
+	name = "SCGF engineering NCO"
 	min_rank = 4
 
 
 	service_hat = /obj/item/clothing/head/solgov/dress/fleet
 	service_over = /obj/item/clothing/suit/storage/solgov/service/fleet
-
 	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet
 
 /decl/hierarchy/mil_uniform/fleet/eng/snco
-	name = "NTEF engineering SNCO"
+	name = "SCGF engineering SNCO"
 	min_rank = 7
 
 	utility_extra = list(/obj/item/clothing/under/solgov/utility/fleet/polopants,
@@ -150,29 +146,29 @@
 	service_over = /obj/item/clothing/suit/storage/solgov/service/fleet/snco
 
 	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet/snco
-	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword/pettyofficer, /obj/item/clothing/accessory/cloak/boh/engineering, /obj/item/clothing/accessory/cloak/boh/dress, /obj/item/clothing/head/beret/solgov/fleet/dress)
+	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword/pettyofficer, /obj/item/clothing/head/beret/solgov/fleet/dress)
 
 /decl/hierarchy/mil_uniform/fleet/eng/warrant
-	name = "NTEF engineering Warrant"
+	name = "SCGF engineering Warrant"
 	min_rank = 11
 
-	service_under = /obj/item/clothing/under/solgov/service/fleet/warrant
-	service_skirt = /obj/item/clothing/under/solgov/service/fleet/skirt/warrant
+	service_under = /obj/item/clothing/under/solgov/service/fleet
+	service_skirt = /obj/item/clothing/under/solgov/service/fleet/skirt
 	service_hat = /obj/item/clothing/head/solgov/dress/fleet
-	service_over = /obj/item/clothing/suit/storage/solgov/service/fleet/warrant
+	service_over = /obj/item/clothing/suit/storage/solgov/service/fleet
 
-	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet/warrant
-	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword, /obj/item/clothing/accessory/cloak/boh/engineering, /obj/item/clothing/accessory/cloak/boh/dress, /obj/item/clothing/head/beret/solgov/fleet/dress)
+	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet
+	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword, /obj/item/clothing/head/beret/solgov/fleet/dress)
 
 /decl/hierarchy/mil_uniform/fleet/eng/officer
-	name = "NTEF engineering CO"
+	name = "SCGF engineering CO"
 	min_rank = 16
 
 	utility_extra = list(/obj/item/clothing/under/solgov/utility/fleet/officer/command,
 						 /obj/item/clothing/head/beret/solgov/fleet/command,
 						 /obj/item/clothing/head/ushanka/solgov/fleet,
 						 /obj/item/clothing/suit/storage/hooded/wintercoat/solgov/fleet,
-						 /obj/item/clothing/head/soft/solgov/fleet/ntef,
+						 
 						 /obj/item/clothing/gloves/thick/duty/solgov/eng,
 						 /obj/item/clothing/gloves/thick/duty/solgov/fingerless/eng,
 						 /obj/item/clothing/under/solgov/utility/fleet/polopants,
@@ -183,14 +179,14 @@
 	service_skirt = /obj/item/clothing/under/solgov/service/fleet/skirt/officer
 
 	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet/officer
-	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword, /obj/item/clothing/accessory/cloak/boh/engineering, /obj/item/clothing/accessory/cloak/boh/dress, /obj/item/clothing/head/beret/solgov/fleet/dress/command)
+	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword, /obj/item/clothing/head/beret/solgov/fleet/dress/command)
 
 /decl/hierarchy/mil_uniform/fleet/eng/officer/com //Can only be officers
-	name = "NTEF engineering command"
+	name = "SCGF engineering command"
 	departments = ENG|COM
 
 /decl/hierarchy/mil_uniform/fleet/eng/officer/com/seniorofficer
-	name = "NTEF engineering senior command"
+	name = "SCGF engineering senior command"
 	min_rank = 19
 
 	service_under = /obj/item/clothing/under/solgov/service/fleet/command
@@ -199,7 +195,7 @@
 	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet/command
 
 /decl/hierarchy/mil_uniform/fleet/eng/officer/com/flagofficer
-	name = "NTEF engineering flag command"
+	name = "SCGF engineering flag command"
 	min_rank = 22
 
 	service_under = /obj/item/clothing/under/solgov/service/fleet/officer
@@ -208,13 +204,13 @@
 	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet/officer
 
 /decl/hierarchy/mil_uniform/fleet/sec
-	name = "NTEF security"
+	name = "SCGF security"
 	departments = SEC
 
 	utility_extra = list(/obj/item/clothing/head/beret/solgov/fleet/security,
 						 /obj/item/clothing/head/ushanka/solgov/fleet,
 						 /obj/item/clothing/suit/storage/hooded/wintercoat/solgov/fleet,
-						 /obj/item/clothing/head/soft/solgov/fleet/ntef,
+						 
 						 /obj/item/clothing/gloves/thick/duty/solgov/sec,
 						 /obj/item/clothing/gloves/thick/duty/solgov/fingerless/sec,
 						 /obj/item/clothing/under/solgov/utility/fleet/security,
@@ -222,10 +218,10 @@
 						 /obj/item/clothing/suit/storage/jacket/solgov/fleet/security)
 
 	utility_under = /obj/item/clothing/under/solgov/utility/fleet/combat/security
-	dress_extra = list(/obj/item/clothing/accessory/cloak/boh/security, /obj/item/clothing/head/beret/solgov/fleet/dress)
+	dress_extra = list( /obj/item/clothing/head/beret/solgov/fleet/dress)
 
 /decl/hierarchy/mil_uniform/fleet/sec/noncom
-	name = "NTEF security NCO"
+	name = "SCGF security NCO"
 	min_rank = 4
 
 
@@ -235,37 +231,37 @@
 	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet
 
 /decl/hierarchy/mil_uniform/fleet/sec/snco
-	name = "NTEF security SNCO"
+	name = "SCGF security SNCO"
 	min_rank = 7
 
 	service_hat = /obj/item/clothing/head/solgov/dress/fleet
 	service_over = /obj/item/clothing/suit/storage/solgov/service/fleet/snco
 
 	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet/snco
-	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword/pettyofficer, /obj/item/clothing/accessory/cloak/boh/security, /obj/item/clothing/accessory/cloak/boh/dress, /obj/item/clothing/head/beret/solgov/fleet/dress)
+	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword/pettyofficer, /obj/item/clothing/head/beret/solgov/fleet/dress)
 
 /decl/hierarchy/mil_uniform/fleet/sec/warrant
-	name = "NTEF security Warrant"
+	name = "SCGF security Warrant"
 	min_rank = 11
 
-	service_under = /obj/item/clothing/under/solgov/service/fleet/warrant
-	service_skirt = /obj/item/clothing/under/solgov/service/fleet/skirt/warrant
+	service_under = /obj/item/clothing/under/solgov/service/fleet
+	service_skirt = /obj/item/clothing/under/solgov/service/fleet/skirt
 	service_hat = /obj/item/clothing/head/solgov/dress/fleet
-	service_over = /obj/item/clothing/suit/storage/solgov/service/fleet/warrant
+	service_over = /obj/item/clothing/suit/storage/solgov/service/fleet
 
-	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet/warrant
-	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword, /obj/item/clothing/accessory/cloak/boh/security, /obj/item/clothing/accessory/cloak/boh/dress, /obj/item/clothing/head/beret/solgov/fleet/dress)
+	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet
+	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword, /obj/item/clothing/head/beret/solgov/fleet/dress)
 
 
 /decl/hierarchy/mil_uniform/fleet/sec/officer
-	name = "NTEF security CO"
+	name = "SCGF security CO"
 	min_rank = 16
 
 	utility_extra = list(/obj/item/clothing/under/solgov/utility/fleet/officer/command,
 						 /obj/item/clothing/head/beret/solgov/fleet/command,
 						 /obj/item/clothing/head/ushanka/solgov/fleet,
 						 /obj/item/clothing/suit/storage/hooded/wintercoat/solgov/fleet,
-						 /obj/item/clothing/head/soft/solgov/fleet/ntef,
+						 
 						 /obj/item/clothing/gloves/thick/duty/solgov/sec,
 						 /obj/item/clothing/gloves/thick/duty/solgov/fingerless/sec,
 						 /obj/item/clothing/under/solgov/utility/fleet/polopants/security,
@@ -278,14 +274,14 @@
 	service_skirt = /obj/item/clothing/under/solgov/service/fleet/skirt/officer
 	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet/officer
 	dress_hat = /obj/item/clothing/head/solgov/dress/fleet/command
-	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword, /obj/item/clothing/accessory/cloak/boh/security, /obj/item/clothing/accessory/cloak/boh/dress, /obj/item/clothing/head/beret/solgov/fleet/dress/command)
+	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword, /obj/item/clothing/head/beret/solgov/fleet/dress/command)
 
 /decl/hierarchy/mil_uniform/fleet/sec/officer/com //Can only be officers
-	name = "NTEF security command"
+	name = "SCGF security command"
 	departments = SEC|COM
 
 /decl/hierarchy/mil_uniform/fleet/sec/officer/com/seniorofficer
-	name = "NTEF security senior command"
+	name = "SCGF security senior command"
 	min_rank = 19
 
 	service_under = /obj/item/clothing/under/solgov/service/fleet/command
@@ -294,7 +290,7 @@
 	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet/command
 
 /decl/hierarchy/mil_uniform/fleet/sec/officer/com/flagofficer
-	name = "NTEF security flag command"
+	name = "SCGF security flag command"
 	min_rank = 22
 
 	service_under = /obj/item/clothing/under/solgov/service/fleet/officer
@@ -303,13 +299,13 @@
 	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet/officer
 
 /decl/hierarchy/mil_uniform/fleet/med
-	name = "NTEF medical"
+	name = "SCGF medical"
 	departments = MED
 
 	utility_extra = list(/obj/item/clothing/head/beret/solgov/fleet/medical,
 						 /obj/item/clothing/head/ushanka/solgov/fleet,
 						 /obj/item/clothing/suit/storage/hooded/wintercoat/solgov/fleet,
-						 /obj/item/clothing/head/soft/solgov/fleet/ntef,
+						 
 						 /obj/item/clothing/under/solgov/utility/fleet/combat/medical,
 						 /obj/item/clothing/gloves/thick/duty/solgov/med,
 						 /obj/item/clothing/gloves/thick/duty/solgov/fingerless/med,
@@ -317,10 +313,10 @@
 						 /obj/item/clothing/suit/storage/jacket/solgov/fleet/medical)
 
 	utility_under = /obj/item/clothing/under/solgov/utility/fleet/medical
-	dress_extra = list(/obj/item/clothing/accessory/cloak/boh/medical, /obj/item/clothing/head/beret/solgov/fleet/dress)
+	dress_extra = list(/obj/item/clothing/head/beret/solgov/fleet/dress)
 
 /decl/hierarchy/mil_uniform/fleet/med/noncom
-	name = "NTEF medical NCO"
+	name = "SCGF medical NCO"
 	min_rank = 4
 
 	service_hat = /obj/item/clothing/head/solgov/dress/fleet
@@ -329,37 +325,37 @@
 	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet
 
 /decl/hierarchy/mil_uniform/fleet/med/snco
-	name = "NTEF medical SNCO"
+	name = "SCGF medical SNCO"
 	min_rank = 7
 
 	service_hat = /obj/item/clothing/head/solgov/dress/fleet
 	service_over = /obj/item/clothing/suit/storage/solgov/service/fleet/snco
 
 	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet/snco
-	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword/pettyofficer, /obj/item/clothing/accessory/cloak/boh/medical, /obj/item/clothing/accessory/cloak/boh/dress, /obj/item/clothing/head/beret/solgov/fleet/dress)
+	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword/pettyofficer, /obj/item/clothing/head/beret/solgov/fleet/dress)
 
 /decl/hierarchy/mil_uniform/fleet/med/warrant
-	name = "NTEF medical Warrant"
+	name = "SCGF medical Warrant"
 	min_rank = 11
 
-	service_under = /obj/item/clothing/under/solgov/service/fleet/warrant
-	service_skirt = /obj/item/clothing/under/solgov/service/fleet/skirt/warrant
+	service_under = /obj/item/clothing/under/solgov/service/fleet
+	service_skirt = /obj/item/clothing/under/solgov/service/fleet/skirt
 	service_hat = /obj/item/clothing/head/solgov/dress/fleet
-	service_over = /obj/item/clothing/suit/storage/solgov/service/fleet/warrant
+	service_over = /obj/item/clothing/suit/storage/solgov/service/fleet
 
-	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet/warrant
-	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword, /obj/item/clothing/accessory/cloak/boh/medical, /obj/item/clothing/accessory/cloak/boh/dress, /obj/item/clothing/head/beret/solgov/fleet/dress)
+	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet
+	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword, /obj/item/clothing/head/beret/solgov/fleet/dress)
 
 
 /decl/hierarchy/mil_uniform/fleet/med/officer
-	name = "NTEF medical CO"
+	name = "SCGF medical CO"
 	min_rank = 16
 
 	utility_extra = list(/obj/item/clothing/under/solgov/utility/fleet/officer/command,
 						 /obj/item/clothing/head/beret/solgov/fleet/command,
 						 /obj/item/clothing/head/ushanka/solgov/fleet,
 						 /obj/item/clothing/suit/storage/hooded/wintercoat/solgov/fleet,
-						 /obj/item/clothing/head/soft/solgov/fleet/ntef,
+						 
 						 /obj/item/clothing/gloves/thick/duty/solgov/med,
 						 /obj/item/clothing/gloves/thick/duty/solgov/fingerless/med,
 						 /obj/item/clothing/under/solgov/utility/fleet/polopants/medical,
@@ -371,14 +367,14 @@
 	service_skirt = /obj/item/clothing/under/solgov/service/fleet/skirt/officer
 	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet/officer
 	dress_hat = /obj/item/clothing/head/solgov/dress/fleet/command
-	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword, /obj/item/clothing/accessory/cloak/boh/medical, /obj/item/clothing/accessory/cloak/boh/dress, /obj/item/clothing/head/beret/solgov/fleet/dress/command)
+	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword, /obj/item/clothing/head/beret/solgov/fleet/dress/command)
 
 /decl/hierarchy/mil_uniform/fleet/med/officer/com //Can only be officers
-	name = "NTEF medical command"
+	name = "SCGF medical command"
 	departments = MED|COM
 
 /decl/hierarchy/mil_uniform/fleet/med/officer/com/seniorofficer
-	name = "NTEF medical senior command"
+	name = "SCGF medical senior command"
 	min_rank = 19
 
 	service_under = /obj/item/clothing/under/solgov/service/fleet/command
@@ -387,7 +383,7 @@
 	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet/command
 
 /decl/hierarchy/mil_uniform/fleet/med/officer/com/flagofficer
-	name = "NTEF medical flag command"
+	name = "SCGF medical flag command"
 	min_rank = 22
 
 	service_under = /obj/item/clothing/under/solgov/service/fleet/flag
@@ -396,23 +392,23 @@
 	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet/flag
 
 /decl/hierarchy/mil_uniform/fleet/sup
-	name = "NTEF supply"
+	name = "SCGF supply"
 	departments = SUP
 
 	utility_under = /obj/item/clothing/under/solgov/utility/fleet/supply
 	utility_extra = list(/obj/item/clothing/head/beret/solgov/fleet/supply,
 						 /obj/item/clothing/head/ushanka/solgov/fleet,
 						 /obj/item/clothing/suit/storage/hooded/wintercoat/solgov/fleet,
-						 /obj/item/clothing/head/soft/solgov/fleet/ntef,
+						 
 						 /obj/item/clothing/gloves/thick/duty/solgov/sup,
 						 /obj/item/clothing/gloves/thick/duty/solgov/fingerless/sup,
 						 /obj/item/clothing/under/solgov/utility/fleet/polopants/supply,
 						 /obj/item/clothing/suit/storage/jacket/solgov/fleet/supply)
 
-	dress_extra = list(/obj/item/clothing/accessory/cloak/boh/supply, /obj/item/clothing/head/beret/solgov/fleet/dress)
+	dress_extra = list(/obj/item/clothing/head/beret/solgov/fleet/dress)
 
 /decl/hierarchy/mil_uniform/fleet/sup/noncom
-	name = "NTEF supply NCO"
+	name = "SCGF supply NCO"
 	min_rank = 4
 
 	service_hat = /obj/item/clothing/head/solgov/dress/fleet
@@ -421,30 +417,30 @@
 	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet
 
 /decl/hierarchy/mil_uniform/fleet/sup/snco
-	name = "NTEF supply SNCO"
+	name = "SCGF supply SNCO"
 	min_rank = 7
 
 	service_hat = /obj/item/clothing/head/solgov/dress/fleet
 	service_over = /obj/item/clothing/suit/storage/solgov/service/fleet/snco
 
 	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet/snco
-	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword/pettyofficer, /obj/item/clothing/accessory/cloak/boh/supply, /obj/item/clothing/accessory/cloak/boh/dress, /obj/item/clothing/head/beret/solgov/fleet/dress)
+	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword/pettyofficer, /obj/item/clothing/head/beret/solgov/fleet/dress)
 
 /decl/hierarchy/mil_uniform/fleet/supply/warrant
-	name = "NTEF supply Warrant"
+	name = "SCGF supply Warrant"
 	min_rank = 11
 
-	service_under = /obj/item/clothing/under/solgov/service/fleet/warrant
-	service_skirt = /obj/item/clothing/under/solgov/service/fleet/skirt/warrant
+	service_under = /obj/item/clothing/under/solgov/service/fleet
+	service_skirt = /obj/item/clothing/under/solgov/service/fleet/skirt
 	service_hat = /obj/item/clothing/head/solgov/dress/fleet
-	service_over = /obj/item/clothing/suit/storage/solgov/service/fleet/warrant
+	service_over = /obj/item/clothing/suit/storage/solgov/service/fleet
 
-	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet/warrant
-	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword, /obj/item/clothing/accessory/cloak/boh/supply, /obj/item/clothing/accessory/cloak/boh/dress, /obj/item/clothing/head/beret/solgov/fleet/dress)
+	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet
+	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword, /obj/item/clothing/head/beret/solgov/fleet/dress)
 
 
 /decl/hierarchy/mil_uniform/fleet/sup/officer
-	name = "NTEF supply CO"
+	name = "SCGF supply CO"
 	min_rank = 16
 
 
@@ -452,7 +448,7 @@
 						 /obj/item/clothing/head/beret/solgov/fleet/command,
 						 /obj/item/clothing/head/ushanka/solgov/fleet,
 						 /obj/item/clothing/suit/storage/hooded/wintercoat/solgov/fleet,
-						 /obj/item/clothing/head/soft/solgov/fleet/ntef,
+						 
 						 /obj/item/clothing/gloves/thick/duty/solgov/sup,
 						 /obj/item/clothing/gloves/thick/duty/solgov/fingerless/sup,
 						 /obj/item/clothing/under/solgov/utility/fleet/polopants/supply,
@@ -464,13 +460,13 @@
 	service_skirt = /obj/item/clothing/under/solgov/service/fleet/skirt/officer
 	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet/officer
 	dress_hat = /obj/item/clothing/head/solgov/dress/fleet/command
-	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword, /obj/item/clothing/accessory/cloak/boh/supply, /obj/item/clothing/accessory/cloak/boh/dress, /obj/item/clothing/head/beret/solgov/fleet/dress/command)
+	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword, /obj/item/clothing/head/beret/solgov/fleet/dress/command)
 
 /decl/hierarchy/mil_uniform/fleet/sup/seniorofficer
-	name = "NTEF supply senior command"
+	name = "SCGF supply senior command"
 	min_rank = 19
 
-	utility_extra = list(/obj/item/clothing/under/solgov/utility/fleet/officer/command, /obj/item/clothing/head/beret/solgov/fleet/command, /obj/item/clothing/head/ushanka/solgov/fleet, /obj/item/clothing/suit/storage/hooded/wintercoat/solgov/fleet, /obj/item/clothing/head/soft/solgov/fleet/ntef)
+	utility_extra = list(/obj/item/clothing/under/solgov/utility/fleet/officer/command, /obj/item/clothing/head/beret/solgov/fleet/command, /obj/item/clothing/head/ushanka/solgov/fleet, /obj/item/clothing/suit/storage/hooded/wintercoat/solgov/fleet, /obj/item/clothing/head/soft/solgov/fleet/SCGF)
 	utility_under = /obj/item/clothing/under/solgov/utility/fleet/command
 
 	service_hat = /obj/item/clothing/head/solgov/dress/fleet/command
@@ -480,13 +476,13 @@
 
 	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet/command
 	dress_hat = /obj/item/clothing/head/solgov/dress/fleet/command
-	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword, /obj/item/clothing/accessory/cloak/boh/supply, /obj/item/clothing/accessory/cloak/boh/dress/command, /obj/item/clothing/head/beret/solgov/fleet/dress/command)
+	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword, /obj/item/clothing/head/beret/solgov/fleet/dress/command)
 
 /decl/hierarchy/mil_uniform/fleet/sup/flagofficer
-	name = "NTEF supply flag command"
+	name = "SCGF supply flag command"
 	min_rank = 22
 
-	utility_extra = list(/obj/item/clothing/under/solgov/utility/fleet/officer/command, /obj/item/clothing/head/beret/solgov/fleet/command, /obj/item/clothing/head/ushanka/solgov/fleet, /obj/item/clothing/suit/storage/hooded/wintercoat/solgov/fleet, /obj/item/clothing/head/soft/solgov/fleet/ntef)
+	utility_extra = list(/obj/item/clothing/under/solgov/utility/fleet/officer/command, /obj/item/clothing/head/beret/solgov/fleet/command, /obj/item/clothing/head/ushanka/solgov/fleet, /obj/item/clothing/suit/storage/hooded/wintercoat/solgov/fleet, /obj/item/clothing/head/soft/solgov/fleet/SCGF)
 	utility_under = /obj/item/clothing/under/solgov/utility/fleet/command
 
 	service_hat = /obj/item/clothing/head/solgov/dress/fleet/command
@@ -494,26 +490,26 @@
 
 	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet/flag
 	dress_hat = /obj/item/clothing/head/solgov/dress/fleet/command
-	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword, /obj/item/clothing/accessory/cloak/boh/supply, /obj/item/clothing/accessory/cloak/boh/dress/command, /obj/item/clothing/head/beret/solgov/fleet/dress/command)
+	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword, /obj/item/clothing/head/beret/solgov/fleet/dress/command)
 
 /decl/hierarchy/mil_uniform/fleet/srv
-	name = "NTEF service"
+	name = "SCGF service"
 	departments = SRV
 
 	utility_under = /obj/item/clothing/under/solgov/utility/fleet/service
 	utility_extra = list(/obj/item/clothing/head/beret/solgov/fleet/service,
 						 /obj/item/clothing/head/ushanka/solgov/fleet,
 						 /obj/item/clothing/suit/storage/hooded/wintercoat/solgov/fleet,
-						 /obj/item/clothing/head/soft/solgov/fleet/ntef,
+						 
 						 /obj/item/clothing/gloves/thick/duty/solgov/svc,
 						 /obj/item/clothing/gloves/thick/duty/solgov/fingerless/svc,
 						 /obj/item/clothing/under/solgov/utility/fleet/polopants/service,
 						 /obj/item/clothing/suit/storage/jacket/solgov/fleet/service)
 
-	dress_extra = list(/obj/item/clothing/accessory/cloak/boh/service, /obj/item/clothing/head/beret/solgov/fleet/dress)
+	dress_extra = list(/obj/item/clothing/head/beret/solgov/fleet/dress)
 
 /decl/hierarchy/mil_uniform/fleet/srv/noncom
-	name = "NTEF service NCO"
+	name = "SCGF service NCO"
 	min_rank = 4
 
 	service_hat = /obj/item/clothing/head/solgov/dress/fleet
@@ -522,37 +518,37 @@
 	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet
 
 /decl/hierarchy/mil_uniform/fleet/srv/snco
-	name = "NTEF service SNCO"
+	name = "SCGF service SNCO"
 	min_rank = 7
 
 	service_hat = /obj/item/clothing/head/solgov/dress/fleet
 	service_over = /obj/item/clothing/suit/storage/solgov/service/fleet/snco
 
 	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet/snco
-	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword/pettyofficer, /obj/item/clothing/accessory/cloak/boh/service, /obj/item/clothing/accessory/cloak/boh/dress, /obj/item/clothing/head/beret/solgov/fleet/dress)
+	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword/pettyofficer, /obj/item/clothing/head/beret/solgov/fleet/dress)
 
 /decl/hierarchy/mil_uniform/fleet/srv/warrant
-	name = "NTEF service Warrant"
+	name = "SCGF service Warrant"
 	min_rank = 11
 
-	service_under = /obj/item/clothing/under/solgov/service/fleet/warrant
-	service_skirt = /obj/item/clothing/under/solgov/service/fleet/skirt/warrant
+	service_under = /obj/item/clothing/under/solgov/service/fleet
+	service_skirt = /obj/item/clothing/under/solgov/service/fleet/skirt
 	service_hat = /obj/item/clothing/head/solgov/dress/fleet
-	service_over = /obj/item/clothing/suit/storage/solgov/service/fleet/warrant
+	service_over = /obj/item/clothing/suit/storage/solgov/service/fleet
 
-	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet/warrant
-	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword, /obj/item/clothing/accessory/cloak/boh/service, /obj/item/clothing/accessory/cloak/boh/dress, /obj/item/clothing/head/beret/solgov/fleet/dress)
+	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet
+	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword, /obj/item/clothing/head/beret/solgov/fleet/dress)
 
 
 /decl/hierarchy/mil_uniform/fleet/srv/officer
-	name = "NTEF service CO"
+	name = "SCGF service CO"
 	min_rank = 16
 
 	utility_extra = list(/obj/item/clothing/under/solgov/utility/fleet/officer/command,
 						 /obj/item/clothing/head/beret/solgov/fleet/command,
 						 /obj/item/clothing/head/ushanka/solgov/fleet,
 						 /obj/item/clothing/suit/storage/hooded/wintercoat/solgov/fleet,
-						 /obj/item/clothing/head/soft/solgov/fleet/ntef,
+						 
 						 /obj/item/clothing/gloves/thick/duty/solgov/svc,
 						 /obj/item/clothing/gloves/thick/duty/solgov/fingerless/svc,
 						 /obj/item/clothing/under/solgov/utility/fleet/polopants/service,
@@ -564,10 +560,10 @@
 
 	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet/officer
 	dress_hat = /obj/item/clothing/head/solgov/dress/fleet/command
-	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword, /obj/item/clothing/accessory/cloak/boh/service, /obj/item/clothing/accessory/cloak/boh/dress, /obj/item/clothing/head/beret/solgov/fleet/dress/command)
+	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword, /obj/item/clothing/head/beret/solgov/fleet/dress/command)
 
 /decl/hierarchy/mil_uniform/fleet/exp
-	name = "NTEF exploration"
+	name = "SCGF exploration"
 	departments = EXP
 
 	utility_under = /obj/item/clothing/under/solgov/utility/fleet/exploration
@@ -575,16 +571,16 @@
 						 /obj/item/clothing/head/ushanka/solgov/fleet,
 						 /obj/item/clothing/suit/storage/hooded/wintercoat/solgov/fleet,
 						 /obj/item/clothing/under/solgov/utility/fleet/combat/exploration,
-						 /obj/item/clothing/head/soft/solgov/fleet/ntef,
+						 
 						 /obj/item/clothing/gloves/thick/duty/solgov/exp,
 						 /obj/item/clothing/gloves/thick/duty/solgov/fingerless/exp,
 						 /obj/item/clothing/under/solgov/utility/fleet/polopants/exploration,
 						 /obj/item/clothing/suit/storage/jacket/solgov/fleet/exploration)
 
-	dress_extra = list(/obj/item/clothing/accessory/cloak/boh/explorer, /obj/item/clothing/head/beret/solgov/fleet/dress)
+	dress_extra = list(/obj/item/clothing/head/beret/solgov/fleet/dress)
 
 /decl/hierarchy/mil_uniform/fleet/exp/noncom
-	name = "NTEF exploration NCO"
+	name = "SCGF exploration NCO"
 	min_rank = 4
 
 	service_hat = /obj/item/clothing/head/solgov/dress/fleet
@@ -593,36 +589,36 @@
 	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet
 
 /decl/hierarchy/mil_uniform/fleet/exp/snco
-	name = "NTEF exploration SNCO"
+	name = "SCGF exploration SNCO"
 	min_rank = 7
 
 	service_hat = /obj/item/clothing/head/solgov/dress/fleet
 	service_over = /obj/item/clothing/suit/storage/solgov/service/fleet/snco
 
 	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet/snco
-	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword/pettyofficer, /obj/item/clothing/accessory/cloak/boh/explorer, /obj/item/clothing/accessory/cloak/boh/dress, /obj/item/clothing/head/beret/solgov/fleet/dress)
+	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword/pettyofficer, /obj/item/clothing/head/beret/solgov/fleet/dress)
 
 /decl/hierarchy/mil_uniform/fleet/exp/warrant
-	name = "NTEF exploration Warrant"
+	name = "SCGF exploration Warrant"
 	min_rank = 11
 
-	service_under = /obj/item/clothing/under/solgov/service/fleet/warrant
-	service_skirt = /obj/item/clothing/under/solgov/service/fleet/skirt/warrant
+	service_under = /obj/item/clothing/under/solgov/service/fleet
+	service_skirt = /obj/item/clothing/under/solgov/service/fleet/skirt
 	service_hat = /obj/item/clothing/head/solgov/dress/fleet
-	service_over = /obj/item/clothing/suit/storage/solgov/service/fleet/warrant
+	service_over = /obj/item/clothing/suit/storage/solgov/service/fleet
 
-	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet/warrant
-	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword, /obj/item/clothing/accessory/cloak/boh/explorer, /obj/item/clothing/accessory/cloak/boh/dress, /obj/item/clothing/head/beret/solgov/fleet/dress)
+	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet
+	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword, /obj/item/clothing/head/beret/solgov/fleet/dress)
 
 /decl/hierarchy/mil_uniform/fleet/exp/officer
-	name = "NTEF exploration CO"
+	name = "SCGF exploration CO"
 	min_rank = 16
 
 	utility_extra = list(/obj/item/clothing/under/solgov/utility/fleet/officer/command,
 						 /obj/item/clothing/head/beret/solgov/fleet/command,
 						 /obj/item/clothing/head/ushanka/solgov/fleet,
 						 /obj/item/clothing/suit/storage/hooded/wintercoat/solgov/fleet,
-						 /obj/item/clothing/head/soft/solgov/fleet/ntef,
+						 
 						 /obj/item/clothing/gloves/thick/duty/solgov/exp,
 						 /obj/item/clothing/gloves/thick/duty/solgov/fingerless/exp,
 						 /obj/item/clothing/under/solgov/utility/fleet/polopants/exploration,
@@ -634,17 +630,17 @@
 
 	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet/officer
 	dress_hat = /obj/item/clothing/head/solgov/dress/fleet/command
-	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword, /obj/item/clothing/accessory/cloak/boh/explorer, /obj/item/clothing/accessory/cloak/boh/dress, /obj/item/clothing/head/beret/solgov/fleet/dress/command)
+	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword, /obj/item/clothing/head/beret/solgov/fleet/dress/command)
 
 /decl/hierarchy/mil_uniform/fleet/spt
-	name = "NTEF command support"
+	name = "SCGF command support"
 	departments = SPT
 
 	utility_under = /obj/item/clothing/under/solgov/utility/fleet/command
-	dress_extra = list(/obj/item/clothing/accessory/cloak/boh/command/support, /obj/item/clothing/head/beret/solgov/fleet/dress)
+	dress_extra = list(/obj/item/clothing/head/beret/solgov/fleet/dress)
 
 /decl/hierarchy/mil_uniform/fleet/spt/noncom
-	name = "NTEF support NCO"
+	name = "SCGF support NCO"
 	min_rank = 4
 
 	service_hat = /obj/item/clothing/head/solgov/dress/fleet
@@ -653,20 +649,20 @@
 	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet
 
 /decl/hierarchy/mil_uniform/fleet/spt/snco
-	name = "NTEF support SNCO"
+	name = "SCGF support SNCO"
 	min_rank = 7
 
 	service_hat = /obj/item/clothing/head/solgov/dress/fleet
 	service_over = /obj/item/clothing/suit/storage/solgov/service/fleet/snco
 
 	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet/snco
-	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword/pettyofficer, /obj/item/clothing/accessory/cloak/boh/command/support, /obj/item/clothing/accessory/cloak/boh/dress, /obj/item/clothing/head/beret/solgov/fleet/dress)
+	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword/pettyofficer, /obj/item/clothing/head/beret/solgov/fleet/dress)
 
 /decl/hierarchy/mil_uniform/fleet/spt/officer
-	name = "NTEF command support CO"
+	name = "SCGF command support CO"
 	min_rank = 16
 
-	utility_extra = list(/obj/item/clothing/under/solgov/utility/fleet/officer/command, /obj/item/clothing/gloves/thick/duty/solgov/fingerless/cmd, /obj/item/clothing/head/beret/solgov/fleet/command, /obj/item/clothing/head/ushanka/solgov/fleet, /obj/item/clothing/suit/storage/hooded/wintercoat/solgov/fleet, /obj/item/clothing/head/soft/solgov/fleet/ntef, /obj/item/clothing/under/solgov/utility/fleet/polopants/command, /obj/item/clothing/suit/storage/jacket/solgov/fleet/command)
+	utility_extra = list(/obj/item/clothing/under/solgov/utility/fleet/officer/command, /obj/item/clothing/gloves/thick/duty/solgov/fingerless/cmd, /obj/item/clothing/head/beret/solgov/fleet/command, /obj/item/clothing/head/ushanka/solgov/fleet, /obj/item/clothing/suit/storage/hooded/wintercoat/solgov/fleet,  /obj/item/clothing/under/solgov/utility/fleet/polopants/command, /obj/item/clothing/suit/storage/jacket/solgov/fleet/command)
 	utility_under = /obj/item/clothing/under/solgov/utility/fleet/command
 
 	service_hat = /obj/item/clothing/head/solgov/dress/fleet/command
@@ -676,17 +672,17 @@
 
 	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet/officer
 	dress_hat = /obj/item/clothing/head/solgov/dress/fleet/command
-	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword, /obj/item/clothing/accessory/cloak/boh/command/support, /obj/item/clothing/accessory/cloak/boh/dress, /obj/item/clothing/head/beret/solgov/fleet/dress/command)
+	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword, /obj/item/clothing/head/beret/solgov/fleet/dress/command)
 
 /decl/hierarchy/mil_uniform/fleet/spt/seniorofficer
-	name = "NTEF senior command support"
+	name = "SCGF senior command support"
 	min_rank = 19
 
 	utility_extra_alt = list(/obj/item/clothing/under/solgov/utility/fleet/officer/command,
 						 /obj/item/clothing/head/beret/solgov/fleet/command,
 						 /obj/item/clothing/head/ushanka/solgov/fleet,
 						 /obj/item/clothing/suit/storage/hooded/wintercoat/solgov/fleet,
-						 /obj/item/clothing/head/soft/solgov/fleet/ntef,
+						 
 						 /obj/item/clothing/under/solgov/utility/fleet/polopants/command,
 						 /obj/item/clothing/suit/storage/jacket/solgov/fleet/command)
 	utility_under = /obj/item/clothing/under/solgov/utility/fleet/command
@@ -698,17 +694,17 @@
 
 	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet/officer
 	dress_hat = /obj/item/clothing/head/solgov/dress/fleet/command
-	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword, /obj/item/clothing/accessory/cloak/boh/command/support, /obj/item/clothing/accessory/cloak/boh/dress, /obj/item/clothing/head/beret/solgov/fleet/dress/command)
+	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword, /obj/item/clothing/head/beret/solgov/fleet/dress/command)
 
 /decl/hierarchy/mil_uniform/fleet/spt/flagofficer
-	name = "NTEF flag command support"
+	name = "SCGF flag command support"
 	min_rank = 22
 
 	utility_extra = list(/obj/item/clothing/under/solgov/utility/fleet/officer/command,
 						 /obj/item/clothing/head/beret/solgov/fleet/command,
 						 /obj/item/clothing/head/ushanka/solgov/fleet,
 						 /obj/item/clothing/suit/storage/hooded/wintercoat/solgov/fleet,
-						 /obj/item/clothing/head/soft/solgov/fleet/ntef,
+						 
 						 /obj/item/clothing/under/solgov/utility/fleet/polopants/command,
 						 /obj/item/clothing/suit/storage/jacket/solgov/fleet/command)
 	utility_under = /obj/item/clothing/under/solgov/utility/fleet/command
@@ -720,16 +716,16 @@
 
 	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet/command
 	dress_hat = /obj/item/clothing/head/solgov/dress/fleet/command
-	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword, /obj/item/clothing/accessory/cloak/boh/command/support, /obj/item/clothing/accessory/cloak/boh/dress/command, /obj/item/clothing/head/beret/solgov/fleet/dress/command)
+	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword, /obj/item/clothing/head/beret/solgov/fleet/dress/command)
 
 /decl/hierarchy/mil_uniform/fleet/sci
-	name = "NTEF science"
+	name = "SCGF science"
 	departments = SCI
 
-	dress_extra = list(/obj/item/clothing/accessory/cloak/boh/explorer/science, /obj/item/clothing/head/beret/solgov/fleet/dress)
+	dress_extra = list(/obj/item/clothing/head/beret/solgov/fleet/dress)
 
 /decl/hierarchy/mil_uniform/fleet/sci/senior
-	name = "NTEF science senior"
+	name = "SCGF science senior"
 	min_rank = 4
 
 	service_hat = /obj/item/clothing/head/solgov/dress/fleet
@@ -738,29 +734,29 @@
 	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet
 
 /decl/hierarchy/mil_uniform/fleet/sci/chief
-	name = "NTEF science chief"
+	name = "SCGF science chief"
 	min_rank = 7
 
 	service_hat = /obj/item/clothing/head/solgov/dress/fleet
 	service_over = /obj/item/clothing/suit/storage/solgov/service/fleet/snco
 
 	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet/snco
-	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword/pettyofficer, /obj/item/clothing/accessory/cloak/boh/explorer/science, /obj/item/clothing/accessory/cloak/boh/dress, /obj/item/clothing/head/beret/solgov/fleet/dress)
+	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword/pettyofficer, /obj/item/clothing/head/beret/solgov/fleet/dress)
 
 /decl/hierarchy/mil_uniform/fleet/sci/warrant
-	name = "NTEF science Warrant"
+	name = "SCGF science Warrant"
 	min_rank = 11
 
-	service_under = /obj/item/clothing/under/solgov/service/fleet/warrant
-	service_skirt = /obj/item/clothing/under/solgov/service/fleet/skirt/warrant
+	service_under = /obj/item/clothing/under/solgov/service/fleet
+	service_skirt = /obj/item/clothing/under/solgov/service/fleet/skirt
 	service_hat = /obj/item/clothing/head/solgov/dress/fleet
-	service_over = /obj/item/clothing/suit/storage/solgov/service/fleet/warrant
+	service_over = /obj/item/clothing/suit/storage/solgov/service/fleet
 
-	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet/warrant
-	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword, /obj/item/clothing/accessory/cloak/boh/explorer/science, /obj/item/clothing/accessory/cloak/boh/dress, /obj/item/clothing/head/beret/solgov/fleet/dress)
+	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet
+	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword, /obj/item/clothing/head/beret/solgov/fleet/dress)
 
 /decl/hierarchy/mil_uniform/fleet/sci/officer
-	name = "NTEF science CO"
+	name = "SCGF science CO"
 	min_rank = 16
 
 	utility_extra = list(/obj/item/clothing/head/beret/solgov/expedition/command,
@@ -769,7 +765,7 @@
 						 /obj/item/clothing/head/beret/solgov/fleet/command,
 						 /obj/item/clothing/head/ushanka/solgov/fleet,
 						 /obj/item/clothing/suit/storage/hooded/wintercoat/solgov/fleet,
-						 /obj/item/clothing/head/soft/solgov/fleet/ntef,
+						 
 						 /obj/item/clothing/gloves/thick/duty/solgov/exp,
 						 /obj/item/clothing/gloves/thick/duty/solgov/fingerless/exp,
 						 /obj/item/clothing/under/solgov/utility/fleet/polopants/exploration,
@@ -781,10 +777,10 @@
 
 	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet/officer
 	dress_hat = /obj/item/clothing/head/solgov/dress/fleet/command
-	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword, /obj/item/clothing/accessory/cloak/boh/explorer/science, /obj/item/clothing/accessory/cloak/boh/dress, /obj/item/clothing/head/beret/solgov/fleet/dress/command)
+	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword, /obj/item/clothing/head/beret/solgov/fleet/dress/command)
 
 /decl/hierarchy/mil_uniform/fleet/sci/officer/com //Can only be officers
-	name = "NTEF science command"
+	name = "SCGF science command"
 	min_rank = 19
 	departments = SCI|COM
 
@@ -794,7 +790,7 @@
 						 /obj/item/clothing/head/beret/solgov/fleet/command,
 						 /obj/item/clothing/head/ushanka/solgov/fleet,
 						 /obj/item/clothing/suit/storage/hooded/wintercoat/solgov/fleet,
-						 /obj/item/clothing/head/soft/solgov/fleet/ntef,
+						 
 						 /obj/item/clothing/gloves/thick/duty/solgov/exp,
 						 /obj/item/clothing/gloves/thick/duty/solgov/fingerless/exp,
 						 /obj/item/clothing/under/solgov/utility/fleet/polopants/exploration,
@@ -806,4 +802,4 @@
 	service_over = /obj/item/clothing/suit/storage/solgov/service/fleet/command
 	dress_over = /obj/item/clothing/suit/storage/solgov/dress/fleet/command
 	dress_hat = /obj/item/clothing/head/solgov/dress/fleet/command
-	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword, /obj/item/clothing/accessory/cloak/boh/explorer/science, /obj/item/clothing/accessory/cloak/boh/dress, /obj/item/clothing/head/beret/solgov/fleet/dress/command)
+	dress_extra = list(/obj/item/weapon/material/sword/replica/officersword, /obj/item/clothing/head/beret/solgov/fleet/dress/command)
