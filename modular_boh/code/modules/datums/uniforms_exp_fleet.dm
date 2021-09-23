@@ -36,7 +36,7 @@
 
 	utility_under = /obj/item/clothing/under/solgov/utility/fleet
 	utility_shoes = /obj/item/clothing/shoes/dutyboots
-	utility_hat = /obj/item/clothing/head/solgov/utility/fleet/SCGF
+	utility_hat = /obj/item/clothing/head/solgov/utility/fleet
 	utility_extra = list(/obj/item/clothing/head/beret/solgov/fleet, /obj/item/clothing/head/ushanka/solgov/fleet, /obj/item/clothing/suit/storage/hooded/wintercoat/solgov/fleet, /obj/item/clothing/shoes/jackboots/unathi)
 
 	service_under = /obj/item/clothing/under/solgov/service/fleet
@@ -466,7 +466,7 @@
 	name = "SCGF supply senior command"
 	min_rank = 19
 
-	utility_extra = list(/obj/item/clothing/under/solgov/utility/fleet/officer/command, /obj/item/clothing/head/beret/solgov/fleet/command, /obj/item/clothing/head/ushanka/solgov/fleet, /obj/item/clothing/suit/storage/hooded/wintercoat/solgov/fleet, /obj/item/clothing/head/soft/solgov/fleet/SCGF)
+	utility_extra = list(/obj/item/clothing/under/solgov/utility/fleet/officer/command, /obj/item/clothing/head/beret/solgov/fleet/command, /obj/item/clothing/head/ushanka/solgov/fleet, /obj/item/clothing/suit/storage/hooded/wintercoat/solgov/fleet, /obj/item/clothing/head/soft/solgov/fleet)
 	utility_under = /obj/item/clothing/under/solgov/utility/fleet/command
 
 	service_hat = /obj/item/clothing/head/solgov/dress/fleet/command
@@ -482,7 +482,7 @@
 	name = "SCGF supply flag command"
 	min_rank = 22
 
-	utility_extra = list(/obj/item/clothing/under/solgov/utility/fleet/officer/command, /obj/item/clothing/head/beret/solgov/fleet/command, /obj/item/clothing/head/ushanka/solgov/fleet, /obj/item/clothing/suit/storage/hooded/wintercoat/solgov/fleet, /obj/item/clothing/head/soft/solgov/fleet/SCGF)
+	utility_extra = list(/obj/item/clothing/under/solgov/utility/fleet/officer/command, /obj/item/clothing/head/beret/solgov/fleet/command, /obj/item/clothing/head/ushanka/solgov/fleet, /obj/item/clothing/suit/storage/hooded/wintercoat/solgov/fleet, /obj/item/clothing/head/soft/solgov/fleet)
 	utility_under = /obj/item/clothing/under/solgov/utility/fleet/command
 
 	service_hat = /obj/item/clothing/head/solgov/dress/fleet/command
