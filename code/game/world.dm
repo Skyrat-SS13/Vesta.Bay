@@ -91,6 +91,8 @@
 	if(byond_version < RECOMMENDED_VERSION)
 		to_world_log("Your server's byond version does not meet the recommended requirements for this server. Please update BYOND")
 
+	TgsNew()
+
 	callHook("startup")
 	//Emergency Fix
 	load_mods()
@@ -111,7 +113,7 @@ var/world_topic_spam_protect_time = world.timeofday
 
 /world/Topic(T, addr, master, key)
 	to_file(diary, "TOPIC: \"[T]\", from:[addr], master:[master], key:[key][log_end]")
-
+	TGS_TOPIC
 	/* * * * * * * *
 	* Public Topic Calls
 	* The following topic calls are available without a comms secret.
@@ -497,7 +499,7 @@ var/world_topic_spam_protect_time = world.timeofday
 		text2file("foo", "reboot_called")
 		to_world("<span class=danger>World reboot waiting for external scripts. Please be patient.</span>")
 		return
-
+	TgsReboot()
 	..(reason)
 
 /world/Del()
