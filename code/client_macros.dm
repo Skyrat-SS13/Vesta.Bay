@@ -1,5 +1,6 @@
 /client
 	control_freak = CONTROL_FREAK_ALL | CONTROL_FREAK_MACROS | CONTROL_FREAK_SKIN
+	var/datum/view_data/view_size
 
 var/list/registered_macros_by_ckey_
 
