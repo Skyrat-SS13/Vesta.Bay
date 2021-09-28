@@ -57,7 +57,11 @@
 	var/client/my_client // Need to keep track of this ourselves, since by the time Logout() is called the client has already been nulled
 
 /mob/Login()
-
+	if(client) // Let's give us widescreen again and again.
+		if(client.view_size)
+			client.view_size.resetToDefault() // Resets the client.view in case it was changed.
+		else
+			client.change_view("21x15")
 	// Add to player list if missing
 	if (!GLOB.player_list.Find(src))
 		ADD_SORTED(GLOB.player_list, src, /proc/cmp_mob_key)
