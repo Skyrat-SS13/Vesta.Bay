@@ -252,6 +252,10 @@ var/list/_client_preferences_by_type
 	key = "OVERHEAD_CHAT"
 	options = list(GLOB.PREF_SHOW, GLOB.PREF_HIDE)
 
+/datum/client_preference/widescreen
+	description = "Use Widescreen"
+	key = "USE_WIDESCREEN"
+	options = list(GLOB.PREF_SHOW, GLOB.PREF_HIDE)
 /********************
 * General Staff Preferences *
 ********************/

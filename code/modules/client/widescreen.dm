@@ -7,7 +7,7 @@
 	if (isliving(mob))
 		var/mob/living/M = mob
 		M.update_damage_hud()
-	addtimer(CALLBACK(src,.verb/fit_viewport,10)) //Delayed to avoid wingets from Login calls.
+	addtimer(CALLBACK(src,.verb/fit_viewport,10)) //Delayed to avoid winsets from Login calls.
 
 /mob/living/proc/update_damage_hud()
 	return

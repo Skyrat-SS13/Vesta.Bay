@@ -484,6 +484,19 @@ client/verb/character_setup()
 		pct += delta
 		winset(src, "mainwindow.mainvsplit", "splitter=[pct]")
 
+/client/verb/set_widescreen()
+	set name = "Change to Widescreen"
+	set category = "OOC"
+	set desc = "Makes your view 21x15"
+	var/new_size = "21x15"
+	change_view(new_size)
+
+/client/verb/set_boxratio()
+	set name = "Change to 1 by 1 ratio"
+	set category = "OOC"
+	set desc = "Makes your view 15x15 (old)"
+	var/new_size = "15x15"
+	change_view(new_size)
 /* /client/verb/toggle_overhead_chat()
 	set name = "Toggle Overhead Chat"
 	set category = "Preferences"
@@ -496,4 +509,3 @@ client/verb/character_setup()
 	to_chat(src, "You will now [(is_preference_enabled(/datum/client_preference/overhead_chat)) ? "see" : "not see"] overhead chat messages..")
 
 	feedback_add_details("admin_verb","TOHChat") */
-

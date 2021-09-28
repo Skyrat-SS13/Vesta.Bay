@@ -57,7 +57,7 @@
 	var/client/my_client // Need to keep track of this ourselves, since by the time Logout() is called the client has already been nulled
 
 /mob/Login()
-	if(client) // Let's give us widescreen again and again.
+	if(client && client.get_preference_value(/datum/client_preference/widescreen) == GLOB.PREF_SHOW) // Let's give us widescreen again and again.
 		if(client.view_size)
 			client.view_size.resetToDefault() // Resets the client.view in case it was changed.
 		else
