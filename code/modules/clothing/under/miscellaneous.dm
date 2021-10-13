@@ -612,11 +612,6 @@
 	worn_state = "pcrcsuit"
 	gender_icons = 1
 
-/obj/item/clothing/under/solgov/utilityskirt
-	name = "Utility Skirt"
-	desc = "A comfortable turtleneck and black utility skirt."
-	icon_state = "contractor_skirt"
-	worn_state = "contractor_skirt"
 
 /obj/item/clothing/under/grayson
 	name = "\improper Grayson overalls"

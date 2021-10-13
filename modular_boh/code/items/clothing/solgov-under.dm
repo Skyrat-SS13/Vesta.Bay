@@ -135,7 +135,7 @@
 
 /obj/item/clothing/under/solgov/utility/fleet
 	name = "fleet coveralls"
-	desc = "The utility uniform of NT's Expeditionary Fleet, made from an insulated material."
+	desc = "The utility uniform of the SCG Fleet, made from an insulated material."
 	icon_state = "navyutility"
 	item_state = "jensensuit"
 	worn_state = "navyutility"
@@ -169,43 +169,43 @@
 
 /obj/item/clothing/under/solgov/utility/fleet/polopants
 	name = "fleet polo and pants"
-	desc = "An alternative utility uniform of NT's Expeditionary Fleet, specially designed for engineering staff. The pants sports some yellow reflective stripes, and have knee pads."
+	desc = "An alternative utility uniform of the SCG Fleet, specially designed for engineering staff. The pants sports some yellow reflective stripes, and have knee pads."
 	icon_state = "navypolopants"
 	worn_state = "navypolopants"
 
 /obj/item/clothing/under/solgov/utility/fleet/polopants/command
-	desc = "An alternative utility uniform of NT's Expeditionary Fleet. The pants have knee pads."
+	desc = "An alternative utility uniform of the SCG Fleet. The pants have knee pads."
 	icon_state = "navypolopantsnostripe"
 	worn_state = "navypolopantscom"
 
 /obj/item/clothing/under/solgov/utility/fleet/polopants/security
-	desc = "An alternative utility uniform of NT's Expeditionary Fleet. The pants have knee pads."
+	desc = "An alternative utility uniform of the SCG Fleet. The pants have knee pads."
 	icon_state = "navypolopantsnostripe"
 	worn_state = "navypolopantssec"
 
 /obj/item/clothing/under/solgov/utility/fleet/polopants/medical
-	desc = "An alternative utility uniform of NT's Expeditionary Fleet, specially designed for medics and doctors. The pants have knee pads."
+	desc = "An alternative utility uniform of the SCG Fleet, specially designed for medics and doctors. The pants have knee pads."
 	icon_state = "navypolopantsnostripe"
 	worn_state = "navypolopantsmed"
 
 /obj/item/clothing/under/solgov/utility/fleet/polopants/supply
-	desc = "An alternative utility uniform of NT's Expeditionary Fleet. The pants have knee pads."
+	desc = "An alternative utility uniform of the SCG Fleet. The pants have knee pads."
 	icon_state = "navypolopantsnostripe"
 	worn_state = "navypolopantssup"
 
 /obj/item/clothing/under/solgov/utility/fleet/polopants/service
-	desc = "An alternative utility uniform of NT's Expeditionary Fleet. The pants have knee pads."
+	desc = "An alternative utility uniform of the SCG Fleet. The pants have knee pads."
 	icon_state = "navypolopantsnostripe"
 	worn_state = "navypolopantssrv"
 
 /obj/item/clothing/under/solgov/utility/fleet/polopants/exploration
-	desc = "An alternative utility uniform of NT's Expeditionary Fleet. The pants have knee pads."
+	desc = "An alternative utility uniform of the SCG Fleet. The pants have knee pads."
 	icon_state = "navypolopantsnostripe"
 	worn_state = "navypolopantsxpl"
 
 /obj/item/clothing/under/solgov/utility/fleet/combat
 	name = "fleet fatigues"
-	desc = "Alternative utility uniform of NT's Expeditionary Fleet, for when coveralls are impractical."
+	desc = "Alternative utility uniform of the SCG Fleet, for when coveralls are impractical."
 	icon_state = "greyutility"
 	worn_state = "greyutility"
 	sprite_sheets = list(
@@ -253,12 +253,6 @@
 
 /obj/item/clothing/under/solgov/utility/fleet/combat/marine/exploration
 	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/exploration/fleet)
-
-/obj/item/clothing/under/solgov/utility/fleet/officer
-	name = "fleet officer's coveralls"
-	desc = "Alternative utility uniform of NT's Expeditionary Fleet, for officers."
-	icon_state = "navyutilityoff"
-	worn_state = "navyutilityoff"
 
 /obj/item/clothing/under/solgov/utility/fleet/officer/command
 	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/command/fleet)
@@ -454,7 +448,7 @@
 
 /obj/item/clothing/under/solgov/service/fleet
 	name = "fleet service uniform"
-	desc = "The service uniform of NT's Expeditionary Fleet, made from immaculate white fabric."
+	desc = "The service uniform of the SCG Fleet, made from immaculate white fabric."
 	icon_state = "whiteservice"
 	item_state = "nursesuit"
 	worn_state = "whiteservice"
@@ -465,59 +459,46 @@
 
 /obj/item/clothing/under/solgov/service/fleet/skirt
 	name = "fleet service skirt"
-	desc = "The service uniform skirt of NT's Expeditionary Fleet, made from immaculate white fabric."
+	desc = "The service uniform skirt of the SCG Fleet, made from immaculate white fabric."
 	icon_state = "whiteservicefem"
 	worn_state = "whiteservicefem"
 
-/obj/item/clothing/under/solgov/service/fleet/warrant
-	name = "fleet warrant officer service uniform"
-	desc = "The service uniform of NT's Expeditionary Fleet, made from immaculate white fabric. This one has a cobalt trim, denoting it as a warrant officer's."
-	icon_state = "whiteservice_wo"
-	item_state = "nursesuit"
-	worn_state = "whiteservice_wo"
-
 /obj/item/clothing/under/solgov/service/fleet/officer
 	name = "fleet officer service uniform"
-	desc = "The service uniform of NT's Expeditionary Fleet, made from immaculate white fabric. This one has a silver trim, denoting it as a junior officer's."
+	desc = "The service uniform of the SCG Fleet, made from immaculate white fabric. This one has a silver trim, denoting it as a junior officer's."
 	icon_state = "whiteservice_off"
 	item_state = "nursesuit"
 	worn_state = "whiteservice_off"
 
 /obj/item/clothing/under/solgov/service/fleet/command
 	name = "fleet senior officer service uniform"
-	desc = "The service uniform of NT's Expeditionary Fleet, made from immaculate white fabric. This one has a gold trim, denoting it as a senior officer's."
+	desc = "The service uniform of the SCG Fleet, made from immaculate white fabric. This one has a gold trim, denoting it as a senior officer's."
 	icon_state = "whiteservice_comm"
 	item_state = "nursesuit"
 	worn_state = "whiteservice_comm"
 
 /obj/item/clothing/under/solgov/service/fleet/flag
 	name = "fleet flag officer service uniform"
-	desc = "The service uniform of NT's Expeditionary Fleet, made from immaculate white fabric. This one has a blood-red trim, denoting it as a flag officer's."
+	desc = "The service uniform of the SCG Fleet, made from immaculate white fabric. This one has a blood-red trim, denoting it as a flag officer's."
 	icon_state = "whiteservice_flag"
 	item_state = "nursesuit"
 	worn_state = "whiteservice_flag"
 
-/obj/item/clothing/under/solgov/service/fleet/skirt/warrant
-	name = "fleet warrant officer service skirt"
-	desc = "The service uniform skirt of NT's Expeditionary Fleet, made from immaculate white fabric. This one has a cobalt trim, denoting it as a warrant officer's."
-	icon_state = "whiteservicefem_wo"
-	worn_state = "whiteservicefem_wo"
-
 /obj/item/clothing/under/solgov/service/fleet/skirt/officer
 	name = "fleet officer service skirt"
-	desc = "The service uniform skirt of NT's Expeditionary Fleet, made from immaculate white fabric. This one has a silver trim, denoting it as a junior officer's."
+	desc = "The service uniform skirt of the SCG Fleet, made from immaculate white fabric. This one has a silver trim, denoting it as a junior officer's."
 	icon_state = "whiteservicefem_off"
 	worn_state = "whiteservicefem_off"
 
 /obj/item/clothing/under/solgov/service/fleet/skirt/command
 	name = "fleet senior officer service skirt"
-	desc = "The service uniform skirt of NT's Expeditionary Fleet, made from immaculate white fabric. This one has a gold trim, denoting it as a senior officer's."
+	desc = "The service uniform skirt of the SCG Fleet, made from immaculate white fabric. This one has a gold trim, denoting it as a senior officer's."
 	icon_state = "whiteservicefem_comm"
 	worn_state = "whiteservicefem_comm"
 
 /obj/item/clothing/under/solgov/service/fleet/skirt/flag
 	name = "fleet flag officer service skirt"
-	desc = "The service uniform skirt of NT's Expeditionary Fleet, made from immaculate white fabric. This one has a blood-red trim, denoting it as a flag officer's."
+	desc = "The service uniform skirt of the SCG Fleet, made from immaculate white fabric. This one has a blood-red trim, denoting it as a flag officer's."
 	icon_state = "whiteservicefem_flag"
 	worn_state = "whiteservicefem_flag"
 

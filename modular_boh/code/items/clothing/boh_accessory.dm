@@ -2,7 +2,7 @@
 
 /obj/item/clothing/accessory/solgov/smc_patch
 	name = "\improper Marine Corps Patch"
-	desc = "A robust shoulder patch, carrying the symbol of the Solar Marine Corps, or SMC for short."
+	desc = "A robust shoulder patch, carrying the symbol of the SCG Marine Corps, or SCGMC for short.."
 	icon = 'modular_boh/icon/obj/obj_accessories_boh.dmi'
 	accessory_icons = list(slot_w_uniform_str = 'modular_boh/icon/mob/onmob_accessories_boh.dmi')
 	icon_state = "smcpatch"
@@ -21,7 +21,7 @@
 	name = "\improper Sixth Fleet patch"
 	desc = "A robust shoulder patch carrying insignia of Sixth Fleet."
 	icon = 'modular_boh/icon/obj/obj_accessories_boh.dmi'
-	accessory_icons = list(slot_w_uniform_str = 'modular_boh/icon/mob/onmob_accessories_boh.dmi', slot_wear_suit_str = 'modular_boh/icon/mob/onmob_cloak.dmi')
+	accessory_icons = list(slot_w_uniform_str = 'modular_boh/icon/mob/onmob_accessories_boh.dmi', )
 	icon_state = "fleetpatch6"
 	on_rolled = list("down" = "none")
 
@@ -35,16 +35,16 @@
 	badge_string = "NTSS Andromeda"
 
 /obj/item/clothing/accessory/badge/solgov/tags/fleet
-	badge_string = "NTEF"
+	badge_string = "SCGF"
 
 /obj/item/clothing/accessory/badge/solgov/tags/marine
-	badge_string = "SMC"
+	badge_string = "SCGMC"
 
 // custom ribbon for loadout
 /obj/item/clothing/accessory/ribbon/solgov/custom
 	icon_state = "ribbon_custom"
 	icon = 'modular_boh/icon/obj/obj_accessories_boh.dmi'
-	accessory_icons = list(slot_w_uniform_str = 'modular_boh/icon/mob/onmob_accessories_boh.dmi', slot_wear_suit_str = 'modular_boh/icon/mob/onmob_cloak.dmi')
+	accessory_icons = list(slot_w_uniform_str = 'modular_boh/icon/mob/onmob_accessories_boh.dmi')
 
 /obj/item/clothing/accessory/ribbon/solgov/custom/color
 	icon_state = "ribbon_custom_color"

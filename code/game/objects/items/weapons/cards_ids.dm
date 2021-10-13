@@ -424,9 +424,9 @@ var/const/NO_EMAG_ACT = -50
 	..()
 
 /obj/item/weapon/card/id/centcom
-	name = "\improper CentCom. ID"
-	desc = "An ID straight from Cent. Com."
-	registered_name = "Central Command"
+	name = "\improper MarsCom. ID"
+	desc = "An ID straight from Mars Fleet Command"
+	registered_name = "Mars Fleet Command"
 	assignment = "General"
 	color = COLOR_GRAY40
 	detail_color = COLOR_COMMAND_BLUE

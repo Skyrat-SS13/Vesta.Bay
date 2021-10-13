@@ -11,30 +11,31 @@
 	accessible_z_levels = list("1"=1,"2"=3,"3"=1,"4"=1,"5"=1,"6"=1,"9"=30)
 	overmap_size = 35
 	overmap_event_areas = 34
-	usable_email_tlds = list("andromeda.ef.nt", "andromeda.smc.mil", "freemail.net", "andromeda.nt")
+	usable_email_tlds = list("andromeda.scgf.mil", "andromeda.scgmc.mil", "freemail.net", "andromeda.nt")
 
 	allowed_spawns = list("Cryogenic Storage", "Cyborg Storage")
 	default_spawn = "Cryogenic Storage"
 
-	station_name  = "\improper NTSS Andromeda"
+	station_name  = "\improper SFV Andromeda"
 	station_short = "\improper Andromeda"
 	dock_name     = "TBD"
-	boss_name     = "Central Command"
+	boss_name     = "Mars Fleet Command"
 	boss_short    = "Command"
-	company_name  = "NanoTrasen"
-	company_short = "NT"
+	company_name  = "Sol Central Government"
+	company_short = "SCG"
 
 	map_admin_faxes = list(
-		"Central Command",
-		"Surveyor Corps Relay",
-		"Solarian Government Office",
-		"NanoTrasen",
+		"SCG Fleet Mars Command",
+		"SCG Fleet Luna Strategic Command",
+		"NT Surveyor Corps Relay",
+		"SCG Secretariat",
+		"SCC Corporate Relay",
 		"SFP Territory Support",
 		"SFP Special Investigations",
 		"SFP Fugitive Recovery",
-		"Sol Fleet Mars Commmand",
-		"Bureau of Diplomatic Affairs",
-		"Emergency Management Bureau",
+		"SCG Bureau of Diplomatic Affairs",
+		"SCG Emergency Management Bureau",
+		"Cuchulain Foundation Secure Relay",
 		"Secure Routing Service"
 	)
 

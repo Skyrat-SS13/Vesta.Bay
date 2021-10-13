@@ -47,7 +47,7 @@
 	var/decay_factor = 700			//Affects how fast the supermatter power decays
 	var/critical_temperature = 5000	//K
 	var/charging_factor = 0.05
-	var/damage_rate_limit = 4.5		//damage rate cap at power = 300, scales linearly with power
+	var/damage_rate_limit = 1.5	//damage rate cap at power = 300, scales linearly with power
 
 	var/gasefficency = 0.25
 

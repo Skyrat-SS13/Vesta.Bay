@@ -172,17 +172,6 @@ datum/gear/utility/crayonmre
 	cmedals["Gold"] = /obj/item/clothing/accessory/medal/gold
 	gear_tweaks += new/datum/gear_tweak/path(cmedals)
 
-/datum/gear/clothing/cloak
-	display_name = "Cloak, colored"
-	path = /obj/item/clothing/accessory/cloak
-	slot = slot_wear_suit
-	flags = GEAR_HAS_COLOR_SELECTION
-
-// Alternative cloak
-/datum/gear/clothing/cloak/alt
-	display_name = "Cloak, colored (alt-attachable)"
-	path = /obj/item/clothing/accessory/cloak/boh
-
 //################# GENERAL BOH ACESSORIES ##############################
 
 /datum/gear/accessory/custom_ribbon

@@ -159,9 +159,9 @@
 	)
 
 /datum/mil_branch/fleet
-	name = "Expeditionary Fleet"
-	name_short = "NTEF"
-	email_domain = "andromeda.ef.nt"
+	name = "Defense Fleet"
+	name_short = "SCGF"
+	email_domain = "andromeda.scg.mil"
 
 	rank_types = list(
 		/datum/mil_rank/fleet/e1,
@@ -223,9 +223,9 @@
 						SKILL_EVA     = SKILL_BASIC)
 
 /datum/mil_branch/marine_corps
-	name = "Solar Marine Corps"
-	name_short = "SMC"
-	email_domain = "andromeda.smc.mil"
+	name = "SCG Marine Corps"
+	name_short = "SCGMC"
+	email_domain = "andromeda.scgmc.mil"
 
 // Uses SCG Army's uniforms, at least for now.
 	rank_types = list(

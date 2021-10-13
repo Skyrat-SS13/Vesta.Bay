@@ -89,7 +89,7 @@ PROBABILITY CULT 1
 PROBABILITY EXTEND-A-TRAITORMONGOUS 6
 
 ## if possible round types will be hidden from players for secret rounds
-#SECRET_HIDE_POSSIBILITIES
+SECRET_HIDE_POSSIBILITIES
 
 ## Hash out to disable random events during the round.
 ALLOW_RANDOM_EVENTS
@@ -98,7 +98,7 @@ ALLOW_RANDOM_EVENTS
 TRAITOR_SCALING
 
 ## if objectives are disabled
-#OBJECTIVES_DISABLED
+OBJECTIVES_DISABLED
 
 ## make ERT's be only called by admins
 #ERT_ADMIN_ONLY
@@ -411,8 +411,17 @@ RADIATION_LOWER_LIMIT 0.15
 #RESOURCE_URLS URL URL2 URL3
 
 ## Add lines of 'DISALLOW_VOTABLE_MODE config_tag' to prevent a normally votable mode from being votable, eg:
-## DISALLOW_VOTABLE_MODE changeling
-## DISALLOW_VOTABLE_MODE malfunction
+DISALLOW_VOTABLE_MODE changeling
+DISALLOW_VOTABLE_MODE wizard
+DISALLOW_VOTABLE_MODE traitor
+DISALLOW_VOTABLE_MODE raider
+DISALLOW_VOTABLE_MODE mercenary
+DISALLOW_VOTABLE_MODE ninja
+DISALLOW_VOTABLE_MODE cultist
+DISALLOW_VOTABLE_MODE revolutionary
+DISALLOW_VOTABLE_MODE malf
+
+
 
 #### Legacy job whitelist system. Uncomment if you wish to use it:
 #JOB_WHITELIST
