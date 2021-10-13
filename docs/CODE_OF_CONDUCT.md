@@ -7,10 +7,8 @@ The following conduct may result in a warning being logged against your account:
 * Low-effort comments. (“Cringe”, “Bad”, “No lmao”)
 * Derogatory comments/Personal Attacks.
 * Trolling.
-* Inappropriate content.
-	* ERP verbs/Fetish content falls under this. These features will not be considered.
 * Comments on pull requests not addressing technical or code-related issues.
-	* Comments expressing dissatisfaction with a pull request’s features should be communicated/debated on Discord. The GitHub PR page is for discussing technical aspects of the PR. Balance change discussion should be kept to the #dev-public-discussion and #dev-discussion channels rather than GitHub.
+	* Comments expressing dissatisfaction with a pull request’s features should be communicated/debated on Discord. The GitHub PR page is for discussing technical aspects of the PR. Balance change discussion should be kept to the #bay-dev channels rather than GitHub, permitting you have access to the discord.
 	* The same rule applies to sprite, sound, or map contributions, though the rule will be applied more leniently here.
 	* The following are exempt from this rule: 
 		* The PR's author(s).
@@ -65,14 +63,11 @@ Instances of abusive, harassing, or otherwise unacceptable behaviour may be repo
 
 Maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by the Head Developer.
 
-
 ## Modifications
 Modifications to this code of conduct may be made by any contributor by way of a pull request, and will be considered by the development staff. Any accepted modifications will be announced in the #news channel on Discord, and on the forums.
-
 
 ## Attribution
 This Code of Conduct is adapted from Baystation12’s Code of Conduct and the [Contributor Covenant][homepage], version 1.4, available at [http://contributor-covenant.org/version/1/4][version]
 
 [homepage]: http://contributor-covenant.org
 [version]: http://contributor-covenant.org/version/1/4/
-
