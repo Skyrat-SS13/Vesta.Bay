@@ -208,6 +208,11 @@ var/list/gamemode_cache = list()
 	var/max_acts_per_interval = 140 //Number of actions per interval permitted for spam protection.
 	var/act_interval = 0.1 SECONDS //Interval for spam prevention.
 
+	var/lock_client_view_x
+	var/lock_client_view_y
+	var/max_client_view_x
+	var/max_client_view_y
+
 //######################################################################################################################
 //# VESTA.BAY # PORT ###################################################################################################
 //################################################################################ VESTA.BAY ###########################

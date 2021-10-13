@@ -22,8 +22,15 @@
 	screen.severity = severity
 
 	screens[category] = screen
-	if(client && (stat != DEAD || screen.allstate))
-		client.screen += screen
+	screen.transform = null
+	if(screen && client)
+		if(screen.screen_loc != ui_entire_screen)
+			if(max(client.last_view_x_dim, client.last_view_y_dim) > 7)
+				var/matrix/M = matrix()
+				M.Scale(ceil(client.last_view_x_dim/7),ceil(client.last_view_y_dim/7))
+				screen.transform = M
+		if(stat != DEAD || screen.allstate)
+			client.screen += screen
 	return screen
 
 /mob/proc/clear_fullscreen(category, animated = 10)
@@ -45,6 +52,14 @@
 			client.screen -= screen
 		qdel(screen)
 
+/mob/proc/show_screen(var/screen, var/animated)
+	set waitfor = FALSE
+	animate(screen, alpha = 0, time = animated)
+	sleep(animated)
+	if(screen && client)
+		client.screen -= screen
+		qdel(screen)
+
 /mob/proc/clear_fullscreens()
 	for(var/category in screens)
 		clear_fullscreen(category)
@@ -56,8 +71,15 @@
 
 /mob/proc/reload_fullscreen()
 	if(client)
+		var/largest_bound = max(client.last_view_x_dim, client.last_view_y_dim)
 		for(var/category in screens)
-			client.screen |= screens[category]
+			var/obj/screen/fullscreen/screen = screens[category]
+			screen.transform = null
+			if(screen.screen_loc != ui_entire_screen && largest_bound > 7)
+				var/matrix/M = matrix()
+				M.Scale(ceil(client.last_view_x_dim/7), ceil(client.last_view_y_dim/7))
+				screen.transform = M
+			client.screen |= screen
 
 /obj/screen/fullscreen
 	icon = 'icons/mob/screen_full.dmi'
