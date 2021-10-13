@@ -14,6 +14,7 @@
 #include "code\client_macros.dm"
 #include "code\hub.dm"
 #include "code\stylesheet.dm"
+#include "code\widescreen_assist.dm"
 #include "code\world.dm"
 #include "code\__datastructures\globals.dm"
 #include "code\__datastructures\priority_queue.dm"

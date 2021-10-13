@@ -5,6 +5,8 @@
 	var/UI_style = "Midnight"
 	var/UI_style_color = "#ffffff"
 	var/UI_style_alpha = 255
+	var/icon_size = 64
+
 
 /datum/category_item/player_setup_item/player_global/ui
 	name = "UI"

@@ -64,7 +64,7 @@ somewhere on that shuttle. Subtypes of these can be then used to perform ship ov
 /obj/machinery/computer/ship/proc/unlook(var/mob/user)
 	user.reset_view(null, FALSE)
 	if(user.client)
-		user.client.view = world.view
+		user.client.OnResize()
 	GLOB.moved_event.unregister(user, src, /obj/machinery/computer/ship/proc/unlook)
 	GLOB.stat_set_event.unregister(user, src, /obj/machinery/computer/ship/proc/unlook)
 	LAZYREMOVE(viewers, weakref(user))
