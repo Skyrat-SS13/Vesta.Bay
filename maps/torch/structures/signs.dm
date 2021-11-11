@@ -1,5 +1,5 @@
 /obj/structure/sign/dedicationplaque
-	name = "\improper NTSS Andromeda dedication plaque"
+	name = "\improper SFV Andromeda dedication plaque"
 	icon_state = "lightplaque"
 
 /obj/structure/sign/dedicationplaque/Initialize()
@@ -62,7 +62,7 @@
 	icon = 'maps/torch/icons/obj/solgov-decals.dmi'
 	icon_state = "solgovseal"
 
-/obj/structure/sign/ntefcrest
+/obj/structure/sign/solgovseal
 	name = "\improper NTEF Crest"
 	desc = "A sign which signifies who this vessel belongs to."
 	icon = 'maps/torch/icons/obj/solgov-decals.dmi'

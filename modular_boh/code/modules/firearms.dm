@@ -394,19 +394,19 @@
 
 /obj/item/weapon/gun/projectile/revolver/medium/captain/large
 	name = "Ultimate Argument"
-	desc = "A shiny al-Maliki & Mosley Autococker automatic revolver, with black accents. Up-chambered for a .454 calibre round. This one has 'To the Captain of the NTSS Andromeda' engraved on the grip."
+	desc = "A shiny al-Maliki & Mosley Autococker automatic revolver, with black accents. Up-chambered for a .454 calibre round. This one has 'To the Captain of the SFV Andromeda' engraved on the grip."
 	ammo_type = /obj/item/ammo_casing/pistol/magnum/large
 	caliber = CALIBER_PISTOL_MAGNUM_LARGE
 
 /obj/item/weapon/gun/projectile/revolver/medium/captain/large/xo
 	name = "Final Argument"
-	desc = "A shiny al-Maliki & Mosley Autococker automatic revolver, with black accents. Marketed as the 'Revolver for the Modern Era'. This one has 'To the Executive of the NTSS Andromeda' engraved on the grip."
+	desc = "A shiny al-Maliki & Mosley Autococker automatic revolver, with black accents. Marketed as the 'Revolver for the Modern Era'. This one has 'To the Executive of the SFV Andromeda' engraved on the grip."
 	ammo_type = /obj/item/ammo_casing/pistol/magnum
 	caliber = CALIBER_PISTOL_MAGNUM
 
 /obj/item/weapon/gun/projectile/pistol/magnum_pistol/solar
 	name = "Eagle"
-	desc = "The HI Eagle, a reverse engineered HT Magnus. This one has 'To the Chief of Security aboard the NTSS Andromeda' engraved"
+	desc = "The HI Eagle, a reverse engineered HT Magnus. This one has 'To the Chief of Security aboard the SFV Andromeda' engraved"
 	magazine_type = /obj/item/ammo_magazine/magnum/rubber
 	starts_loaded = 1
 

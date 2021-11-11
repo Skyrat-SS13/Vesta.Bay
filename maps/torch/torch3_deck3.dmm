@@ -7039,7 +7039,7 @@
 /turf/simulated/floor/tiled,
 /area/crew_quarters/gym)
 "oF" = (
-/obj/structure/sign/ntefcrest,
+/obj/structure/sign/solgov,
 /turf/simulated/wall/r_wall/hull,
 /area/command/disperser)
 "oH" = (

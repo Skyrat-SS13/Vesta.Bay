@@ -1,6 +1,6 @@
 /datum/map/torch
 	name = "\improper Andromeda"
-	full_name = "\improper NTSS Andromeda"
+	full_name = "\improper SFV Andromeda"
 	path = "torch"
 	flags = MAP_HAS_BRANCH | MAP_HAS_RANK
 	config_path = "config/torch_config.txt"

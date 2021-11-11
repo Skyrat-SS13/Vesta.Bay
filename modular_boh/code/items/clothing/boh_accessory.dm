@@ -32,7 +32,7 @@
 
 // Dog Tags badge string rename, plus added for SMC and NTEF.
 /obj/item/clothing/accessory/badge/solgov/tags
-	badge_string = "NTSS Andromeda"
+	badge_string = "SFV Andromeda"
 
 /obj/item/clothing/accessory/badge/solgov/tags/fleet
 	badge_string = "SCGF"

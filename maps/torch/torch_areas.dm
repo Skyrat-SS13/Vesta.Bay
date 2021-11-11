@@ -369,7 +369,7 @@
 //Aquila //Byahkee now boy
 
 /area/aquila
-	name = "\improper NTSC Byakhee"
+	name = "\improper SFCS Byakhee"
 	icon_state = "shuttlered"
 	base_turf = /turf/simulated/floor/reinforced/airless
 	requires_power = 1
@@ -377,41 +377,41 @@
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
 
 /area/aquila/cockpit
-	name = "\improper NTSC Byakhee - Cockpit"
+	name = "\improper SFCS Byakhee - Cockpit"
 	req_access = list(access_aquila)
 
 /area/aquila/maintenance
-	name = "\improper NTSC Byakhee - Maintenance"
+	name = "\improper SFCS Byakhee - Maintenance"
 	req_access = list(access_solgov_crew)
 
 /area/aquila/storage
-	name = "\improper NTSC Byakhee - Storage"
+	name = "\improper SFCS Byakhee - Storage"
 	req_access = list(access_solgov_crew)
 
 /area/aquila/secure_storage
-	name = "\improper NTSC Byakhee - Secure Storage"
+	name = "\improper SFCS Byakhee - Secure Storage"
 	req_access = list(access_aquila)
 
 /area/aquila/mess
-	name = "\improper NTSC Byakhee - Mess Hall"
+	name = "\improper SFCS Byakhee - Mess Hall"
 
 /area/aquila/passenger
-	name = "\improper NTSC Byakhee - Passenger Compartment"
+	name = "\improper SFCS Byakhee - Passenger Compartment"
 
 /area/aquila/medical
-	name = "\improper NTSC Byakhee - Medical"
+	name = "\improper SFCS Byakhee - Medical"
 
 /area/aquila/head
-	name = "\improper NTSC Byakhee - Head"
+	name = "\improper SFCS Byakhee - Head"
 
 /area/aquila/airlock
-	name = "\improper NTSC Byakhee - Airlock Compartment"
+	name = "\improper SFCS Byakhee - Airlock Compartment"
 	req_access = list(access_solgov_crew)
 
 //Guppy //Garuda aka worse Gaunt
 
 /area/guppy_hangar/start
-	name = "\improper NTRP Garuda"
+	name = "\improper G-U-P"
 	icon_state = "shuttlered"
 	requires_power = 1
 	dynamic_lighting = 1
@@ -1225,7 +1225,7 @@
 // Command
 
 /area/bridge
-	name = "\improper NTSS Andromeda Bridge"
+	name = "\improper SFV Andromeda Bridge"
 	icon_state = "bridge"
 	req_access = list(access_bridge)
 

@@ -4289,7 +4289,7 @@
 /turf/simulated/floor/carpet/blue,
 /area/crew_quarters/heads/office/psiadvisor)
 "ahK" = (
-/obj/structure/sign/ntefcrest,
+/obj/structure/sign/solgov,
 /turf/simulated/wall/r_wall/hull,
 /area/maintenance/firstdeck/forestarboard)
 "ahL" = (
@@ -5989,7 +5989,7 @@
 /turf/simulated/floor/tiled/white,
 /area/medical/sleeper)
 "aoa" = (
-/obj/structure/sign/ntefcrest,
+/obj/structure/sign/solgov,
 /turf/simulated/wall/r_wall/hull,
 /area/maintenance/firstdeck/centralstarboard)
 "aob" = (
@@ -14964,7 +14964,7 @@
 /turf/simulated/floor/tiled,
 /area/assembly/chargebay)
 "bxz" = (
-/obj/structure/sign/ntefcrest,
+/obj/structure/sign/solgov,
 /turf/simulated/wall/r_wall/hull,
 /area/maintenance/firstdeck/centralport)
 "bxK" = (
@@ -14997,7 +14997,7 @@
 /turf/simulated/floor/reinforced,
 /area/thruster/d1port)
 "bBb" = (
-/obj/structure/sign/ntefcrest,
+/obj/structure/sign/solgov,
 /turf/simulated/wall/r_wall/hull,
 /area/maintenance/firstdeck/foreport)
 "bBm" = (

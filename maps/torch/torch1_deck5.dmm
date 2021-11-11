@@ -566,7 +566,7 @@
 	pixel_y = 32
 	},
 /obj/effect/paint/hull,
-/obj/structure/sign/ntefcrest,
+/obj/structure/sign/solgov,
 /turf/simulated/wall/titanium,
 /area/exploration_shuttle/cockpit)
 "bg" = (
@@ -658,7 +658,7 @@
 	pixel_y = 32
 	},
 /obj/effect/paint/hull,
-/obj/structure/sign/ntefcrest,
+/obj/structure/sign/solgov,
 /turf/simulated/wall/titanium,
 /area/exploration_shuttle/crew)
 "bp" = (
@@ -1344,8 +1344,8 @@
 "cA" = (
 /obj/effect/overmap/visitable/ship/landable/guppy{
 	desc = "An SSE-U3 utility pod, broadcasting SC codes and the callsign \"Andromeda-3 Garuda\".";
-	name = "NTRP Garuda";
-	shuttle = "NTRP Garuda"
+	name = "G-U-P";
+	shuttle = "G-U-P"
 	},
 /obj/machinery/atmospherics/pipe/manifold/visible{
 	dir = 8
@@ -1411,7 +1411,7 @@
 /area/guppy_hangar/start)
 "cG" = (
 /obj/effect/shuttle_landmark/torch/hangar/guppy{
-	name = "NTRP Garuda Hangar"
+	name = "G-U-P Hangar"
 	},
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 5;
@@ -2107,7 +2107,7 @@
 /obj/machinery/computer/shuttle_control/explore/guppy{
 	dir = 1;
 	name = "garuda control console";
-	shuttle_tag = "NTRP Garuda"
+	shuttle_tag = "G-U-P"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/guppy_hangar/start)
@@ -11595,7 +11595,7 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/shuttle/petrov/isolation)
 "zS" = (
-/obj/structure/sign/ntefcrest,
+/obj/structure/sign/solgov,
 /turf/simulated/wall/r_wall/hull,
 /area/hallway/primary/fifthdeck/aft)
 "zV" = (
@@ -15695,7 +15695,7 @@
 /turf/simulated/wall/titanium,
 /area/exploration_shuttle/cargo)
 "Nx" = (
-/obj/structure/sign/ntefcrest,
+/obj/structure/sign/solgov,
 /turf/simulated/wall/r_wall/hull,
 /area/maintenance/fifthdeck/aftport)
 "Ny" = (
@@ -16607,7 +16607,7 @@
 /area/shuttle/petrov/phoron)
 "QJ" = (
 /obj/effect/paint/hull,
-/obj/structure/sign/ntefcrest,
+/obj/structure/sign/solgov,
 /turf/simulated/wall/titanium,
 /area/exploration_shuttle/cargo)
 "QK" = (
@@ -17961,7 +17961,7 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/shuttle/petrov/security)
 "Vr" = (
-/obj/structure/sign/ntefcrest,
+/obj/structure/sign/solgov,
 /turf/simulated/wall/r_wall/hull,
 /area/maintenance/fifthdeck/aftstarboard)
 "Vv" = (

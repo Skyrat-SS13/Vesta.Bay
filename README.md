@@ -1,4 +1,4 @@
-# NTSS Andromeda
+# SFV Andromeda
 
 This is Skyrat's fork of [Vesta](https://github.com/VestaOfOrion/Vesta.Bay)'s repository based on the [Baystation12](http://github.com/Baystation12/Baystation12/) codebase.
 

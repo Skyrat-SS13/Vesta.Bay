@@ -76,7 +76,7 @@ medals
 
 /obj/item/clothing/accessory/solgov/torch_patch
 	name = "\improper Andromeda mission patch"
-	desc = "A fire resistant shoulder patch, worn by personnel aboard the NTSS Andromeda."
+	desc = "A fire resistant shoulder patch, worn by personnel aboard the SFV Andromeda."
 	icon_state = "torchpatch"
 	on_rolled = list("down" = "none")
 	slot = ACCESSORY_SLOT_INSIGNIA

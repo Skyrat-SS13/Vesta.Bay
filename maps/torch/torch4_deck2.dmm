@@ -3720,7 +3720,7 @@
 /turf/simulated/floor/plating,
 /area/maintenance/seconddeck/aftstarboard)
 "hf" = (
-/obj/structure/sign/ntefcrest,
+/obj/structure/sign/solgov,
 /turf/simulated/wall/r_wall/hull,
 /area/maintenance/seconddeck/forestarboard)
 "hg" = (
@@ -9655,7 +9655,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/engineering/atmos)
 "wb" = (
-/obj/structure/sign/ntefcrest,
+/obj/structure/sign/solgov,
 /turf/simulated/wall/r_wall/hull,
 /area/maintenance/auxsolarstarboard)
 "wc" = (
@@ -17580,7 +17580,7 @@
 /turf/simulated/floor/plating,
 /area/engineering/engine_smes)
 "Te" = (
-/obj/structure/sign/ntefcrest,
+/obj/structure/sign/solgov,
 /turf/simulated/wall/r_wall/hull,
 /area/maintenance/seconddeck/foreport)
 "Tg" = (
@@ -19352,7 +19352,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/engineering/drone_fabrication)
 "Zk" = (
-/obj/structure/sign/ntefcrest,
+/obj/structure/sign/solgov,
 /turf/simulated/wall/r_wall/hull,
 /area/maintenance/auxsolarport)
 "Zl" = (

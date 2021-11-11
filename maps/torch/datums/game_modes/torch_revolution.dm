@@ -36,7 +36,7 @@
 
 /datum/antagonist/loyalists/Initialize()
 	..()
-	welcome_text = "The NTSS Andromeda has been on this mission for some time, and there is still much to accomplish. \
+	welcome_text = "The SFV Andromeda has been on this mission for some time, and there is still much to accomplish. \
 					However, whispers abound about malcontents, saboteurs and mutineers - the very ship faces threats from within!\
 					To protect your way of life, those who would change it must be pacified or eliminated, and those that remain \
 					must know not to intrude on your status."
