@@ -63,10 +63,10 @@
 	icon_state = "solgovseal"
 
 /obj/structure/sign/solgovseal
-	name = "\improper NTEF Crest"
+	name = "\improper SolGov Seal"
 	desc = "A sign which signifies who this vessel belongs to."
 	icon = 'maps/torch/icons/obj/solgov-decals.dmi'
-	icon_state = "ntefcrest"
+	icon_state = "solgovseal"
 
 /obj/structure/sign/double/solgovflag
 	name = "Sol Central Government Flag"
