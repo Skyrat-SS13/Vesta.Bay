@@ -4358,7 +4358,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/fourthdeck/port)
 "nM" = (
-/obj/structure/sign/ntefcrest,
+/obj/structure/sign/solgov,
 /turf/simulated/wall/r_wall/hull,
 /area/eva)
 "nT" = (
@@ -12459,7 +12459,7 @@
 /turf/simulated/floor/plating,
 /area/hallway/primary/fourthdeck/fore)
 "Nv" = (
-/obj/structure/sign/ntefcrest,
+/obj/structure/sign/solgov,
 /turf/simulated/wall/r_wall/hull,
 /area/hallway/primary/fourthdeck/fore)
 "Nw" = (
@@ -13396,7 +13396,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/fourthdeck/starboard)
 "Qd" = (
-/obj/structure/sign/ntefcrest,
+/obj/structure/sign/solgov,
 /turf/simulated/wall/r_wall/hull,
 /area/hallway/primary/fourthdeck/aft)
 "Qe" = (

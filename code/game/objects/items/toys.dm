@@ -830,8 +830,8 @@
 							"<span class='warning'>You frantically wave \the [src] above your head!</span>")
 
 /obj/item/toy/torchmodel
-	name = "table-top NTSS Andromeda model"
-	desc = "This is a replica of the NTSS Andromeda, in 1:250th scale, on a handsome wooden stand. Small lights blink on the hull and at the engine exhaust."
+	name = "table-top SFV Andromeda model"
+	desc = "This is a replica of the SFV Andromeda, in 1:250th scale, on a handsome wooden stand. Small lights blink on the hull and at the engine exhaust."
 	icon = 'icons/obj/toy.dmi'
 	icon_state = "torch_model_figure"
 

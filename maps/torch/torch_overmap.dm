@@ -1,15 +1,15 @@
 /obj/effect/overmap/visitable/ship/torch
-	name = "NTSS Andromeda"
-	desc = "A frankensteined HNS Mako-class corvette, broadcasting NTEF codes and the designation \"NTSS Andromeda, HSC-4-13-X\"."
+	name = "SFV Andromeda"
+	desc = "A frankensteined HNS Mako-class corvette, broadcasting NTEF codes and the designation \"SFV Andromeda, HSC-4-13-X\"."
 	fore_dir = WEST
 	vessel_mass = 100000
 	burn_delay = 2 SECONDS
 	base = TRUE
 
 	initial_restricted_waypoints = list(
-		"NTEV Gaunt" = list("nav_hangar_calypso"), 	//can't have random shuttles popping inside the ship
-		"NTRP Garuda" = list("nav_hangar_guppy"),
-		"NTSC Byakhee" = list("nav_hangar_aquila"),
+		"SFS Gaunt" = list("nav_hangar_calypso"), 	//can't have random shuttles popping inside the ship
+		"G-U-P" = list("nav_hangar_guppy"),
+		"SFCS Byakhee" = list("nav_hangar_aquila"),
 		"Trichoptera" = list("nav_trichoptera_altdock"), //restricts Trichoptera specific docking waypoint on deck 4 portside
 		"Skrellian Scout" = list("nav_skrellscout_dock"), //restricts Skrell Scoutship specific docking waypoint on deck 4 portside
 		"Skrellian Shuttle" = list("nav_skrellscoutsh_altdock"),

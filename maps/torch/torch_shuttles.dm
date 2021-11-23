@@ -386,7 +386,7 @@ TORCH_ESCAPE_POD(17)
 	landmark_tag = "nav_transit_calypso"
 
 /datum/shuttle/autodock/overmap/guppy
-	name = "NTRP Garuda"
+	name = "G-U-P"
 	warmup_time = 5
 	move_time = 30
 	shuttle_area = /area/guppy_hangar/start
@@ -402,7 +402,7 @@ TORCH_ESCAPE_POD(17)
 	ceiling_type = /turf/simulated/floor/shuttle_ceiling/torch
 
 /obj/effect/shuttle_landmark/torch/hangar/guppy
-	name = "NTRP Garuda Hangar"
+	name = "G-U-P Hangar"
 	landmark_tag = "nav_hangar_guppy"
 	base_area = /area/quartermaster/hangar
 	base_turf = /turf/simulated/floor/plating
@@ -432,7 +432,7 @@ TORCH_ESCAPE_POD(17)
 	landmark_tag = "nav_transit_guppy"
 
 /datum/shuttle/autodock/overmap/aquila
-	name = "NTSC Byakhee"
+	name = "SFCS Byakhee"
 	move_time = 60
 	shuttle_area = list(/area/aquila/cockpit, /area/aquila/maintenance, /area/aquila/storage, /area/aquila/secure_storage, /area/aquila/mess, /area/aquila/passenger, /area/aquila/medical, /area/aquila/head, /area/aquila/airlock)
 	current_location = "nav_hangar_aquila"
@@ -444,7 +444,7 @@ TORCH_ESCAPE_POD(17)
 	ceiling_type = /turf/simulated/floor/shuttle_ceiling/torch
 
 /obj/effect/shuttle_landmark/torch/hangar/aquila
-	name = "NTSC Byakhee Hangar"
+	name = "SFCS Byakhee Hangar"
 	landmark_tag = "nav_hangar_aquila"
 	docking_controller = "aquila_shuttle_dock_airlock"
 	base_turf = /turf/simulated/floor/reinforced/airless

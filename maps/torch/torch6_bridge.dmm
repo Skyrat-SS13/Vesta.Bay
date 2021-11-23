@@ -3575,7 +3575,7 @@
 "gp" = (
 /obj/machinery/computer/shuttle_control/explore/aquila{
 	name = "byakhee control console";
-	shuttle_tag = "NTSC Byakhee"
+	shuttle_tag = "SFCS Byakhee"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/aquila/cockpit)
@@ -4700,8 +4700,8 @@
 	},
 /obj/effect/overmap/visitable/ship/landable/aquila{
 	desc = "A PM-24 modular transport, broadcasting SC codes and the callsign \"Andromeda-1 Byakhee\".";
-	name = "NTSC Byakhee";
-	shuttle = "NTSC Byakhee"
+	name = "SFCS Byakhee";
+	shuttle = "SFCS Byakhee"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/aquila/airlock)
@@ -6616,7 +6616,7 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/bridgecheck)
 "oa" = (
-/obj/structure/sign/ntefcrest,
+/obj/structure/sign/solgov,
 /turf/simulated/wall/r_wall/hull,
 /area/hallway/primary/bridge/aft)
 "ob" = (
@@ -13533,7 +13533,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/effect/shuttle_landmark/torch/hangar/aquila{
-	name = "NTSC Byakhee Hangar"
+	name = "SFCS Byakhee Hangar"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/structure/cable/cyan{
@@ -14974,7 +14974,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/aquila/mess)
 "JX" = (
-/obj/structure/sign/ntefcrest,
+/obj/structure/sign/solgov,
 /turf/simulated/wall/r_wall/hull,
 /area/maintenance/auxsolarbridge)
 "JY" = (
@@ -16144,7 +16144,7 @@
 /area/aquila/medical)
 "Ob" = (
 /obj/effect/paint/hull,
-/obj/structure/sign/ntefcrest,
+/obj/structure/sign/solgov,
 /turf/simulated/wall/titanium,
 /area/aquila/airlock)
 "Oc" = (
@@ -16629,7 +16629,7 @@
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/office/co)
 "Pv" = (
-/obj/structure/sign/ntefcrest,
+/obj/structure/sign/solgov,
 /turf/simulated/wall/r_wall/prepainted,
 /area/bridge/storage)
 "Px" = (
@@ -16692,7 +16692,7 @@
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/office/co)
 "PH" = (
-/obj/structure/sign/ntefcrest,
+/obj/structure/sign/solgov,
 /turf/simulated/wall/r_wall/prepainted,
 /area/crew_quarters/safe_room/bridge)
 "PL" = (
@@ -17530,7 +17530,7 @@
 /area/turret_protected/ai)
 "RY" = (
 /obj/effect/paint/black,
-/obj/structure/sign/ntefcrest,
+/obj/structure/sign/solgov,
 /turf/simulated/wall/r_wall/hull,
 /area/turret_protected/ai_data_chamber)
 "Sb" = (

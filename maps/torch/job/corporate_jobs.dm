@@ -31,7 +31,7 @@
 	software_on_spawn = list(/datum/computer_file/program/reports)
 
 /datum/job/liaison/get_description_blurb()
-	return "You are the Workplace Liaison. You are a civilian employee of a Company that has invested into the NTSS Andromeda. You are on board the vessel to promote corporate interests or protect the rights of the contractors on board as their union leader. You are not internal affairs. You advise command on corporate and union matters and contractors on their rights and obligations. Maximise profit. Be the shady corporate shill you always wanted to be."
+	return "You are the Workplace Liaison. You are a civilian employee of a Company that has invested into the SFV Andromeda. You are on board the vessel to promote corporate interests or protect the rights of the contractors on board as their union leader. You are not internal affairs. You advise command on corporate and union matters and contractors on their rights and obligations. Maximise profit. Be the shady corporate shill you always wanted to be."
 
 /datum/job/liaison/post_equip_rank(var/mob/person, var/alt_title)
 	var/my_title = "\a ["\improper [(person.mind ? (person.mind.role_alt_title ? person.mind.role_alt_title : person.mind.assigned_role) : "Executive Assistant")]"]"
@@ -86,7 +86,7 @@
 	return FALSE
 
 /datum/job/bodyguard/get_description_blurb()
-	return "You are the Executive Assistant. You are an employee of one of the corporations that make up the crew aboard the NTSS Andromeda, and your job is to assist the Liason in corporate affairs. You are also expected to protect the Liason's life."
+	return "You are the Executive Assistant. You are an employee of one of the corporations that make up the crew aboard the SFV Andromeda, and your job is to assist the Liason in corporate affairs. You are also expected to protect the Liason's life."
 
 /datum/job/bodyguard/post_equip_rank(var/mob/person, var/alt_title)
 	var/my_title = "\a ["\improper [(person.mind ? (person.mind.role_alt_title ? person.mind.role_alt_title : person.mind.assigned_role) : "Executive Assistant")]"]"

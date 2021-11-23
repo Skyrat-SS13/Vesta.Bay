@@ -45,7 +45,7 @@
 
 /obj/item/weapon/book/manual/sol_sop
 	name = "Standard Operating Procedure"
-	desc = "SOP aboard the NTSS Andromeda."
+	desc = "SOP aboard the SFV Andromeda."
 	icon_state = "booksolregs"
 	author = "The Sol Central Government"
 	title = "Standard Operating Procedure"
@@ -83,7 +83,7 @@
 	<img src = nteflogo.png>
 	</center>
 	<b>FROM:</b> ADM William Lau<br>
-	<b>TO:</b> Commanding Officer of NTSS Andromeda<br>
+	<b>TO:</b> Commanding Officer of SFV Andromeda<br>
 	<b>SUBJECT:</b> Standing Orders<br>
 	<hr>
 	Captain.<br>
@@ -126,14 +126,14 @@
 	<img src = nteflogo.png>
 	</center>
 	<b>FROM:</b> Johnathan Smitherson, Special Aide of the Secretary General<br>
-	<b>TO:</b> Commanding Officer of the NTSS Andromeda<br>
-	<b>CC:</b> Special Representative aboard the NTSS Andromeda<br>
+	<b>TO:</b> Commanding Officer of the SFV Andromeda<br>
+	<b>CC:</b> Special Representative aboard the SFV Andromeda<br>
 	<b>SUBJECT:</b> UMBRA protocol<br>
 	<hr>
 	This is a small addendum to the usual operating procedures. Unlike the rest of SOP, this is not left to the Commanding Officer's discretion and is mandatory. As unconventional as this is, we felt it is essential for smooth operation of this mission.<br>
 	Procedure can be initiated only by transmission from NT Central Command via secure channel. The sender may not introduce themselves, but you shouldn't have trouble confirming the transmission source, I believe.<br>
 	The signal to initiate the procedure are codewords 'GOOD NIGHT WORLD' used in this order as one phrase. You do not need to send acknowledgement.
-	<li>Information about this expedition's findings is to be treated as secret and vital to SCG's national security, and is protected under codeword UMBRA. Only SCG government employees and Skrell citizens aboard the NTSS Andromeda are allowed access to this information on a need-to-know basis.</li>
+	<li>Information about this expedition's findings is to be treated as secret and vital to SCG's national security, and is protected under codeword UMBRA. Only SCG government employees and Skrell citizens aboard the SFV Andromeda are allowed access to this information on a need-to-know basis.</li>
 	<li>The secrecy of this information is to be applied retroactively. Any non-cleared personnel who were exposed to such information are to be secured and transferred to DIA on arrival at home port.</li>
 	<li>Any devices capable of transmitting or receiving data at interstellar range are to be confiscated from private possession.</li>
 	<li>Disregard any systems remaining in your flight plan and set course for Sol, Neptune orbit. You will be contacted upon your arrival. Do not make stops in ports on the way unless absolutely necessary.</li>

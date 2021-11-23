@@ -55,7 +55,7 @@
 	landmark_tag = "nav_verne_4"
 
 /obj/effect/shuttle_landmark/nav_verne/torch
-	name = "NTSS Andromeda Venerable Catfish Dock"
+	name = "SFV Andromeda Venerable Catfish Dock"
 	landmark_tag = "nav_verne_5"
 
 /obj/effect/shuttle_landmark/transit/verne
