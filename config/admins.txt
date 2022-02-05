@@ -12,3 +12,5 @@
   ChildrenOfTheSun - GameAdmin
   Vitorhks - GameAdmin
   Jinshee - GameAdmin
+  HonkMan - GameAdmin
+  XeroXOffice - GameAdmin
